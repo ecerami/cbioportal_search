@@ -1,0 +1,46 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.search_panel{
+  margin:25px;
+  width:70%;
+}
+
+.submit {
+  margin-left:10px;
+}
+
+.searchResults {
+  margin-left:0px;
+  margin-top:20px;
+}
+
+.searchResultsRow {
+  margin-top:0px;
+  margin-bottom:25px;
+}
+
+.searchResultsRowText {
+  color:darkgrey;
+}
+
+.geneBadge {
+  float: left;
+  background-color: rgb(63,81,181);
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 14px;
+  margin-right:10px;
+}
+
+.studyBadge {
+  float: left;
+  background-color: rgb(233,30,99);
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 14px;
+  margin-right:10px;
+}
