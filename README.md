@@ -1,12 +1,12 @@
-cBioPortal Experiments
----------------------
+# cBioPortal Experiments
 
-To run:
+## To run:
 
-npm install
-npm start
+* npm install
+* npm start
 
 
-To build for deployment:
+## To build for deployment:
 
 npm run build
+
