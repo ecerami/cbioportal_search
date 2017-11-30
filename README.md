@@ -8,5 +8,5 @@
 
 ## To build for deployment:
 
-npm run build
+* npm run build
 
