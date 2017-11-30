@@ -1,14 +1,7 @@
 import React from 'react';
-import { Card, CardHeader, CardText } from 'material-ui/Card';
-import Avatar from 'material-ui/Avatar';
-import DropDownMenu from 'material-ui/DropDownMenu';
-import MenuItem from 'material-ui/MenuItem';
 import RaisedButton from 'material-ui/RaisedButton';
-import FlatButton from 'material-ui/FlatButton';
-import Toggle from 'material-ui/Toggle';
 import TextField from 'material-ui/TextField';
 import FontIcon from 'material-ui/FontIcon';
-import IconButton from 'material-ui/IconButton';
 import {observer} from 'mobx-react';
 import ReactTooltip from 'react-tooltip'
 
@@ -52,7 +45,7 @@ class SearchResultRow extends React.Component {
         if (this.props.appState.currentStudySelected == null) {
             this.props.appState.currentStudySelected = this.props.id;
         } else if (this.props.appState.currentStudySelected
-            == this.props.id) {
+            === this.props.id) {
             this.props.appState.currentStudySelected = null;
         }
         console.log("After: study selected:  " 
@@ -63,10 +56,10 @@ class SearchResultRow extends React.Component {
     render() {
         var actions = ""
         var roleInCancer = "";
-        if (this.props.resultType == "gene") {
+        if (this.props.resultType === "gene") {
             actions = this.getGeneLinks();
             roleInCancer = this.props.roleInCancer;
-            if (roleInCancer == "TSG") {
+            if (roleInCancer === "TSG") {
                 roleInCancer = "Tumor Suppressor";
             }
         } else {
@@ -95,7 +88,7 @@ class SearchResultRow extends React.Component {
      * A small visual badge, indicating search result type.
      */
     getBadge() {
-        if (this.props.resultType == "gene") {
+        if (this.props.resultType === "gene") {
             return (
                 <div className="geneBadge">Gene</div>
             )
@@ -134,7 +127,7 @@ class SearchResultRow extends React.Component {
     } 
     
     getGeneExpress() {
-        if (this.props.appState.currentStudySelected == this.props.id) {
+        if (this.props.appState.currentStudySelected === this.props.id) {
             return (
                 <div>
                     <TextField

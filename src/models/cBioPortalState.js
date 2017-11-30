@@ -1,4 +1,4 @@
-import { observable, computed, action } from "mobx";
+import { observable } from "mobx";
 import axios from 'axios';
 import lunr from 'lunr';
 
@@ -28,7 +28,7 @@ export default class cBioPortalState {
    * Get Cancer Studies JSON.
    */
   initStudyRequest() {
-    var url = 'public/cancer_studies.json'
+    var url = 'cancer_studies.json'
     axios.get(url)
       .then(response => this.studiesLoaded(response));
   }
@@ -37,7 +37,7 @@ export default class cBioPortalState {
    * Get Cancer Gene Census JSON.
    */
   initCancerGeneCensusRequest() {
-    var url = 'public/cancer_census.json'
+    var url = 'cancer_census.json'
     axios.get(url)
       .then(response => this.cancerGenesLoaded(response));
   }
@@ -115,7 +115,7 @@ export default class cBioPortalState {
       });
     }
     this.searchResults = localSearchResults;
-    if (this.searchResults.length == 0) {
+    if (this.searchResults.length === 0) {
       this.searchResultsSummary = "No search results found.  Please try again!"; 
     } else {
       this.searchResultsSummary = "";
@@ -129,7 +129,7 @@ export default class cBioPortalState {
   searchWithFilter(query) {
     var terms = query.split(' ');
     return this.idx.search(query).filter(function(result) {
-        return Object.keys(result.matchData.metadata).length == terms.length;
+        return Object.keys(result.matchData.metadata).length === terms.length;
       });
   }
 

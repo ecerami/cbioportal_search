@@ -1,18 +1,15 @@
-import React from "react";
-import { render } from "react-dom";
-import DevTools from "mobx-react-devtools";
+import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.css';
+import SearchApp from "./SearchApp";
+import registerServiceWorker from './registerServiceWorker';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import SearchApp from "./components/SearchApp";
 
 const GlobalApp = () => (
-  <MuiThemeProvider>
-    <SearchApp />
-  </MuiThemeProvider>
+    <MuiThemeProvider>
+      <SearchApp />
+    </MuiThemeProvider>
 );
 
-ReactDOM.render(
-  <GlobalApp />,
-  document.getElementById('root')
-);
-
+ReactDOM.render(<GlobalApp />, document.getElementById('root'));
+registerServiceWorker();
