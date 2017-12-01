@@ -1,9 +1,11 @@
 import React from "react";
 import { observer } from "mobx-react";
 import { Card, CardHeader, CardText } from 'material-ui/Card';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import SearchPanel from './components/SearchPanel';
 import cBioPortalState from './models/cBioPortalState';
 import ReactTooltip from 'react-tooltip'
+import 'react-tabs/style/react-tabs.css';
 
 @observer
 class SearchApp extends React.Component {
@@ -18,13 +20,34 @@ class SearchApp extends React.Component {
   }
 
   render() {
+    var divStyle = {
+      marginLeft: 25
+    }
     return (
-      <div className="search_panel">
-        <SearchPanel appState={this.state.appState} />
-        <br/><br/>
-        {this.getRequirementsPanel()}
-        {this.getImplementationDetailsPanel()}
-        <ReactTooltip />
+      <div style={divStyle}>
+      <Tabs>
+        <TabList>
+          <Tab>Quick Search</Tab>
+          <Tab>Build Query</Tab>
+          <Tab>Download Data</Tab>
+        </TabList>
+
+        <TabPanel>
+          <div className="search_panel">
+            <SearchPanel appState={this.state.appState} />
+          </div>
+        </TabPanel>
+        <TabPanel>
+          <img src="build_query.png" width="80%"/> 
+        </TabPanel>
+        <TabPanel>
+          <img src="build_query.png" width="80%"/>
+        </TabPanel>
+      </Tabs>        
+      <br/><br/>
+      {this.getRequirementsPanel()}
+      {this.getImplementationDetailsPanel()}
+      <ReactTooltip />
       </div>
     );
   }

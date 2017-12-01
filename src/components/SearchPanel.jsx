@@ -58,8 +58,8 @@ class SearchPanel extends React.Component {
     render() {
         return (
             <div>
-                { this.getExamplesPanel() }
-                <div>
+                <div className="row align-items-start">
+                    <div className="col-6">
                     <TextField
                         id="search_box"
                         hintText="EGFR"
@@ -72,6 +72,10 @@ class SearchPanel extends React.Component {
                     />
                     <RaisedButton className="submit" onClick={this.initSearch} label="Search" secondary={true}
                         icon={<FontIcon className="material-icons">search</FontIcon>} />
+                    </div>
+                    <div className="col-6">
+                        { this.getExamplesPanel() }
+                    </div>
                 </div>
                 <SearchResults appState={this.props.appState} />
             </div>
@@ -86,7 +90,7 @@ class SearchPanel extends React.Component {
             fontWeight: "bold",
         }
         return (
-            <Card onExpandChange={this.cardExpanded} style={{width:525, marginBottom:30}} >
+            <Card onExpandChange={this.cardExpanded} style={{width:350, marginTop:15}} >
                 <CardHeader
                     title="Example Searches"
                     actAsExpander={true}
@@ -107,7 +111,7 @@ class SearchPanel extends React.Component {
                     <div className="col-7">
                     <ul>
                         <li><a href="EGFR msk lung" onClick={this.sampleSearchClicked}>EGFR msk lung</a></li>
-                        <li><a href="PIK3CA breast metastatic" onClick={this.sampleSearchClicked}>PIK3CA breast metastatic</a></li>
+                        <li><a href="PIK3CA metastatic" onClick={this.sampleSearchClicked}>PIK3CA metastatic</a></li>
                         <li><a href="van allen" onClick={this.sampleSearchClicked}>van allen</a></li>
                     </ul>
                     </div>
