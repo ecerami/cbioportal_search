@@ -14,6 +14,9 @@ export default class cBioPortalState {
   @observable currentGeneListStr = [];
   @observable currentStudySelected = null;
   @observable searchResultsSummary = "";
+  @observable studyGroupSelected = 1;
+  @observable examplesDrawerOpen = false;
+
   studyDict = [];
   idx;  //Lunx search index
 

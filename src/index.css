@@ -21,6 +21,10 @@ body {
   margin-bottom:25px;
 }
 
+.searchResultsRowHeader{
+  margin-top:20px;
+}
+
 .searchResultsRowText {
   color:darkgrey;
 }

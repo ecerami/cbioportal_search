@@ -38,10 +38,10 @@ class SearchApp extends React.Component {
           </div>
         </TabPanel>
         <TabPanel>
-          <img src="build_query.png" width="80%"/> 
+          <img alt="Build Query" src="build_query.png" width="80%"/> 
         </TabPanel>
         <TabPanel>
-          <img src="build_query.png" width="80%"/>
+          <img alt="Download Data" src="build_query.png" width="80%"/>
         </TabPanel>
       </Tabs>        
       <br/><br/>
