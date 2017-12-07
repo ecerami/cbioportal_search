@@ -9,7 +9,8 @@ export default class cBioPortalState {
   @observable studyList = [];
   @observable geneList = [];
   @observable searchText = "";
-  @observable searchResults = [];
+  @observable searchResultsGenes = [];
+  @observable searchResultsStudies = [];
   @observable currentGeneList = [];
   @observable currentGeneListStr = [];
   @observable currentStudySelected = null;
@@ -98,10 +99,11 @@ export default class cBioPortalState {
    */
   search() {
     console.log("Search text:  " + this.searchText);
-    var localSearchResults = []
+    var localSearchResultsGenes = [];
+    var localSearchResultsStudies = [];
     var nonGenes = [];
 
-    this.checkGenes(localSearchResults, nonGenes);
+    this.checkGenes(localSearchResultsGenes, nonGenes);
     var nonGeneStr = nonGenes.join(" ");
     console.log("Checking non genes:  " + nonGeneStr);
     var idxHits = this.searchWithFilter(nonGeneStr.trim());
@@ -110,15 +112,17 @@ export default class cBioPortalState {
     for (var i=0; i<idxHits.length; i++) {
       var hit = idxHits[i];
       var studyHit = this.studyDict[hit.ref];
-      localSearchResults.push({
+      localSearchResultsStudies.push({
         resultType: "study",
         id: studyHit.studyId,
         title: studyHit.name,
         description: studyHit.description
       });
     }
-    this.searchResults = localSearchResults;
-    if (this.searchResults.length === 0) {
+    this.searchResultsGenes = localSearchResultsGenes;
+    this.searchResultsStudies = localSearchResultsStudies;
+
+    if (this.searchResultsGenes.length === 0 && this.searchResultsStudies.length === 0) {
       this.searchResultsSummary = "No search results found.  Please try again!"; 
     } else {
       this.searchResultsSummary = "";

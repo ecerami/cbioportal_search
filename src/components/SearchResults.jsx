@@ -1,6 +1,7 @@
 import React from 'react';
 import {observer} from 'mobx-react';
-import SearchResultRow from './SearchResultRow';
+import SearchResultStudyRow from './SearchResultStudyRow';
+import SearchResultGeneRow from './SearchResultGeneRow';
 
 @observer
 class SearchResults extends React.Component {
@@ -10,14 +11,22 @@ class SearchResults extends React.Component {
      */
     render() {
         var rows = [];
-        for (var i = 0; i < this.props.appState.searchResults.length; i++) {
-            var currentRow = this.props.appState.searchResults[i]
-            rows.push(<SearchResultRow key={i}
+
+        //  Push all matching genes
+        rows.push(<SearchResultGeneRow 
+            key="gene_matches" 
+            appState={this.props.appState}
+            />
+        )
+
+        //  Push all matching studies
+        for (var i = 0; i < this.props.appState.searchResultsStudies.length; i++) {
+            var currentRow = this.props.appState.searchResultsStudies[i]
+            rows.push(<SearchResultStudyRow key={i}
                 title={currentRow.title}
                 id={currentRow.id}
                 description={currentRow.description}
                 resultType={currentRow.resultType}
-                roleInCancer={currentRow.roleInCancer}
                 appState={this.props.appState}
                 />
             );

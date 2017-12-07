@@ -104,13 +104,17 @@ class SearchPanel extends React.Component {
         return (
             <div style={exampleStyle}>
                     <ul>
-                        <li><a href="EGFR" onClick={this.sampleSearchClicked}>EGFR</a></li>
-                        <li><a href="lung" onClick={this.sampleSearchClicked}>lung</a></li>
-                        <li><a href="glio*" onClick={this.sampleSearchClicked}>glio*</a></li>
+                        <li>Single gene:  <a href="EGFR" onClick={this.sampleSearchClicked}>EGFR</a></li>
+                        <li>Multiple genes:  <a href="EGFR KRAS" onClick={this.sampleSearchClicked}>EGFR KRAS</a></li>
+                        <li>Multiple genes:  <a href="EGFR KRAS NF1" onClick={this.sampleSearchClicked}>EGFR KRAS NF1</a></li>
+                        <li>Cancer type keyword: <a href="lung" onClick={this.sampleSearchClicked}>lung</a></li>
+                        <li>Cancer type wildcard: <a href="glio*" onClick={this.sampleSearchClicked}>glio*</a></li>
+                        <li>Multiple keywords: <a href="breast metastatic" onClick={this.sampleSearchClicked}>breast metastatic</a></li>
+                        <li>Multiple keywords: <a href="msk lung" onClick={this.sampleSearchClicked}>msk lung</a></li>
+                        <li>Author: <a href="van allen" onClick={this.sampleSearchClicked}>van allen</a></li>
                         <li><a href="EGFR lung" onClick={this.sampleSearchClicked}>EGFR lung</a></li>
                         <li><a href="EGFR msk lung" onClick={this.sampleSearchClicked}>EGFR msk lung</a></li>
                         <li><a href="PIK3CA metastatic" onClick={this.sampleSearchClicked}>PIK3CA metastatic</a></li>
-                        <li><a href="van allen" onClick={this.sampleSearchClicked}>van allen</a></li>
                     </ul>
             </div>
         );
