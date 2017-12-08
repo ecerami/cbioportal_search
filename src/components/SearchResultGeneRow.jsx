@@ -12,6 +12,7 @@ class SearchResultGeneRow extends React.Component {
     constructor(props) {
         super(props);
         this.handleStudyGroupChange = this.handleStudyGroupChange.bind(this);
+        this.getMenuItems = this.getMenuItems.bind(this);
     }
 
     /**
@@ -130,14 +131,29 @@ class SearchResultGeneRow extends React.Component {
             style={selectStyle}
             onChange={this.handleStudyGroupChange}
             >
-            <MenuItem value={1} primaryText="All TCGA Studies (Published)" />
-            <MenuItem value={2} primaryText="All TCGA Studies (Provisional)" />
-            <MenuItem value={3} primaryText="All Studies" />
+            { this.getMenuItems() }
             </SelectField>
             <RaisedButton style={buttonStyle} onClick={this.linkClicked} label="Go" primary={true}
                 icon={<FontIcon className="material-icons">play_circle_filled</FontIcon>} />
             </div>
         );
+    }
+
+    getMenuItems() {
+        var menuItems = [];
+        var options = [];
+        if (this.props.appState.searchResultsStudies.length === 1) {
+            options.push("1 Matching Study");
+        } else if (this.props.appState.searchResultsStudies.length >1) {
+            options.push(this.props.appState.searchResultsStudies.length + " Matching Studies");
+        }
+        options.push("All TCGA Studies (Published)");
+        options.push("All TCGA Studies (Provisional)");
+        options.push("All Studies");
+        for (var i=0; i<options.length; i++) {
+            menuItems.push(<MenuItem value={i} primaryText={options[i]} />)
+        }
+        return menuItems;
     }
 };
 

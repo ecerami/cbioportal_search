@@ -15,7 +15,7 @@ export default class cBioPortalState {
   @observable currentGeneListStr = [];
   @observable currentStudySelected = null;
   @observable searchResultsSummary = "";
-  @observable studyGroupSelected = 1;
+  @observable studyGroupSelected = 0;
   @observable examplesDrawerOpen = false;
 
   studyDict = [];
@@ -125,7 +125,13 @@ export default class cBioPortalState {
     if (this.searchResultsGenes.length === 0 && this.searchResultsStudies.length === 0) {
       this.searchResultsSummary = "No search results found.  Please try again!"; 
     } else {
-      this.searchResultsSummary = "";
+      if (this.searchResultsStudies.length === 1) {
+        this.searchResultsSummary =  this.searchResultsStudies.length + " matching study found."; 
+      } else if (this.searchResultsStudies.length > 1) {
+        this.searchResultsSummary =  this.searchResultsStudies.length + " matching studies found."; 
+      } else {
+        this.searchResultsSummary = "";
+      }
     }
     this.currentStudySelected = null;
   }

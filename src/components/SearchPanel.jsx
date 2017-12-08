@@ -112,8 +112,8 @@ class SearchPanel extends React.Component {
                         <li>Multiple keywords: <a href="breast metastatic" onClick={this.sampleSearchClicked}>breast metastatic</a></li>
                         <li>Multiple keywords: <a href="msk lung" onClick={this.sampleSearchClicked}>msk lung</a></li>
                         <li>Author: <a href="van allen" onClick={this.sampleSearchClicked}>van allen</a></li>
-                        <li><a href="EGFR lung" onClick={this.sampleSearchClicked}>EGFR lung</a></li>
-                        <li><a href="EGFR msk lung" onClick={this.sampleSearchClicked}>EGFR msk lung</a></li>
+                        <li>Single gene + cancer type keyword:  <a href="EGFR lung" onClick={this.sampleSearchClicked}>EGFR lung</a></li>
+                        <li>Single gene + multiple keywords:  <a href="EGFR msk lung" onClick={this.sampleSearchClicked}>EGFR msk lung</a></li>
                         <li><a href="PIK3CA metastatic" onClick={this.sampleSearchClicked}>PIK3CA metastatic</a></li>
                     </ul>
             </div>

@@ -41,11 +41,12 @@ class SearchResultStudyRow extends React.Component {
     studyClicked(event) {
         console.log("Study Clicked");
         console.log("Before: study selected:  "
-            + this.props.appState.currentStudySelected)
-        if (this.props.appState.currentStudySelected == null) {
+            + this.props.appState.currentStudySelected
+            + " " + this.props.id)
+        if (this.props.appState.currentStudySelected === null
+            || this.props.appState.currentStudySelected !== this.props.id) {
             this.props.appState.currentStudySelected = this.props.id;
-        } else if (this.props.appState.currentStudySelected
-            === this.props.id) {
+        } else {
             this.props.appState.currentStudySelected = null;
         }
         console.log("After: study selected:  "
@@ -60,7 +61,10 @@ class SearchResultStudyRow extends React.Component {
                 <div className="col-4">
                     <ReactTooltip />
                     <div className="searchResultsRowHeader">
-                        {this.getBadge()} {this.props.title}
+                        {this.getBadge()} 
+                        <a href="" data-tip="Jump to study view:  provides an overview of all genomic and clinical data with the study." onClick={this.linkClicked}>
+                        {this.props.title}
+                        </a>
                     </div>
                     <div className="searchResultsRowText">
                         <div dangerouslySetInnerHTML={{ __html: this.props.description }} />
@@ -86,7 +90,6 @@ class SearchResultStudyRow extends React.Component {
         var geneExpress = this.getGeneExpress();
         return (
             <div className="col-6">
-                <a href="" data-tip="The study summary provides an overview of all genomic and clinical data" onClick={this.linkClicked}>Go to Study Summary</a><br />
                 {actions}
                 {geneExpress}
             </div>
@@ -99,11 +102,12 @@ class SearchResultStudyRow extends React.Component {
                 <div>
                     <TextField
                         id="gene_box"
-                        style={{ width: 200 }}
+                        style={{ width: 200, marginLeft: 10 }}
                         value={this.props.appState.currentGeneListStr}
                         onChange={this.geneTextChanged}
+                        hintText="EGFR"
                     />
-                    <RaisedButton className="submit" onClick={this.geneExpressLinkClicked} label="Submit" primary={true}
+                    <RaisedButton className="submit" onClick={this.geneExpressLinkClicked} label="Submit" secondary={true}
                         icon={<FontIcon className="material-icons">play_circle_filled</FontIcon>} />
                 </div>
             );
@@ -115,11 +119,35 @@ class SearchResultStudyRow extends React.Component {
     }
 
     getStudyGoLinks() {
-        return (
-            <div>
-                <a href="" data-tip="Click to Specify Genes of Interest" onClick={this.studyClicked}>Analyze Specific Genes within Study</a>
-            </div>
-        );
+        var divStyle = {
+            marginTop: 15
+        }
+        if (this.props.appState.searchResultsGenes.length === 0) {
+            return (
+                <div style={divStyle}>
+                    <RaisedButton data-tip="Click to Specify Genes of Interest"
+                    className="submit" onClick={this.studyClicked} label="Analyze Specific Genes within Study" primary={true}
+                    icon={<FontIcon className="material-icons">fingerprint</FontIcon>} />
+                </div>
+            );
+        } else {
+            var label;
+            if (this.props.appState.searchResultsGenes.length === 1) {
+                label = "Analyze " + this.props.appState.searchResultsGenes[0].title
+                    + " within Study";
+            } else {
+                label = "Analyze " + this.props.appState.searchResultsGenes.length
+                + " genes within Study";
+            }
+            return (
+                <div style={divStyle}>
+                    <RaisedButton data-tip="Analyze gene(s) within study" 
+                        className="submit" onClick={this.linkClicked} 
+                        label={label} primary={true}
+                        icon={<FontIcon className="material-icons">fingerprint</FontIcon>} />
+                </div>
+            );
+        }
     }
 };
 

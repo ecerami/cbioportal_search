@@ -1,10 +1,20 @@
 import React from 'react';
 import {observer} from 'mobx-react';
+import FlatButton from 'material-ui/FlatButton';
+import FontIcon from 'material-ui/FontIcon';
 import SearchResultStudyRow from './SearchResultStudyRow';
 import SearchResultGeneRow from './SearchResultGeneRow';
 
 @observer
 class SearchResults extends React.Component {
+
+    /**
+     * Dummy links, which are not yet implement.
+     */
+    linkClicked(event) {
+        event.preventDefault();
+        alert("This link/feature is not implemented.");
+    }
 
     /**
      * Iterate through all search results, one per row.
@@ -31,13 +41,28 @@ class SearchResults extends React.Component {
                 />
             );
         }
+
+        var buttonStyle = {
+            marginLeft:20,
+            marginTop:0
+        }
+
+        var mergeButton = null;
+        if (this.props.appState.searchResultsStudies.length > 1) {
+            mergeButton = 
+                <FlatButton data-tip="Click to Merge all Matching Studies into a New Virtual Study"
+                style={buttonStyle} onClick={this.linkClicked} label="Merge studies" primary={true}
+                icon={<FontIcon className="material-icons">group_work</FontIcon>} />
+        }
+
         return (
             <div>
                 <div className="searchResults">
-                    {rows}
-                    <div className="noResults">
+                    <div className="searchResultsSummary">
                         {this.props.appState.searchResultsSummary}
+                        {mergeButton}
                     </div>
+                    {rows}
                 </div>
             </div>
         );
