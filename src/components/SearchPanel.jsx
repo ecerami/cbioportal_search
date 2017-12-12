@@ -32,6 +32,7 @@ class SearchPanel extends React.Component {
      */
     searchTextChanged(event, newValue) {
         this.props.appState.searchText = newValue;
+        this.props.appState.search();
     }
 
     /**
@@ -85,7 +86,7 @@ class SearchPanel extends React.Component {
                     <div className="col-6">
                     </div>
                 </div>
-                <Drawer width={400} openSecondary={true} open={this.props.appState.examplesDrawerOpen} >
+                <Drawer width={425} openSecondary={true} open={this.props.appState.examplesDrawerOpen} >
                     <AppBar showMenuIconButton={false} title="Examples" />
                     { this.getExamplesPanel() }
                 </Drawer>                
@@ -114,7 +115,7 @@ class SearchPanel extends React.Component {
                         <li>Author: <a href="van allen" onClick={this.sampleSearchClicked}>van allen</a></li>
                         <li>Single gene + cancer type keyword:  <a href="EGFR lung" onClick={this.sampleSearchClicked}>EGFR lung</a></li>
                         <li>Single gene + multiple keywords:  <a href="EGFR msk lung" onClick={this.sampleSearchClicked}>EGFR msk lung</a></li>
-                        <li><a href="PIK3CA metastatic" onClick={this.sampleSearchClicked}>PIK3CA metastatic</a></li>
+                        <li>Multiple genes + keywords:  <a href="PIK3CA PIK3R1 breast" onClick={this.sampleSearchClicked}>PIK3CA PIK3R1 breast</a></li>
                     </ul>
             </div>
         );
