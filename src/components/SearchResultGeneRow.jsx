@@ -150,8 +150,9 @@ class SearchResultGeneRow extends React.Component {
         options.push("All TCGA Studies (Published)");
         options.push("All TCGA Studies (Provisional)");
         options.push("All Studies");
+        var key = "menu_item_" + i;
         for (var i=0; i<options.length; i++) {
-            menuItems.push(<MenuItem value={i} primaryText={options[i]} />)
+            menuItems.push(<MenuItem key={key} value={i} primaryText={options[i]} />)
         }
         return menuItems;
     }
