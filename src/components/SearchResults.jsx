@@ -30,7 +30,8 @@ class SearchResults extends React.Component {
         )
 
         //  Push all matching studies
-        for (var i = 0; i < this.props.appState.searchResultsStudies.length; i++) {
+        var upperLimit = Math.min(20, this.props.appState.searchResultsStudies.length)
+        for (var i = 0; i < upperLimit; i++) {
             var currentRow = this.props.appState.searchResultsStudies[i]
             rows.push(<SearchResultStudyRow key={i}
                 title={currentRow.title}

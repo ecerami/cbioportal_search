@@ -13,6 +13,7 @@ class SearchPanel extends React.Component {
     constructor(props) {
         super(props);
         this.initSearch = this.initSearch.bind(this);
+        this.clearSearch = this.clearSearch.bind(this);
         this.searchTextChanged = this.searchTextChanged.bind(this);
         this.searchTextKeyPressed = this.searchTextKeyPressed.bind(this);
         this.sampleSearchClicked = this.sampleSearchClicked.bind(this);
@@ -26,6 +27,14 @@ class SearchPanel extends React.Component {
         console.log("Starting search:  " + this.props.appState.searchText)
         this.props.appState.search();
     }
+
+    /**
+     * Clear Search.
+     */
+    clearSearch() {
+        this.props.appState.searchText = "";
+        this.props.appState.search();
+    }    
 
     /**
      * Triggered when user changes the search box text.
@@ -64,6 +73,10 @@ class SearchPanel extends React.Component {
     }
 
     render() {
+        var toggleLabel = "Show Examples";
+        if (this.props.appState.examplesDrawerOpen === true) {
+            toggleLabel = "Hide Examples";
+        }
         return (
             <div>
                 <div className="row align-items-start">
@@ -78,10 +91,10 @@ class SearchPanel extends React.Component {
                         style={{ width: 400 }}
                         value={this.props.appState.searchText}
                     />
-                    <RaisedButton className="submit" onClick={this.initSearch} label="Search" secondary={true}
-                        icon={<FontIcon className="material-icons">search</FontIcon>} />
+                    <RaisedButton className="submit" onClick={this.clearSearch} label="Clear" primary={true}
+                        icon={<FontIcon className="material-icons">clear</FontIcon>} />
                     &nbsp;&nbsp;
-                    <RaisedButton label="Toggle Examples" onClick={this.handleExampleToggle} />
+                    <RaisedButton label={toggleLabel} onClick={this.handleExampleToggle} />
                     </div>
                     <div className="col-6">
                     </div>
