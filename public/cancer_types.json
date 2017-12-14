@@ -1,0 +1,5194 @@
+[
+    {
+      "name": "Aggressive Angiomyxoma",
+      "clinicalTrialKeywords": "aggressive angiomyxoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "AA",
+      "parent": "soft_tissue",
+      "cancerTypeId": "aa"
+    },
+    {
+      "name": "Anaplastic Astrocytoma",
+      "clinicalTrialKeywords": "anaplastic astrocytoma",
+      "dedicatedColor": "Gray",
+      "shortName": "AASTR",
+      "parent": "difg",
+      "cancerTypeId": "aastr"
+    },
+    {
+      "name": "Adrenocortical Adenoma",
+      "clinicalTrialKeywords": "adrenocortical adenoma",
+      "dedicatedColor": "Purple",
+      "shortName": "ACA",
+      "parent": "adrenal_gland",
+      "cancerTypeId": "aca"
+    },
+    {
+      "name": "Adenoid Cystic Breast Cancer",
+      "clinicalTrialKeywords": "adenoid cystic breast cancer",
+      "dedicatedColor": "HotPink",
+      "shortName": "ACBC",
+      "parent": "brca",
+      "cancerTypeId": "acbc"
+    },
+    {
+      "name": "Adrenocortical Carcinoma",
+      "clinicalTrialKeywords": "adrenocortical carcinoma",
+      "dedicatedColor": "Purple",
+      "shortName": "ACC",
+      "parent": "adrenal_gland",
+      "cancerTypeId": "acc"
+    },
+    {
+      "name": "Acinic Cell Carcinoma",
+      "clinicalTrialKeywords": "acinic cell carcinoma",
+      "dedicatedColor": "DarkRed",
+      "shortName": "ACCC",
+      "parent": "saca",
+      "cancerTypeId": "accc"
+    },
+    {
+      "name": "Acinar Cell Carcinoma, NOS",
+      "clinicalTrialKeywords": "acinar cell carcinoma, nos",
+      "dedicatedColor": "Black",
+      "shortName": "ACN",
+      "parent": "cup",
+      "cancerTypeId": "acn"
+    },
+    {
+      "name": "Craniopharyngioma, Adamantinomatous Type",
+      "clinicalTrialKeywords": "craniopharyngioma, adamantinomatous type",
+      "dedicatedColor": "Gray",
+      "shortName": "ACPG",
+      "parent": "selt",
+      "cancerTypeId": "acpg"
+    },
+    {
+      "name": "Atypical Choroid Plexus Papilloma",
+      "clinicalTrialKeywords": "atypical choroid plexus papilloma",
+      "dedicatedColor": "Gray",
+      "shortName": "ACPP",
+      "parent": "cpt",
+      "cancerTypeId": "acpp"
+    },
+    {
+      "name": "Acral Melanoma",
+      "clinicalTrialKeywords": "acral melanoma",
+      "dedicatedColor": "Black",
+      "shortName": "ACRM",
+      "parent": "mel",
+      "cancerTypeId": "acrm"
+    },
+    {
+      "name": "Adenoid Cystic Carcinoma",
+      "clinicalTrialKeywords": "adenoid cystic carcinoma",
+      "dedicatedColor": "DarkRed",
+      "shortName": "ACYC",
+      "parent": "saca",
+      "cancerTypeId": "acyc"
+    },
+    {
+      "name": "Adenocarcinoma, NOS",
+      "clinicalTrialKeywords": "adenocarcinoma, nos",
+      "dedicatedColor": "Black",
+      "shortName": "ADNOS",
+      "parent": "cup",
+      "cancerTypeId": "adnos"
+    },
+    {
+      "name": "Aggressive Digital Papillary Adenocarcinoma",
+      "clinicalTrialKeywords": "aggressive digital papillary adenocarcinoma",
+      "dedicatedColor": "Black",
+      "shortName": "ADPA",
+      "parent": "skin",
+      "cancerTypeId": "adpa"
+    },
+    {
+      "name": "Adrenal Gland",
+      "clinicalTrialKeywords": "adrenal gland",
+      "dedicatedColor": "Purple",
+      "shortName": "ADRENAL_GLAND",
+      "parent": "tissue",
+      "cancerTypeId": "adrenal_gland"
+    },
+    {
+      "name": "Sweat Gland Carcinoma/Apocrine Eccrine Carcinoma",
+      "clinicalTrialKeywords": "sweat gland carcinoma/apocrine eccrine carcinoma",
+      "dedicatedColor": "Black",
+      "shortName": "AECA",
+      "parent": "skin",
+      "cancerTypeId": "aeca"
+    },
+    {
+      "name": "Atypical Fibroxanthoma",
+      "clinicalTrialKeywords": "atypical fibroxanthoma",
+      "dedicatedColor": "Black",
+      "shortName": "AFX",
+      "parent": "skin",
+      "cancerTypeId": "afx"
+    },
+    {
+      "name": "Anal Gland Adenocarcinoma",
+      "clinicalTrialKeywords": "anal gland adenocarcinoma",
+      "dedicatedColor": "SaddleBrown",
+      "shortName": "AGA",
+      "parent": "bowel",
+      "cancerTypeId": "aga"
+    },
+    {
+      "name": "Anaplastic Ganglioglioma",
+      "clinicalTrialKeywords": "anaplastic ganglioglioma",
+      "dedicatedColor": "Gray",
+      "shortName": "AGNG",
+      "parent": "encg",
+      "cancerTypeId": "agng"
+    },
+    {
+      "name": "Adenocarcinoma In Situ",
+      "clinicalTrialKeywords": "adenocarcinoma in situ",
+      "dedicatedColor": "Black",
+      "shortName": "AIS",
+      "parent": "other",
+      "cancerTypeId": "ais"
+    },
+    {
+      "name": "Angioimmunoblastic T-Cell Lymphoma",
+      "clinicalTrialKeywords": "angioimmunoblastic t-cell lymphoma",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "AITL",
+      "parent": "ptcl",
+      "cancerTypeId": "aitl"
+    },
+    {
+      "name": "Anaplastic Large Cell Lymphoma",
+      "clinicalTrialKeywords": "anaplastic large cell lymphoma",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "ALCL",
+      "parent": "ptcl",
+      "cancerTypeId": "alcl"
+    },
+    {
+      "name": "Acute Lymphoid Leukemia",
+      "clinicalTrialKeywords": "acute lymphoid leukemia",
+      "dedicatedColor": "LightSalmon",
+      "shortName": "ALL",
+      "parent": "leuk",
+      "cancerTypeId": "all"
+    },
+    {
+      "name": "Atypical Lung Carcinoid",
+      "clinicalTrialKeywords": "atypical lung carcinoid",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "ALUCA",
+      "parent": "lnet",
+      "cancerTypeId": "aluca"
+    },
+    {
+      "name": "Large Cell/Anaplastic Medulloblastoma",
+      "clinicalTrialKeywords": "large cell/anaplastic medulloblastoma",
+      "dedicatedColor": "Gray",
+      "shortName": "AMBL",
+      "parent": "embt",
+      "cancerTypeId": "ambl"
+    },
+    {
+      "name": "Acute Myeloid Leukemia",
+      "clinicalTrialKeywords": "acute myeloid leukemia",
+      "dedicatedColor": "LightSalmon",
+      "shortName": "AML",
+      "parent": "leuk",
+      "cancerTypeId": "aml"
+    },
+    {
+      "name": "Acute Monocytic Leukemia",
+      "clinicalTrialKeywords": "acute monocytic leukemia",
+      "dedicatedColor": "LightSalmon",
+      "shortName": "AMOL",
+      "parent": "leuk",
+      "cancerTypeId": "amol"
+    },
+    {
+      "name": "Ampullary Carcinoma",
+      "clinicalTrialKeywords": "ampullary carcinoma",
+      "dedicatedColor": "Purple",
+      "shortName": "AMPCA",
+      "parent": "ampulla_of_vater",
+      "cancerTypeId": "ampca"
+    },
+    {
+      "name": "Ampulla of Vater",
+      "clinicalTrialKeywords": "ampulla of vater",
+      "dedicatedColor": "Purple",
+      "shortName": "AMPULLA_OF_VATER",
+      "parent": "tissue",
+      "cancerTypeId": "ampulla_of_vater"
+    },
+    {
+      "name": "Angiocentric Glioma",
+      "clinicalTrialKeywords": "angiocentric glioma",
+      "dedicatedColor": "Gray",
+      "shortName": "ANGL",
+      "parent": "mnet",
+      "cancerTypeId": "angl"
+    },
+    {
+      "name": "Angiosarcoma",
+      "clinicalTrialKeywords": "angiosarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "ANGS",
+      "parent": "soft_tissue",
+      "cancerTypeId": "angs"
+    },
+    {
+      "name": "Anaplastic Meningioma",
+      "clinicalTrialKeywords": "anaplastic meningioma",
+      "dedicatedColor": "Gray",
+      "shortName": "ANM",
+      "parent": "mngt",
+      "cancerTypeId": "anm"
+    },
+    {
+      "name": "Anal Squamous Cell Carcinoma",
+      "clinicalTrialKeywords": "anal squamous cell carcinoma",
+      "dedicatedColor": "SaddleBrown",
+      "shortName": "ANSC",
+      "parent": "bowel",
+      "cancerTypeId": "ansc"
+    },
+    {
+      "name": "Anaplastic Oligoastrocytoma",
+      "clinicalTrialKeywords": "anaplastic oligoastrocytoma",
+      "dedicatedColor": "Gray",
+      "shortName": "AOAST",
+      "parent": "difg",
+      "cancerTypeId": "aoast"
+    },
+    {
+      "name": "Anaplastic Oligodendroglioma",
+      "clinicalTrialKeywords": "anaplastic oligodendroglioma",
+      "dedicatedColor": "Gray",
+      "shortName": "AODG",
+      "parent": "difg",
+      "cancerTypeId": "aodg"
+    },
+    {
+      "name": "Appendiceal Adenocarcinoma",
+      "clinicalTrialKeywords": "appendiceal adenocarcinoma",
+      "dedicatedColor": "SaddleBrown",
+      "shortName": "APAD",
+      "parent": "bowel",
+      "cancerTypeId": "apad"
+    },
+    {
+      "name": "Anaplastic Ependymoma",
+      "clinicalTrialKeywords": "anaplastic ependymoma",
+      "dedicatedColor": "Gray",
+      "shortName": "APE",
+      "parent": "epmt",
+      "cancerTypeId": "ape"
+    },
+    {
+      "name": "Atypical Pituitary Adenoma",
+      "clinicalTrialKeywords": "atypical pituitary adenoma",
+      "dedicatedColor": "Gray",
+      "shortName": "APTAD",
+      "parent": "selt",
+      "cancerTypeId": "aptad"
+    },
+    {
+      "name": "Anaplastic Pleomorphic Xanthoastrocytoma",
+      "clinicalTrialKeywords": "anaplastic pleomorphic xanthoastrocytoma",
+      "dedicatedColor": "Gray",
+      "shortName": "APXA",
+      "parent": "encg",
+      "cancerTypeId": "apxa"
+    },
+    {
+      "name": "Anorectal Mucosal Melanoma",
+      "clinicalTrialKeywords": "anorectal mucosal melanoma",
+      "dedicatedColor": "SaddleBrown",
+      "shortName": "ARMM",
+      "parent": "bowel",
+      "cancerTypeId": "armm"
+    },
+    {
+      "name": "Alveolar Rhabdomyosarcoma",
+      "clinicalTrialKeywords": "alveolar rhabdomyosarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "ARMS",
+      "parent": "rms",
+      "cancerTypeId": "arms"
+    },
+    {
+      "name": "Adenosquamous Carcinoma of the Tongue",
+      "clinicalTrialKeywords": "adenosquamous carcinoma of the tongue",
+      "dedicatedColor": "DarkRed",
+      "shortName": "ASCT",
+      "parent": "ohnca",
+      "cancerTypeId": "asct"
+    },
+    {
+      "name": "Alveolar Soft Part Sarcoma",
+      "clinicalTrialKeywords": "alveolar soft part sarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "ASPS",
+      "parent": "soft_tissue",
+      "cancerTypeId": "asps"
+    },
+    {
+      "name": "Astroblastoma",
+      "clinicalTrialKeywords": "astroblastoma",
+      "dedicatedColor": "Gray",
+      "shortName": "ASTB",
+      "parent": "mnet",
+      "cancerTypeId": "astb"
+    },
+    {
+      "name": "Astrocytoma",
+      "clinicalTrialKeywords": "astrocytoma",
+      "dedicatedColor": "Gray",
+      "shortName": "ASTR",
+      "parent": "difg",
+      "cancerTypeId": "astr"
+    },
+    {
+      "name": "Atypical Meningioma",
+      "clinicalTrialKeywords": "atypical meningioma",
+      "dedicatedColor": "Gray",
+      "shortName": "ATM",
+      "parent": "mngt",
+      "cancerTypeId": "atm"
+    },
+    {
+      "name": "Atypical Teratoid/Rhabdoid Tumor",
+      "clinicalTrialKeywords": "atypical teratoid/rhabdoid tumor",
+      "dedicatedColor": "Gray",
+      "shortName": "ATRT",
+      "parent": "embt",
+      "cancerTypeId": "atrt"
+    },
+    {
+      "name": "Well-Differentiated Neuroendocrine Tumor of the Appendix",
+      "clinicalTrialKeywords": "well-differentiated neuroendocrine tumor of the appendix",
+      "dedicatedColor": "SaddleBrown",
+      "shortName": "AWDNET",
+      "parent": "ginet",
+      "cancerTypeId": "awdnet"
+    },
+    {
+      "name": "Breast Angiosarcoma",
+      "clinicalTrialKeywords": "breast angiosarcoma",
+      "dedicatedColor": "HotPink",
+      "shortName": "BA",
+      "parent": "pbs",
+      "cancerTypeId": "ba"
+    },
+    {
+      "name": "B-Cell Acute Lymphoid Leukemia",
+      "clinicalTrialKeywords": "b-cell acute lymphoid leukemia",
+      "dedicatedColor": "LightSalmon",
+      "shortName": "BALL",
+      "parent": "all",
+      "cancerTypeId": "ball"
+    },
+    {
+      "name": "Basal Cell Carcinoma",
+      "clinicalTrialKeywords": "basal cell carcinoma",
+      "dedicatedColor": "Black",
+      "shortName": "BCC",
+      "parent": "skin",
+      "cancerTypeId": "bcc"
+    },
+    {
+      "name": "Choriocarcinoma",
+      "clinicalTrialKeywords": "choriocarcinoma",
+      "dedicatedColor": "Gray",
+      "shortName": "BCCA",
+      "parent": "bgct",
+      "cancerTypeId": "bcca"
+    },
+    {
+      "name": "B-Cell Lymphoma",
+      "clinicalTrialKeywords": "b-cell lymphoma",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "BCL",
+      "parent": "nhl",
+      "cancerTypeId": "bcl"
+    },
+    {
+      "name": "Embryonal Carcinoma",
+      "clinicalTrialKeywords": "embryonal carcinoma",
+      "dedicatedColor": "Gray",
+      "shortName": "BEC",
+      "parent": "bgct",
+      "cancerTypeId": "bec"
+    },
+    {
+      "name": "Breast Fibroepithelial Neoplasms",
+      "clinicalTrialKeywords": "breast fibroepithelial neoplasms",
+      "dedicatedColor": "HotPink",
+      "shortName": "BFN",
+      "parent": "breast",
+      "cancerTypeId": "bfn"
+    },
+    {
+      "name": "Germ Cell Tumor, Brain",
+      "clinicalTrialKeywords": "germ cell tumor, brain",
+      "dedicatedColor": "Gray",
+      "shortName": "BGCT",
+      "parent": "brain",
+      "cancerTypeId": "bgct"
+    },
+    {
+      "name": "Biliary Tract",
+      "clinicalTrialKeywords": "biliary tract",
+      "dedicatedColor": "Green",
+      "shortName": "BILIARY_TRACT",
+      "parent": "tissue",
+      "cancerTypeId": "biliary_tract"
+    },
+    {
+      "name": "Immature Teratoma",
+      "clinicalTrialKeywords": "immature teratoma",
+      "dedicatedColor": "Gray",
+      "shortName": "BIMT",
+      "parent": "bgct",
+      "cancerTypeId": "bimt"
+    },
+    {
+      "name": "Burkitt Lymphoma",
+      "clinicalTrialKeywords": "burkitt lymphoma",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "BL",
+      "parent": "bcl",
+      "cancerTypeId": "bl"
+    },
+    {
+      "name": "Bladder Adenocarcinoma",
+      "clinicalTrialKeywords": "bladder adenocarcinoma",
+      "dedicatedColor": "Yellow",
+      "shortName": "BLAD",
+      "parent": "bladder",
+      "cancerTypeId": "blad"
+    },
+    {
+      "name": "Bladder/Urinary Tract",
+      "clinicalTrialKeywords": "bladder/urinary tract",
+      "dedicatedColor": "Yellow",
+      "shortName": "BLADDER",
+      "parent": "tissue",
+      "cancerTypeId": "bladder"
+    },
+    {
+      "name": "Bladder Urothelial Carcinoma",
+      "clinicalTrialKeywords": "bladder urothelial carcinoma",
+      "dedicatedColor": "Yellow",
+      "shortName": "BLCA",
+      "parent": "bladder",
+      "cancerTypeId": "blca"
+    },
+    {
+      "name": "Basaloid Large Cell Carcinoma of the Lung",
+      "clinicalTrialKeywords": "basaloid large cell carcinoma of the lung",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "BLCLC",
+      "parent": "lclc",
+      "cancerTypeId": "blclc"
+    },
+    {
+      "name": "Blood",
+      "clinicalTrialKeywords": "blood",
+      "dedicatedColor": "LightSalmon",
+      "shortName": "BLOOD",
+      "parent": "tissue",
+      "cancerTypeId": "blood"
+    },
+    {
+      "name": "Borderline Phyllodes Tumor of the Breast",
+      "clinicalTrialKeywords": "borderline phyllodes tumor of the breast",
+      "dedicatedColor": "HotPink",
+      "shortName": "BLPT",
+      "parent": "pt",
+      "cancerTypeId": "blpt"
+    },
+    {
+      "name": "Bladder Squamous Cell Carcinoma",
+      "clinicalTrialKeywords": "bladder squamous cell carcinoma",
+      "dedicatedColor": "Yellow",
+      "shortName": "BLSC",
+      "parent": "bladder",
+      "cancerTypeId": "blsc"
+    },
+    {
+      "name": "Mixed Germ Cell Tumor",
+      "clinicalTrialKeywords": "mixed germ cell tumor",
+      "dedicatedColor": "Gray",
+      "shortName": "BMGCT",
+      "parent": "bgct",
+      "cancerTypeId": "bmgct"
+    },
+    {
+      "name": "Malignant Teratoma",
+      "clinicalTrialKeywords": "malignant teratoma",
+      "dedicatedColor": "Gray",
+      "shortName": "BMGT",
+      "parent": "bgct",
+      "cancerTypeId": "bmgt"
+    },
+    {
+      "name": "Mature Teratoma",
+      "clinicalTrialKeywords": "mature teratoma",
+      "dedicatedColor": "Gray",
+      "shortName": "BMT",
+      "parent": "bgct",
+      "cancerTypeId": "bmt"
+    },
+    {
+      "name": "Breast Neoplasm, NOS",
+      "clinicalTrialKeywords": "breast neoplasm, nos",
+      "dedicatedColor": "HotPink",
+      "shortName": "BNNOS",
+      "parent": "breast",
+      "cancerTypeId": "bnnos"
+    },
+    {
+      "name": "Bone",
+      "clinicalTrialKeywords": "bone",
+      "dedicatedColor": "White",
+      "shortName": "BONE",
+      "parent": "tissue",
+      "cancerTypeId": "bone"
+    },
+    {
+      "name": "Bowel",
+      "clinicalTrialKeywords": "bowel",
+      "dedicatedColor": "SaddleBrown",
+      "shortName": "BOWEL",
+      "parent": "tissue",
+      "cancerTypeId": "bowel"
+    },
+    {
+      "name": "Blastic Plasmacytoid Dendritic Cell Neoplasm",
+      "clinicalTrialKeywords": "blastic plasmacytoid dendritic cell neoplasm",
+      "dedicatedColor": "LightSalmon",
+      "shortName": "BPDCN",
+      "parent": "blood",
+      "cancerTypeId": "bpdcn"
+    },
+    {
+      "name": "Basaloid Penile Squamous Cell Carcinoma",
+      "clinicalTrialKeywords": "basaloid penile squamous cell carcinoma",
+      "dedicatedColor": "Blue",
+      "shortName": "BPSCC",
+      "parent": "pscc",
+      "cancerTypeId": "bpscc"
+    },
+    {
+      "name": "Benign Phyllodes Tumor of the Breast",
+      "clinicalTrialKeywords": "benign phyllodes tumor of the breast",
+      "dedicatedColor": "HotPink",
+      "shortName": "BPT",
+      "parent": "pt",
+      "cancerTypeId": "bpt"
+    },
+    {
+      "name": "CNS/Brain",
+      "clinicalTrialKeywords": "cns/brain",
+      "dedicatedColor": "Gray",
+      "shortName": "BRAIN",
+      "parent": "tissue",
+      "cancerTypeId": "brain"
+    },
+    {
+      "name": "Adenomyoepithelioma of the Breast",
+      "clinicalTrialKeywords": "adenomyoepithelioma of the breast",
+      "dedicatedColor": "HotPink",
+      "shortName": "BRAME",
+      "parent": "breast",
+      "cancerTypeId": "brame"
+    },
+    {
+      "name": "Invasive Breast Carcinoma",
+      "clinicalTrialKeywords": "invasive breast carcinoma",
+      "dedicatedColor": "HotPink",
+      "shortName": "BRCA",
+      "parent": "breast",
+      "cancerTypeId": "brca"
+    },
+    {
+      "name": "Breast Invasive Cancer, NOS",
+      "clinicalTrialKeywords": "breast invasive cancer, nos",
+      "dedicatedColor": "HotPink",
+      "shortName": "BRCANOS",
+      "parent": "brca",
+      "cancerTypeId": "brcanos"
+    },
+    {
+      "name": "Breast Invasive Carcinoma, NOS",
+      "clinicalTrialKeywords": "breast invasive carcinoma, nos",
+      "dedicatedColor": "HotPink",
+      "shortName": "BRCNOS",
+      "parent": "brca",
+      "cancerTypeId": "brcnos"
+    },
+    {
+      "name": "Breast",
+      "clinicalTrialKeywords": "breast",
+      "dedicatedColor": "HotPink",
+      "shortName": "BREAST",
+      "parent": "tissue",
+      "cancerTypeId": "breast"
+    },
+    {
+      "name": "Breast Carcinoma with Signet Ring",
+      "clinicalTrialKeywords": "breast carcinoma with signet ring",
+      "dedicatedColor": "HotPink",
+      "shortName": "BRSRCC",
+      "parent": "brca",
+      "cancerTypeId": "brsrcc"
+    },
+    {
+      "name": "Brenner Tumor, Benign",
+      "clinicalTrialKeywords": "brenner tumor, benign",
+      "dedicatedColor": "LightBlue",
+      "shortName": "BTBEOV",
+      "parent": "btov",
+      "cancerTypeId": "btbeov"
+    },
+    {
+      "name": "Brenner Tumor, Borderline",
+      "clinicalTrialKeywords": "brenner tumor, borderline",
+      "dedicatedColor": "LightBlue",
+      "shortName": "BTBOV",
+      "parent": "btov",
+      "cancerTypeId": "btbov"
+    },
+    {
+      "name": "Brenner Tumor, Malignant",
+      "clinicalTrialKeywords": "brenner tumor, malignant",
+      "dedicatedColor": "LightBlue",
+      "shortName": "BTMOV",
+      "parent": "btov",
+      "cancerTypeId": "btmov"
+    },
+    {
+      "name": "Brenner Tumor",
+      "clinicalTrialKeywords": "brenner tumor",
+      "dedicatedColor": "LightBlue",
+      "shortName": "BTOV",
+      "parent": "ovt",
+      "cancerTypeId": "btov"
+    },
+    {
+      "name": "Yolk Sac Tumor",
+      "clinicalTrialKeywords": "yolk sac tumor",
+      "dedicatedColor": "Gray",
+      "shortName": "BYST",
+      "parent": "bgct",
+      "cancerTypeId": "byst"
+    },
+    {
+      "name": "Cervical Adenoid Basal Carcinoma",
+      "clinicalTrialKeywords": "cervical adenoid basal carcinoma",
+      "dedicatedColor": "Teal",
+      "shortName": "CABC",
+      "parent": "cervix",
+      "cancerTypeId": "cabc"
+    },
+    {
+      "name": "Cervical Adenoid Cystic Carcinoma",
+      "clinicalTrialKeywords": "cervical adenoid cystic carcinoma",
+      "dedicatedColor": "Teal",
+      "shortName": "CACC",
+      "parent": "cervix",
+      "cancerTypeId": "cacc"
+    },
+    {
+      "name": "Colon Adenocarcinoma In Situ",
+      "clinicalTrialKeywords": "colon adenocarcinoma in situ",
+      "dedicatedColor": "SaddleBrown",
+      "shortName": "CAIS",
+      "parent": "coadread",
+      "cancerTypeId": "cais"
+    },
+    {
+      "name": "Clear Cell Borderline Ovarian Tumor",
+      "clinicalTrialKeywords": "clear cell borderline ovarian tumor",
+      "dedicatedColor": "LightBlue",
+      "shortName": "CCBOV",
+      "parent": "ovt",
+      "cancerTypeId": "ccbov"
+    },
+    {
+      "name": "Clear Cell Ependymoma",
+      "clinicalTrialKeywords": "clear cell ependymoma",
+      "dedicatedColor": "Gray",
+      "shortName": "CCE",
+      "parent": "epmt",
+      "cancerTypeId": "cce"
+    },
+    {
+      "name": "Conventional Type Chordoma",
+      "clinicalTrialKeywords": "conventional type chordoma",
+      "dedicatedColor": "White",
+      "shortName": "CCHDM",
+      "parent": "chdm",
+      "cancerTypeId": "cchdm"
+    },
+    {
+      "name": "Carcinoma with Chondroid Metaplasia",
+      "clinicalTrialKeywords": "carcinoma with chondroid metaplasia",
+      "dedicatedColor": "HotPink",
+      "shortName": "CCHM",
+      "parent": "mmbc",
+      "cancerTypeId": "cchm"
+    },
+    {
+      "name": "Clear Cell Carcinoma of the Lung",
+      "clinicalTrialKeywords": "clear cell carcinoma of the lung",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "CCLC",
+      "parent": "lclc",
+      "cancerTypeId": "cclc"
+    },
+    {
+      "name": "Clear cell Meningioma",
+      "clinicalTrialKeywords": "clear cell meningioma",
+      "dedicatedColor": "Gray",
+      "shortName": "CCM",
+      "parent": "mngt",
+      "cancerTypeId": "ccm"
+    },
+    {
+      "name": "Clear Cell Odontogenic Carcinoma",
+      "clinicalTrialKeywords": "clear cell odontogenic carcinoma",
+      "dedicatedColor": "DarkRed",
+      "shortName": "CCOC",
+      "parent": "odgc",
+      "cancerTypeId": "ccoc"
+    },
+    {
+      "name": "Clear Cell Ovarian Cancer",
+      "clinicalTrialKeywords": "clear cell ovarian cancer",
+      "dedicatedColor": "LightBlue",
+      "shortName": "CCOV",
+      "parent": "ovt",
+      "cancerTypeId": "ccov"
+    },
+    {
+      "name": "Clear Cell Papillary Renal Cell Carcinoma",
+      "clinicalTrialKeywords": "clear cell papillary renal cell carcinoma",
+      "dedicatedColor": "Orange",
+      "shortName": "CCPRC",
+      "parent": "nccrcc",
+      "cancerTypeId": "ccprc"
+    },
+    {
+      "name": "Renal Clear Cell Carcinoma",
+      "clinicalTrialKeywords": "renal clear cell carcinoma",
+      "dedicatedColor": "Orange",
+      "shortName": "CCRCC",
+      "parent": "rcc",
+      "cancerTypeId": "ccrcc"
+    },
+    {
+      "name": "Clear Cell Sarcoma",
+      "clinicalTrialKeywords": "clear cell sarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "CCS",
+      "parent": "soft_tissue",
+      "cancerTypeId": "ccs"
+    },
+    {
+      "name": "Collecting Duct Renal Cell Carcinoma",
+      "clinicalTrialKeywords": "collecting duct renal cell carcinoma",
+      "dedicatedColor": "Orange",
+      "shortName": "CDRCC",
+      "parent": "nccrcc",
+      "cancerTypeId": "cdrcc"
+    },
+    {
+      "name": "Cervical Adenocarcinoma",
+      "clinicalTrialKeywords": "cervical adenocarcinoma",
+      "dedicatedColor": "Teal",
+      "shortName": "CEAD",
+      "parent": "cervix",
+      "cancerTypeId": "cead"
+    },
+    {
+      "name": "Cervical Adenocarcinoma In Situ",
+      "clinicalTrialKeywords": "cervical adenocarcinoma in situ",
+      "dedicatedColor": "Teal",
+      "shortName": "CEAIS",
+      "parent": "cervix",
+      "cancerTypeId": "ceais"
+    },
+    {
+      "name": "Cervical Adenosquamous Carcinoma",
+      "clinicalTrialKeywords": "cervical adenosquamous carcinoma",
+      "dedicatedColor": "Teal",
+      "shortName": "CEAS",
+      "parent": "cervix",
+      "cancerTypeId": "ceas"
+    },
+    {
+      "name": "Cervical Clear Cell Carcinoma",
+      "clinicalTrialKeywords": "cervical clear cell carcinoma",
+      "dedicatedColor": "Teal",
+      "shortName": "CECC",
+      "parent": "cead",
+      "cancerTypeId": "cecc"
+    },
+    {
+      "name": "Cervical Endometrioid Carcinoma",
+      "clinicalTrialKeywords": "cervical endometrioid carcinoma",
+      "dedicatedColor": "Teal",
+      "shortName": "CEEN",
+      "parent": "cead",
+      "cancerTypeId": "ceen"
+    },
+    {
+      "name": "Glassy Cell Carcinoma of the Cervix",
+      "clinicalTrialKeywords": "glassy cell carcinoma of the cervix",
+      "dedicatedColor": "Teal",
+      "shortName": "CEGCC",
+      "parent": "cervix",
+      "cancerTypeId": "cegcc"
+    },
+    {
+      "name": "Cervical Leiomyosarcoma",
+      "clinicalTrialKeywords": "cervical leiomyosarcoma",
+      "dedicatedColor": "Teal",
+      "shortName": "CELI",
+      "parent": "cervix",
+      "cancerTypeId": "celi"
+    },
+    {
+      "name": "Mesonephric Carcinoma",
+      "clinicalTrialKeywords": "mesonephric carcinoma",
+      "dedicatedColor": "Teal",
+      "shortName": "CEMN",
+      "parent": "cead",
+      "cancerTypeId": "cemn"
+    },
+    {
+      "name": "Mucinous Carcinoma",
+      "clinicalTrialKeywords": "mucinous carcinoma",
+      "dedicatedColor": "Teal",
+      "shortName": "CEMU",
+      "parent": "cead",
+      "cancerTypeId": "cemu"
+    },
+    {
+      "name": "Cervical Neuroendocrine Tumor",
+      "clinicalTrialKeywords": "cervical neuroendocrine tumor",
+      "dedicatedColor": "Teal",
+      "shortName": "CENE",
+      "parent": "cervix",
+      "cancerTypeId": "cene"
+    },
+    {
+      "name": "Cervical Rhabdomyosarcoma",
+      "clinicalTrialKeywords": "cervical rhabdomyosarcoma",
+      "dedicatedColor": "Teal",
+      "shortName": "CERMS",
+      "parent": "cervix",
+      "cancerTypeId": "cerms"
+    },
+    {
+      "name": "Cervix",
+      "clinicalTrialKeywords": "cervix",
+      "dedicatedColor": "Teal",
+      "shortName": "CERVIX",
+      "parent": "tissue",
+      "cancerTypeId": "cervix"
+    },
+    {
+      "name": "Cervical Squamous Cell Carcinoma",
+      "clinicalTrialKeywords": "cervical squamous cell carcinoma",
+      "dedicatedColor": "Teal",
+      "shortName": "CESC",
+      "parent": "cervix",
+      "cancerTypeId": "cesc"
+    },
+    {
+      "name": "Cervical Serous Carcinoma",
+      "clinicalTrialKeywords": "cervical serous carcinoma",
+      "dedicatedColor": "Teal",
+      "shortName": "CESE",
+      "parent": "cead",
+      "cancerTypeId": "cese"
+    },
+    {
+      "name": "Villoglandular Carcinoma",
+      "clinicalTrialKeywords": "villoglandular carcinoma",
+      "dedicatedColor": "Teal",
+      "shortName": "CEVG",
+      "parent": "cead",
+      "cancerTypeId": "cevg"
+    },
+    {
+      "name": "Chondroblastoma",
+      "clinicalTrialKeywords": "chondroblastoma",
+      "dedicatedColor": "White",
+      "shortName": "CHBL",
+      "parent": "bone",
+      "cancerTypeId": "chbl"
+    },
+    {
+      "name": "Chordoma",
+      "clinicalTrialKeywords": "chordoma",
+      "dedicatedColor": "White",
+      "shortName": "CHDM",
+      "parent": "bone",
+      "cancerTypeId": "chdm"
+    },
+    {
+      "name": "Chordoid Glioma of the Third Ventricle",
+      "clinicalTrialKeywords": "chordoid glioma of the third ventricle",
+      "dedicatedColor": "Gray",
+      "shortName": "CHGL",
+      "parent": "mnet",
+      "cancerTypeId": "chgl"
+    },
+    {
+      "name": "Classical Hodgkin Lymphoma",
+      "clinicalTrialKeywords": "classical hodgkin lymphoma",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "CHL",
+      "parent": "hl",
+      "cancerTypeId": "chl"
+    },
+    {
+      "name": "Complete Hydatidiform Mole",
+      "clinicalTrialKeywords": "complete hydatidiform mole",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "CHM",
+      "parent": "mp",
+      "cancerTypeId": "chm"
+    },
+    {
+      "name": "Cholangiocarcinoma",
+      "clinicalTrialKeywords": "cholangiocarcinoma",
+      "dedicatedColor": "Green",
+      "shortName": "CHOL",
+      "parent": "biliary_tract",
+      "cancerTypeId": "chol"
+    },
+    {
+      "name": "Chordoid Meningioma",
+      "clinicalTrialKeywords": "chordoid meningioma",
+      "dedicatedColor": "Gray",
+      "shortName": "CHOM",
+      "parent": "mngt",
+      "cancerTypeId": "chom"
+    },
+    {
+      "name": "Chondroblastic Osteosarcoma",
+      "clinicalTrialKeywords": "chondroblastic osteosarcoma",
+      "dedicatedColor": "White",
+      "shortName": "CHOS",
+      "parent": "os",
+      "cancerTypeId": "chos"
+    },
+    {
+      "name": "Chromophobe Renal Cell Carcinoma",
+      "clinicalTrialKeywords": "chromophobe renal cell carcinoma",
+      "dedicatedColor": "Orange",
+      "shortName": "CHRCC",
+      "parent": "nccrcc",
+      "cancerTypeId": "chrcc"
+    },
+    {
+      "name": "Chondrosarcoma",
+      "clinicalTrialKeywords": "chondrosarcoma",
+      "dedicatedColor": "White",
+      "shortName": "CHS",
+      "parent": "bone",
+      "cancerTypeId": "chs"
+    },
+    {
+      "name": "Chronic Lymphocytic Leukemia",
+      "clinicalTrialKeywords": "chronic lymphocytic leukemia",
+      "dedicatedColor": "LightSalmon",
+      "shortName": "CLL",
+      "parent": "leuk",
+      "cancerTypeId": "cll"
+    },
+    {
+      "name": "Cerebellar Liponeurocytoma",
+      "clinicalTrialKeywords": "cerebellar liponeurocytoma",
+      "dedicatedColor": "Gray",
+      "shortName": "CLNC",
+      "parent": "mnet",
+      "cancerTypeId": "clnc"
+    },
+    {
+      "name": "Conjunctival Melanoma",
+      "clinicalTrialKeywords": "conjunctival melanoma",
+      "dedicatedColor": "Green",
+      "shortName": "CM",
+      "parent": "om",
+      "cancerTypeId": "cm"
+    },
+    {
+      "name": "Medullary Carcinoma of the Colon",
+      "clinicalTrialKeywords": "medullary carcinoma of the colon",
+      "dedicatedColor": "SaddleBrown",
+      "shortName": "CMC",
+      "parent": "bowel",
+      "cancerTypeId": "cmc"
+    },
+    {
+      "name": "Chronic Myelogenous Leukemia",
+      "clinicalTrialKeywords": "chronic myelogenous leukemia",
+      "dedicatedColor": "LightSalmon",
+      "shortName": "CML",
+      "parent": "leuk",
+      "cancerTypeId": "cml"
+    },
+    {
+      "name": "Chronic Myelomonocytic Leukemia",
+      "clinicalTrialKeywords": "chronic myelomonocytic leukemia",
+      "dedicatedColor": "LightSalmon",
+      "shortName": "CMML",
+      "parent": "leuk",
+      "cancerTypeId": "cmml"
+    },
+    {
+      "name": "Ciliated Muconodular Papillary Tumor of the Lung",
+      "clinicalTrialKeywords": "ciliated muconodular papillary tumor of the lung",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "CMPT",
+      "parent": "nsclc",
+      "cancerTypeId": "cmpt"
+    },
+    {
+      "name": "Central Neurocytoma",
+      "clinicalTrialKeywords": "central neurocytoma",
+      "dedicatedColor": "Gray",
+      "shortName": "CNC",
+      "parent": "mnet",
+      "cancerTypeId": "cnc"
+    },
+    {
+      "name": "Colon Adenocarcinoma",
+      "clinicalTrialKeywords": "colon adenocarcinoma",
+      "dedicatedColor": "SaddleBrown",
+      "shortName": "COAD",
+      "parent": "coadread",
+      "cancerTypeId": "coad"
+    },
+    {
+      "name": "Colorectal Adenocarcinoma",
+      "clinicalTrialKeywords": "colorectal adenocarcinoma",
+      "dedicatedColor": "SaddleBrown",
+      "shortName": "COADREAD",
+      "parent": "bowel",
+      "cancerTypeId": "coadread"
+    },
+    {
+      "name": "Carcinoma with Osseous Metaplasia",
+      "clinicalTrialKeywords": "carcinoma with osseous metaplasia",
+      "dedicatedColor": "HotPink",
+      "shortName": "COM",
+      "parent": "mmbc",
+      "cancerTypeId": "com"
+    },
+    {
+      "name": "Choroid Plexus Carcinoma",
+      "clinicalTrialKeywords": "choroid plexus carcinoma",
+      "dedicatedColor": "Gray",
+      "shortName": "CPC",
+      "parent": "cpt",
+      "cancerTypeId": "cpc"
+    },
+    {
+      "name": "Choroid Plexus Papilloma",
+      "clinicalTrialKeywords": "choroid plexus papilloma",
+      "dedicatedColor": "Gray",
+      "shortName": "CPP",
+      "parent": "cpt",
+      "cancerTypeId": "cpp"
+    },
+    {
+      "name": "Choroid Plexus Tumor",
+      "clinicalTrialKeywords": "choroid plexus tumor",
+      "dedicatedColor": "Gray",
+      "shortName": "CPT",
+      "parent": "brain",
+      "cancerTypeId": "cpt"
+    },
+    {
+      "name": "Cutaneous Squamous Cell Carcinoma",
+      "clinicalTrialKeywords": "cutaneous squamous cell carcinoma",
+      "dedicatedColor": "Black",
+      "shortName": "CSCC",
+      "parent": "skin",
+      "cancerTypeId": "cscc"
+    },
+    {
+      "name": "Cellular Schwannoma",
+      "clinicalTrialKeywords": "cellular schwannoma",
+      "dedicatedColor": "Gray",
+      "shortName": "CSCHW",
+      "parent": "schw",
+      "cancerTypeId": "cschw"
+    },
+    {
+      "name": "Combined Small Cell Lung Carcinoma",
+      "clinicalTrialKeywords": "combined small cell lung carcinoma",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "CSCLC",
+      "parent": "lung",
+      "cancerTypeId": "csclc"
+    },
+    {
+      "name": "Breast Invasive Carcinosarcoma, NOS",
+      "clinicalTrialKeywords": "breast invasive carcinosarcoma, nos",
+      "dedicatedColor": "HotPink",
+      "shortName": "CSNOS",
+      "parent": "brca",
+      "cancerTypeId": "csnos"
+    },
+    {
+      "name": "Colonic Type Adenocarcinoma of the Appendix",
+      "clinicalTrialKeywords": "colonic type adenocarcinoma of the appendix",
+      "dedicatedColor": "SaddleBrown",
+      "shortName": "CTAAP",
+      "parent": "apad",
+      "cancerTypeId": "ctaap"
+    },
+    {
+      "name": "Cutaneous T-Cell Lymphoma",
+      "clinicalTrialKeywords": "cutaneous t-cell lymphoma",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "CTCL",
+      "parent": "tnkl",
+      "cancerTypeId": "ctcl"
+    },
+    {
+      "name": "Cancer of Unknown Primary",
+      "clinicalTrialKeywords": "cancer of unknown primary",
+      "dedicatedColor": "Black",
+      "shortName": "CUP",
+      "parent": "other",
+      "cancerTypeId": "cup"
+    },
+    {
+      "name": "Cancer of Unknown Primary, NOS",
+      "clinicalTrialKeywords": "cancer of unknown primary, nos",
+      "dedicatedColor": "Black",
+      "shortName": "CUPNOS",
+      "parent": "cup",
+      "cancerTypeId": "cupnos"
+    },
+    {
+      "name": "Duodenal Adenocarcinoma",
+      "clinicalTrialKeywords": "duodenal adenocarcinoma",
+      "dedicatedColor": "SaddleBrown",
+      "shortName": "DA",
+      "parent": "sbc",
+      "cancerTypeId": "da"
+    },
+    {
+      "name": "Diffuse Astrocytoma",
+      "clinicalTrialKeywords": "diffuse astrocytoma",
+      "dedicatedColor": "Gray",
+      "shortName": "DASTR",
+      "parent": "difg",
+      "cancerTypeId": "dastr"
+    },
+    {
+      "name": "Breast Ductal Carcinoma In Situ",
+      "clinicalTrialKeywords": "breast ductal carcinoma in situ",
+      "dedicatedColor": "HotPink",
+      "shortName": "DCIS",
+      "parent": "breast",
+      "cancerTypeId": "dcis"
+    },
+    {
+      "name": "Dendritic Cell Sarcoma",
+      "clinicalTrialKeywords": "dendritic cell sarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "DCS",
+      "parent": "soft_tissue",
+      "cancerTypeId": "dcs"
+    },
+    {
+      "name": "Dedifferentiated Chordoma",
+      "clinicalTrialKeywords": "dedifferentiated chordoma",
+      "dedicatedColor": "White",
+      "shortName": "DDCHDM",
+      "parent": "chdm",
+      "cancerTypeId": "ddchdm"
+    },
+    {
+      "name": "Dedifferentiated Chondrosarcoma",
+      "clinicalTrialKeywords": "dedifferentiated chondrosarcoma",
+      "dedicatedColor": "White",
+      "shortName": "DDCHS",
+      "parent": "chs",
+      "cancerTypeId": "ddchs"
+    },
+    {
+      "name": "Dedifferentiated Liposarcoma",
+      "clinicalTrialKeywords": "dedifferentiated liposarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "DDLS",
+      "parent": "lipo",
+      "cancerTypeId": "ddls"
+    },
+    {
+      "name": "Desmoid/Aggressive Fibromatosis",
+      "clinicalTrialKeywords": "desmoid/aggressive fibromatosis",
+      "dedicatedColor": "LightYellow",
+      "shortName": "DES",
+      "parent": "soft_tissue",
+      "cancerTypeId": "des"
+    },
+    {
+      "name": "Desmoplastic Melanoma",
+      "clinicalTrialKeywords": "desmoplastic melanoma",
+      "dedicatedColor": "Black",
+      "shortName": "DESM",
+      "parent": "mel",
+      "cancerTypeId": "desm"
+    },
+    {
+      "name": "Dermatofibroma",
+      "clinicalTrialKeywords": "dermatofibroma",
+      "dedicatedColor": "Black",
+      "shortName": "DF",
+      "parent": "skin",
+      "cancerTypeId": "df"
+    },
+    {
+      "name": "Dermatofibrosarcoma Protuberans",
+      "clinicalTrialKeywords": "dermatofibrosarcoma protuberans",
+      "dedicatedColor": "Black",
+      "shortName": "DFSP",
+      "parent": "skin",
+      "cancerTypeId": "dfsp"
+    },
+    {
+      "name": "Desmoplastic Infantile Astrocytoma",
+      "clinicalTrialKeywords": "desmoplastic infantile astrocytoma",
+      "dedicatedColor": "Gray",
+      "shortName": "DIA",
+      "parent": "mnet",
+      "cancerTypeId": "dia"
+    },
+    {
+      "name": "Diffuse Glioma",
+      "clinicalTrialKeywords": "diffuse glioma",
+      "dedicatedColor": "Gray",
+      "shortName": "DIFG",
+      "parent": "brain",
+      "cancerTypeId": "difg"
+    },
+    {
+      "name": "Desmoplastic Infantile Ganglioglioma",
+      "clinicalTrialKeywords": "desmoplastic infantile ganglioglioma",
+      "dedicatedColor": "Gray",
+      "shortName": "DIG",
+      "parent": "mnet",
+      "cancerTypeId": "dig"
+    },
+    {
+      "name": "Diffuse Intrinsic Pontine Glioma",
+      "clinicalTrialKeywords": "diffuse intrinsic pontine glioma",
+      "dedicatedColor": "Gray",
+      "shortName": "DIPG",
+      "parent": "difg",
+      "cancerTypeId": "dipg"
+    },
+    {
+      "name": "Diffuse Large B-Cell Lymphoma",
+      "clinicalTrialKeywords": "diffuse large b-cell lymphoma",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "DLBCL",
+      "parent": "bcl",
+      "cancerTypeId": "dlbcl"
+    },
+    {
+      "name": "Desmoplastic/Nodular Medulloblastoma",
+      "clinicalTrialKeywords": "desmoplastic/nodular medulloblastoma",
+      "dedicatedColor": "Gray",
+      "shortName": "DMBL",
+      "parent": "embt",
+      "cancerTypeId": "dmbl"
+    },
+    {
+      "name": "Dysembryoplastic Neuroepithelial Tumor",
+      "clinicalTrialKeywords": "dysembryoplastic neuroepithelial tumor",
+      "dedicatedColor": "Gray",
+      "shortName": "DNT",
+      "parent": "encg",
+      "cancerTypeId": "dnt"
+    },
+    {
+      "name": "Desmoplastic Small-Round-Cell Tumor",
+      "clinicalTrialKeywords": "desmoplastic small-round-cell tumor",
+      "dedicatedColor": "LightYellow",
+      "shortName": "DSRCT",
+      "parent": "soft_tissue",
+      "cancerTypeId": "dsrct"
+    },
+    {
+      "name": "Diffuse Type Stomach Adenocarcinoma",
+      "clinicalTrialKeywords": "diffuse type stomach adenocarcinoma",
+      "dedicatedColor": "LightSkyBlue",
+      "shortName": "DSTAD",
+      "parent": "stad",
+      "cancerTypeId": "dstad"
+    },
+    {
+      "name": "Desmoplastic Trichoepithelioma",
+      "clinicalTrialKeywords": "desmoplastic trichoepithelioma",
+      "dedicatedColor": "Black",
+      "shortName": "DTE",
+      "parent": "skin",
+      "cancerTypeId": "dte"
+    },
+    {
+      "name": "Endometrioid Borderlin Ovarian Tumor",
+      "clinicalTrialKeywords": "endometrioid borderlin ovarian tumor",
+      "dedicatedColor": "LightBlue",
+      "shortName": "EBOV",
+      "parent": "ovt",
+      "cancerTypeId": "ebov"
+    },
+    {
+      "name": "Endocervical Adenocarcinoma",
+      "clinicalTrialKeywords": "endocervical adenocarcinoma",
+      "dedicatedColor": "Teal",
+      "shortName": "ECAD",
+      "parent": "cead",
+      "cancerTypeId": "ecad"
+    },
+    {
+      "name": "Non-Langerhans Cell Histiocytosis/Erdheim-Chester Disease",
+      "clinicalTrialKeywords": "non-langerhans cell histiocytosis/erdheim-chester disease",
+      "dedicatedColor": "LightSalmon",
+      "shortName": "ECD",
+      "parent": "hist",
+      "cancerTypeId": "ecd"
+    },
+    {
+      "name": "Esophagogastric Adenocarcinoma",
+      "clinicalTrialKeywords": "esophagogastric adenocarcinoma",
+      "dedicatedColor": "LightSkyBlue",
+      "shortName": "EGC",
+      "parent": "stomach",
+      "cancerTypeId": "egc"
+    },
+    {
+      "name": "Epithelioid Hemangioendothelioma",
+      "clinicalTrialKeywords": "epithelioid hemangioendothelioma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "EHAE",
+      "parent": "soft_tissue",
+      "cancerTypeId": "ehae"
+    },
+    {
+      "name": "Extrahepatic Cholangiocarcinoma",
+      "clinicalTrialKeywords": "extrahepatic cholangiocarcinoma",
+      "dedicatedColor": "Green",
+      "shortName": "EHCH",
+      "parent": "chol",
+      "cancerTypeId": "ehch"
+    },
+    {
+      "name": "Epithelial Type Metaplastic Breast Cancer",
+      "clinicalTrialKeywords": "epithelial type metaplastic breast cancer",
+      "dedicatedColor": "HotPink",
+      "shortName": "EMBC",
+      "parent": "mbc",
+      "cancerTypeId": "embc"
+    },
+    {
+      "name": "Embryonal Carcinoma",
+      "clinicalTrialKeywords": "embryonal carcinoma",
+      "dedicatedColor": "Red",
+      "shortName": "EMBCA",
+      "parent": "nsgct",
+      "cancerTypeId": "embca"
+    },
+    {
+      "name": "Embryonal Tumor",
+      "clinicalTrialKeywords": "embryonal tumor",
+      "dedicatedColor": "Gray",
+      "shortName": "EMBT",
+      "parent": "brain",
+      "cancerTypeId": "embt"
+    },
+    {
+      "name": "Extraskeletal Myxoid Chondrosarcoma",
+      "clinicalTrialKeywords": "extraskeletal myxoid chondrosarcoma",
+      "dedicatedColor": "White",
+      "shortName": "EMCHS",
+      "parent": "chs",
+      "cancerTypeId": "emchs"
+    },
+    {
+      "name": "Extramammary Paget Disease",
+      "clinicalTrialKeywords": "extramammary paget disease",
+      "dedicatedColor": "Black",
+      "shortName": "EMPD",
+      "parent": "skin",
+      "cancerTypeId": "empd"
+    },
+    {
+      "name": "Endocrine Mucin Producing Sweat Gland Carcinoma",
+      "clinicalTrialKeywords": "endocrine mucin producing sweat gland carcinoma",
+      "dedicatedColor": "Black",
+      "shortName": "EMPSGC",
+      "parent": "skin",
+      "cancerTypeId": "empsgc"
+    },
+    {
+      "name": "Epithelial-Myoepithelial Carcinoma",
+      "clinicalTrialKeywords": "epithelial-myoepithelial carcinoma",
+      "dedicatedColor": "DarkRed",
+      "shortName": "EMYOCA",
+      "parent": "ohnca",
+      "cancerTypeId": "emyoca"
+    },
+    {
+      "name": "Encapsulated Glioma",
+      "clinicalTrialKeywords": "encapsulated glioma",
+      "dedicatedColor": "Gray",
+      "shortName": "ENCG",
+      "parent": "brain",
+      "cancerTypeId": "encg"
+    },
+    {
+      "name": "Endometrioid Ovarian Cancer",
+      "clinicalTrialKeywords": "endometrioid ovarian cancer",
+      "dedicatedColor": "LightBlue",
+      "shortName": "EOV",
+      "parent": "ovt",
+      "cancerTypeId": "eov"
+    },
+    {
+      "name": "Esophageal Poorly Differentiated Carcinoma",
+      "clinicalTrialKeywords": "esophageal poorly differentiated carcinoma",
+      "dedicatedColor": "LightSkyBlue",
+      "shortName": "EPDCA",
+      "parent": "stomach",
+      "cancerTypeId": "epdca"
+    },
+    {
+      "name": "Epithelioid Sarcoma",
+      "clinicalTrialKeywords": "epithelioid sarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "EPIS",
+      "parent": "soft_tissue",
+      "cancerTypeId": "epis"
+    },
+    {
+      "name": "Ependymoma",
+      "clinicalTrialKeywords": "ependymoma",
+      "dedicatedColor": "Gray",
+      "shortName": "EPM",
+      "parent": "epmt",
+      "cancerTypeId": "epm"
+    },
+    {
+      "name": "Ependymomal Tumor",
+      "clinicalTrialKeywords": "ependymomal tumor",
+      "dedicatedColor": "Gray",
+      "shortName": "EPMT",
+      "parent": "brain",
+      "cancerTypeId": "epmt"
+    },
+    {
+      "name": "Embryonal Rhabdomyosarcoma",
+      "clinicalTrialKeywords": "embryonal rhabdomyosarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "ERMS",
+      "parent": "rms",
+      "cancerTypeId": "erms"
+    },
+    {
+      "name": "Ewing Sarcoma",
+      "clinicalTrialKeywords": "ewing sarcoma",
+      "dedicatedColor": "White",
+      "shortName": "ES",
+      "parent": "bone",
+      "cancerTypeId": "es"
+    },
+    {
+      "name": "Esophageal Adenocarcinoma",
+      "clinicalTrialKeywords": "esophageal adenocarcinoma",
+      "dedicatedColor": "LightSkyBlue",
+      "shortName": "ESCA",
+      "parent": "egc",
+      "cancerTypeId": "esca"
+    },
+    {
+      "name": "Esophageal Squamous Cell Carcinoma",
+      "clinicalTrialKeywords": "esophageal squamous cell carcinoma",
+      "dedicatedColor": "LightSkyBlue",
+      "shortName": "ESCC",
+      "parent": "stomach",
+      "cancerTypeId": "escc"
+    },
+    {
+      "name": "Mucosal Melanoma of the Esophagus",
+      "clinicalTrialKeywords": "mucosal melanoma of the esophagus",
+      "dedicatedColor": "LightSkyBlue",
+      "shortName": "ESMM",
+      "parent": "stomach",
+      "cancerTypeId": "esmm"
+    },
+    {
+      "name": "Endometrial Stromal Sarcoma",
+      "clinicalTrialKeywords": "endometrial stromal sarcoma",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "ESS",
+      "parent": "usarc",
+      "cancerTypeId": "ess"
+    },
+    {
+      "name": "Embryonal Tumor with Abundant Neuropil and True Rosettes",
+      "clinicalTrialKeywords": "embryonal tumor with abundant neuropil and true rosettes",
+      "dedicatedColor": "Gray",
+      "shortName": "ETANTR",
+      "parent": "embt",
+      "cancerTypeId": "etantr"
+    },
+    {
+      "name": "Essential Thrombocythaemia",
+      "clinicalTrialKeywords": "essential thrombocythaemia",
+      "dedicatedColor": "LightSalmon",
+      "shortName": "ETC",
+      "parent": "mpn",
+      "cancerTypeId": "etc"
+    },
+    {
+      "name": "Epithelioid Trophoblastic Tumor",
+      "clinicalTrialKeywords": "epithelioid trophoblastic tumor",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "ETT",
+      "parent": "gtd",
+      "cancerTypeId": "ett"
+    },
+    {
+      "name": "Extraventricular Neurocytoma",
+      "clinicalTrialKeywords": "extraventricular neurocytoma",
+      "dedicatedColor": "Gray",
+      "shortName": "EVN",
+      "parent": "mnet",
+      "cancerTypeId": "evn"
+    },
+    {
+      "name": "Eye",
+      "clinicalTrialKeywords": "eye",
+      "dedicatedColor": "Green",
+      "shortName": "EYE",
+      "parent": "tissue",
+      "cancerTypeId": "eye"
+    },
+    {
+      "name": "Fibroadenoma",
+      "clinicalTrialKeywords": "fibroadenoma",
+      "dedicatedColor": "HotPink",
+      "shortName": "FA",
+      "parent": "bfn",
+      "cancerTypeId": "fa"
+    },
+    {
+      "name": "Follicular Dendritic Cell Sarcoma",
+      "clinicalTrialKeywords": "follicular dendritic cell sarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "FDCS",
+      "parent": "dcs",
+      "cancerTypeId": "fdcs"
+    },
+    {
+      "name": "FH-Deficient Renal Cell Carcinoma",
+      "clinicalTrialKeywords": "fh-deficient renal cell carcinoma",
+      "dedicatedColor": "Orange",
+      "shortName": "FHRCC",
+      "parent": "nccrcc",
+      "cancerTypeId": "fhrcc"
+    },
+    {
+      "name": "Fibrosarcoma",
+      "clinicalTrialKeywords": "fibrosarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "FIBS",
+      "parent": "soft_tissue",
+      "cancerTypeId": "fibs"
+    },
+    {
+      "name": "Fibroblastic Osteosarcoma",
+      "clinicalTrialKeywords": "fibroblastic osteosarcoma",
+      "dedicatedColor": "White",
+      "shortName": "FIOS",
+      "parent": "os",
+      "cancerTypeId": "fios"
+    },
+    {
+      "name": "Follicular Lymphoma",
+      "clinicalTrialKeywords": "follicular lymphoma",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "FL",
+      "parent": "bcl",
+      "cancerTypeId": "fl"
+    },
+    {
+      "name": "Fibrolamellar Carcinoma",
+      "clinicalTrialKeywords": "fibrolamellar carcinoma",
+      "dedicatedColor": "MediumSeaGreen",
+      "shortName": "FLC",
+      "parent": "liver",
+      "cancerTypeId": "flc"
+    },
+    {
+      "name": "Fibrothecoma",
+      "clinicalTrialKeywords": "fibrothecoma",
+      "dedicatedColor": "LightBlue",
+      "shortName": "FT",
+      "parent": "scst",
+      "cancerTypeId": "ft"
+    },
+    {
+      "name": "Glioblastoma",
+      "clinicalTrialKeywords": "glioblastoma",
+      "dedicatedColor": "Gray",
+      "shortName": "GB",
+      "parent": "difg",
+      "cancerTypeId": "gb"
+    },
+    {
+      "name": "Gallbladder Cancer",
+      "clinicalTrialKeywords": "gallbladder cancer",
+      "dedicatedColor": "Green",
+      "shortName": "GBC",
+      "parent": "biliary_tract",
+      "cancerTypeId": "gbc"
+    },
+    {
+      "name": "Glioblastoma Multiforme",
+      "clinicalTrialKeywords": "glioblastoma multiforme",
+      "dedicatedColor": "Gray",
+      "shortName": "GBM",
+      "parent": "gb",
+      "cancerTypeId": "gbm"
+    },
+    {
+      "name": "Goblet Cell Carcinoid of the Appendix",
+      "clinicalTrialKeywords": "goblet cell carcinoid of the appendix",
+      "dedicatedColor": "SaddleBrown",
+      "shortName": "GCCAP",
+      "parent": "apad",
+      "cancerTypeId": "gccap"
+    },
+    {
+      "name": "Gastric Type Mucinous Carcinoma",
+      "clinicalTrialKeywords": "gastric type mucinous carcinoma",
+      "dedicatedColor": "Teal",
+      "shortName": "GCEMU",
+      "parent": "cemu",
+      "cancerTypeId": "gcemu"
+    },
+    {
+      "name": "Giant Cell Carcinoma of the Lung",
+      "clinicalTrialKeywords": "giant cell carcinoma of the lung",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "GCLC",
+      "parent": "lclc",
+      "cancerTypeId": "gclc"
+    },
+    {
+      "name": "Granular Cell Tumor",
+      "clinicalTrialKeywords": "granular cell tumor",
+      "dedicatedColor": "Gray",
+      "shortName": "GCT",
+      "parent": "selt",
+      "cancerTypeId": "gct"
+    },
+    {
+      "name": "Giant Cell Tumor of Bone",
+      "clinicalTrialKeywords": "giant cell tumor of bone",
+      "dedicatedColor": "White",
+      "shortName": "GCTB",
+      "parent": "bone",
+      "cancerTypeId": "gctb"
+    },
+    {
+      "name": "Adenocarcinoma of the Gastroesophageal Junction",
+      "clinicalTrialKeywords": "adenocarcinoma of the gastroesophageal junction",
+      "dedicatedColor": "LightSkyBlue",
+      "shortName": "GEJ",
+      "parent": "egc",
+      "cancerTypeId": "gej"
+    },
+    {
+      "name": "Gastrointestinal Neuroendocrine Tumors",
+      "clinicalTrialKeywords": "gastrointestinal neuroendocrine tumors",
+      "dedicatedColor": "SaddleBrown",
+      "shortName": "GINET",
+      "parent": "bowel",
+      "cancerTypeId": "ginet"
+    },
+    {
+      "name": "Gastrointestinal Stromal Tumor",
+      "clinicalTrialKeywords": "gastrointestinal stromal tumor",
+      "dedicatedColor": "LightYellow",
+      "shortName": "GIST",
+      "parent": "soft_tissue",
+      "cancerTypeId": "gist"
+    },
+    {
+      "name": "Germinoma",
+      "clinicalTrialKeywords": "germinoma",
+      "dedicatedColor": "Gray",
+      "shortName": "GMN",
+      "parent": "bgct",
+      "cancerTypeId": "gmn"
+    },
+    {
+      "name": "Ganglioneuroblastoma",
+      "clinicalTrialKeywords": "ganglioneuroblastoma",
+      "dedicatedColor": "Gray",
+      "shortName": "GNBL",
+      "parent": "embt",
+      "cancerTypeId": "gnbl"
+    },
+    {
+      "name": "Gangliocytoma",
+      "clinicalTrialKeywords": "gangliocytoma",
+      "dedicatedColor": "Gray",
+      "shortName": "GNC",
+      "parent": "encg",
+      "cancerTypeId": "gnc"
+    },
+    {
+      "name": "Ganglioglioma",
+      "clinicalTrialKeywords": "ganglioglioma",
+      "dedicatedColor": "Gray",
+      "shortName": "GNG",
+      "parent": "encg",
+      "cancerTypeId": "gng"
+    },
+    {
+      "name": "Glioma, NOS",
+      "clinicalTrialKeywords": "glioma, nos",
+      "dedicatedColor": "Gray",
+      "shortName": "GNOS",
+      "parent": "difg",
+      "cancerTypeId": "gnos"
+    },
+    {
+      "name": "Gastric Remnant Adenocarcinoma",
+      "clinicalTrialKeywords": "gastric remnant adenocarcinoma",
+      "dedicatedColor": "LightSkyBlue",
+      "shortName": "GRC",
+      "parent": "egc",
+      "cancerTypeId": "grc"
+    },
+    {
+      "name": "Granulosa Cell Tumor",
+      "clinicalTrialKeywords": "granulosa cell tumor",
+      "dedicatedColor": "LightBlue",
+      "shortName": "GRCT",
+      "parent": "scst",
+      "cancerTypeId": "grct"
+    },
+    {
+      "name": "Glomangiosarcoma",
+      "clinicalTrialKeywords": "glomangiosarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "GS",
+      "parent": "soft_tissue",
+      "cancerTypeId": "gs"
+    },
+    {
+      "name": "Gliosarcoma",
+      "clinicalTrialKeywords": "gliosarcoma",
+      "dedicatedColor": "Gray",
+      "shortName": "GSARC",
+      "parent": "gb",
+      "cancerTypeId": "gsarc"
+    },
+    {
+      "name": "Gestational Trophoblastic Disease",
+      "clinicalTrialKeywords": "gestational trophoblastic disease",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "GTD",
+      "parent": "uterus",
+      "cancerTypeId": "gtd"
+    },
+    {
+      "name": "Hepatocellular Carcinoma",
+      "clinicalTrialKeywords": "hepatocellular carcinoma",
+      "dedicatedColor": "MediumSeaGreen",
+      "shortName": "HCC",
+      "parent": "liver",
+      "cancerTypeId": "hcc"
+    },
+    {
+      "name": "Hepatocellular Carcinoma plus Intrahepatic Cholangiocarcinoma",
+      "clinicalTrialKeywords": "hepatocellular carcinoma plus intrahepatic cholangiocarcinoma",
+      "dedicatedColor": "MediumSeaGreen",
+      "shortName": "HCCIHCH",
+      "parent": "liver",
+      "cancerTypeId": "hccihch"
+    },
+    {
+      "name": "Hairy Cell Leukemia",
+      "clinicalTrialKeywords": "hairy cell leukemia",
+      "dedicatedColor": "LightSalmon",
+      "shortName": "HCL",
+      "parent": "leuk",
+      "cancerTypeId": "hcl"
+    },
+    {
+      "name": "Histiocytic Dendritic Cell Sarcoma",
+      "clinicalTrialKeywords": "histiocytic dendritic cell sarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "HDCS",
+      "parent": "dcs",
+      "cancerTypeId": "hdcs"
+    },
+    {
+      "name": "Head and Neck",
+      "clinicalTrialKeywords": "head and neck",
+      "dedicatedColor": "DarkRed",
+      "shortName": "HEAD_NECK",
+      "parent": "tissue",
+      "cancerTypeId": "head_neck"
+    },
+    {
+      "name": "Hemangioma",
+      "clinicalTrialKeywords": "hemangioma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "HEMA",
+      "parent": "soft_tissue",
+      "cancerTypeId": "hema"
+    },
+    {
+      "name": "High-Grade Endometrial Stromal Sarcoma",
+      "clinicalTrialKeywords": "high-grade endometrial stromal sarcoma",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "HGESS",
+      "parent": "ess",
+      "cancerTypeId": "hgess"
+    },
+    {
+      "name": "High-Grade Glioma, NOS",
+      "clinicalTrialKeywords": "high-grade glioma, nos",
+      "dedicatedColor": "Gray",
+      "shortName": "HGGNOS",
+      "parent": "difg",
+      "cancerTypeId": "hggnos"
+    },
+    {
+      "name": "High-Grade Neuroendocrine Carcinoma of the Colon and Rectum",
+      "clinicalTrialKeywords": "high-grade neuroendocrine carcinoma of the colon and rectum",
+      "dedicatedColor": "SaddleBrown",
+      "shortName": "HGNEC",
+      "parent": "ginet",
+      "cancerTypeId": "hgnec"
+    },
+    {
+      "name": "High-Grade Neuroepithelial Tumor",
+      "clinicalTrialKeywords": "high-grade neuroepithelial tumor",
+      "dedicatedColor": "Gray",
+      "shortName": "HGNET",
+      "parent": "mbt",
+      "cancerTypeId": "hgnet"
+    },
+    {
+      "name": "High-Grade Neuroendocrine Carcinoma of the Ovary",
+      "clinicalTrialKeywords": "high-grade neuroendocrine carcinoma of the ovary",
+      "dedicatedColor": "LightBlue",
+      "shortName": "HGONEC",
+      "parent": "oovc",
+      "cancerTypeId": "hgonec"
+    },
+    {
+      "name": "High-Grade Serous Ovarian Cancer",
+      "clinicalTrialKeywords": "high-grade serous ovarian cancer",
+      "dedicatedColor": "LightBlue",
+      "shortName": "HGSOC",
+      "parent": "soc",
+      "cancerTypeId": "hgsoc"
+    },
+    {
+      "name": "High-Grade Surface Osteosarcoma",
+      "clinicalTrialKeywords": "high-grade surface osteosarcoma",
+      "dedicatedColor": "White",
+      "shortName": "HGSOS",
+      "parent": "os",
+      "cancerTypeId": "hgsos"
+    },
+    {
+      "name": "Histiocytosis",
+      "clinicalTrialKeywords": "histiocytosis",
+      "dedicatedColor": "LightSalmon",
+      "shortName": "HIST",
+      "parent": "blood",
+      "cancerTypeId": "hist"
+    },
+    {
+      "name": "Hodgkin Lymphoma",
+      "clinicalTrialKeywords": "hodgkin lymphoma",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "HL",
+      "parent": "lymph",
+      "cancerTypeId": "hl"
+    },
+    {
+      "name": "Hemangioblastoma",
+      "clinicalTrialKeywords": "hemangioblastoma",
+      "dedicatedColor": "Gray",
+      "shortName": "HMBL",
+      "parent": "mbt",
+      "cancerTypeId": "hmbl"
+    },
+    {
+      "name": "Mammary Analogue Secretory Carcinoma of Salivary Gland Origin",
+      "clinicalTrialKeywords": "mammary analogue secretory carcinoma of salivary gland origin",
+      "dedicatedColor": "DarkRed",
+      "shortName": "HNMASC",
+      "parent": "saca",
+      "cancerTypeId": "hnmasc"
+    },
+    {
+      "name": "Head and Neck Mucosal Melanoma",
+      "clinicalTrialKeywords": "head and neck mucosal melanoma",
+      "dedicatedColor": "DarkRed",
+      "shortName": "HNMUCM",
+      "parent": "head_neck",
+      "cancerTypeId": "hnmucm"
+    },
+    {
+      "name": "Head and Neck Neuroendocrine Carcinoma",
+      "clinicalTrialKeywords": "head and neck neuroendocrine carcinoma",
+      "dedicatedColor": "DarkRed",
+      "shortName": "HNNE",
+      "parent": "ohnca",
+      "cancerTypeId": "hnne"
+    },
+    {
+      "name": "Head and Neck Squamous Cell Carcinoma",
+      "clinicalTrialKeywords": "head and neck squamous cell carcinoma",
+      "dedicatedColor": "DarkRed",
+      "shortName": "HNSC",
+      "parent": "head_neck",
+      "cancerTypeId": "hnsc"
+    },
+    {
+      "name": "Head and Neck Squamous Cell Carcinoma of Unknown Primary",
+      "clinicalTrialKeywords": "head and neck squamous cell carcinoma of unknown primary",
+      "dedicatedColor": "DarkRed",
+      "shortName": "HNSCUP",
+      "parent": "hnsc",
+      "cancerTypeId": "hnscup"
+    },
+    {
+      "name": "Hemangiopericytoma of the Central Nervous System",
+      "clinicalTrialKeywords": "hemangiopericytoma of the central nervous system",
+      "dedicatedColor": "Gray",
+      "shortName": "HPCCNS",
+      "parent": "mngt",
+      "cancerTypeId": "hpccns"
+    },
+    {
+      "name": "Hypopharynx Squamous Cell Carcinoma",
+      "clinicalTrialKeywords": "hypopharynx squamous cell carcinoma",
+      "dedicatedColor": "DarkRed",
+      "shortName": "HPHSC",
+      "parent": "hnsc",
+      "cancerTypeId": "hphsc"
+    },
+    {
+      "name": "Hyalinizing Trabecular Adenoma of the Thyroid",
+      "clinicalTrialKeywords": "hyalinizing trabecular adenoma of the thyroid",
+      "dedicatedColor": "Teal",
+      "shortName": "HTAT",
+      "parent": "thyroid",
+      "cancerTypeId": "htat"
+    },
+    {
+      "name": "Intestinal Ampullary Carcinoma",
+      "clinicalTrialKeywords": "intestinal ampullary carcinoma",
+      "dedicatedColor": "Purple",
+      "shortName": "IAMPCA",
+      "parent": "ampca",
+      "cancerTypeId": "iampca"
+    },
+    {
+      "name": "Inflammatory Breast Cancer",
+      "clinicalTrialKeywords": "inflammatory breast cancer",
+      "dedicatedColor": "HotPink",
+      "shortName": "IBC",
+      "parent": "breast",
+      "cancerTypeId": "ibc"
+    },
+    {
+      "name": "Intestinal Type Mucinous Carcinoma",
+      "clinicalTrialKeywords": "intestinal type mucinous carcinoma",
+      "dedicatedColor": "Teal",
+      "shortName": "ICEMU",
+      "parent": "cemu",
+      "cancerTypeId": "icemu"
+    },
+    {
+      "name": "Breast Invasive Ductal Carcinoma",
+      "clinicalTrialKeywords": "breast invasive ductal carcinoma",
+      "dedicatedColor": "HotPink",
+      "shortName": "IDC",
+      "parent": "brca",
+      "cancerTypeId": "idc"
+    },
+    {
+      "name": "Interdigitating Dendritic Cell Sarcoma",
+      "clinicalTrialKeywords": "interdigitating dendritic cell sarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "IDCS",
+      "parent": "dcs",
+      "cancerTypeId": "idcs"
+    },
+    {
+      "name": "Intrahepatic Cholangiocarcinoma",
+      "clinicalTrialKeywords": "intrahepatic cholangiocarcinoma",
+      "dedicatedColor": "Green",
+      "shortName": "IHCH",
+      "parent": "chol",
+      "cancerTypeId": "ihch"
+    },
+    {
+      "name": "Invasive Hydatidiform Mole",
+      "clinicalTrialKeywords": "invasive hydatidiform mole",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "IHM",
+      "parent": "mp",
+      "cancerTypeId": "ihm"
+    },
+    {
+      "name": "Breast Invasive Lobular Carcinoma",
+      "clinicalTrialKeywords": "breast invasive lobular carcinoma",
+      "dedicatedColor": "HotPink",
+      "shortName": "ILC",
+      "parent": "brca",
+      "cancerTypeId": "ilc"
+    },
+    {
+      "name": "Breast Invasive Mixed Mucinous Carcinoma",
+      "clinicalTrialKeywords": "breast invasive mixed mucinous carcinoma",
+      "dedicatedColor": "HotPink",
+      "shortName": "IMMC",
+      "parent": "brca",
+      "cancerTypeId": "immc"
+    },
+    {
+      "name": "Inflammatory Myofibroblastic Tumor",
+      "clinicalTrialKeywords": "inflammatory myofibroblastic tumor",
+      "dedicatedColor": "LightYellow",
+      "shortName": "IMT",
+      "parent": "soft_tissue",
+      "cancerTypeId": "imt"
+    },
+    {
+      "name": "Inflammatory Myofibroblastic Bladder Tumor",
+      "clinicalTrialKeywords": "inflammatory myofibroblastic bladder tumor",
+      "dedicatedColor": "Yellow",
+      "shortName": "IMTB",
+      "parent": "bladder",
+      "cancerTypeId": "imtb"
+    },
+    {
+      "name": "Inflammatory Myofibroblastic Lung Tumor",
+      "clinicalTrialKeywords": "inflammatory myofibroblastic lung tumor",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "IMTL",
+      "parent": "lung",
+      "cancerTypeId": "imtl"
+    },
+    {
+      "name": "Intimal Sarcoma",
+      "clinicalTrialKeywords": "intimal sarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "INTS",
+      "parent": "soft_tissue",
+      "cancerTypeId": "ints"
+    },
+    {
+      "name": "Intraductal Papillary Mucinous Neoplasm",
+      "clinicalTrialKeywords": "intraductal papillary mucinous neoplasm",
+      "dedicatedColor": "Purple",
+      "shortName": "IPMN",
+      "parent": "pact",
+      "cancerTypeId": "ipmn"
+    },
+    {
+      "name": "Intestinal Type Stomach Adenocarcinoma",
+      "clinicalTrialKeywords": "intestinal type stomach adenocarcinoma",
+      "dedicatedColor": "LightSkyBlue",
+      "shortName": "ISTAD",
+      "parent": "stad",
+      "cancerTypeId": "istad"
+    },
+    {
+      "name": "Kidney",
+      "clinicalTrialKeywords": "kidney",
+      "dedicatedColor": "Orange",
+      "shortName": "KIDNEY",
+      "parent": "tissue",
+      "cancerTypeId": "kidney"
+    },
+    {
+      "name": "Lung Adenocarcinoma In Situ",
+      "clinicalTrialKeywords": "lung adenocarcinoma in situ",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "LAIS",
+      "parent": "lung",
+      "cancerTypeId": "lais"
+    },
+    {
+      "name": "Pulmonary Lymphangiomyomatosis",
+      "clinicalTrialKeywords": "pulmonary lymphangiomyomatosis",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "LAM",
+      "parent": "lung",
+      "cancerTypeId": "lam"
+    },
+    {
+      "name": "Langerhans Cell Histiocytosis",
+      "clinicalTrialKeywords": "langerhans cell histiocytosis",
+      "dedicatedColor": "LightSalmon",
+      "shortName": "LCH",
+      "parent": "hist",
+      "cancerTypeId": "lch"
+    },
+    {
+      "name": "Breast Lobular Carcinoma In Situ",
+      "clinicalTrialKeywords": "breast lobular carcinoma in situ",
+      "dedicatedColor": "HotPink",
+      "shortName": "LCIS",
+      "parent": "breast",
+      "cancerTypeId": "lcis"
+    },
+    {
+      "name": "Large Cell Lung Carcinoma",
+      "clinicalTrialKeywords": "large cell lung carcinoma",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "LCLC",
+      "parent": "nsclc",
+      "cancerTypeId": "lclc"
+    },
+    {
+      "name": "Dysplastic Gangliocytoma of the Cerebellum/Lhermitte-Duclos Disease",
+      "clinicalTrialKeywords": "dysplastic gangliocytoma of the cerebellum/lhermitte-duclos disease",
+      "dedicatedColor": "Gray",
+      "shortName": "LDD",
+      "parent": "mnet",
+      "cancerTypeId": "ldd"
+    },
+    {
+      "name": "Lymphoepithelioma-like Carcinoma of the Lung",
+      "clinicalTrialKeywords": "lymphoepithelioma-like carcinoma of the lung",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "LECLC",
+      "parent": "lclc",
+      "cancerTypeId": "leclc"
+    },
+    {
+      "name": "Leukemia",
+      "clinicalTrialKeywords": "leukemia",
+      "dedicatedColor": "LightSalmon",
+      "shortName": "LEUK",
+      "parent": "blood",
+      "cancerTypeId": "leuk"
+    },
+    {
+      "name": "Low-Grade Central Osteosarcoma",
+      "clinicalTrialKeywords": "low-grade central osteosarcoma",
+      "dedicatedColor": "White",
+      "shortName": "LGCOS",
+      "parent": "os",
+      "cancerTypeId": "lgcos"
+    },
+    {
+      "name": "Low-Grade Endometrial Stromal Sarcoma",
+      "clinicalTrialKeywords": "low-grade endometrial stromal sarcoma",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "LGESS",
+      "parent": "ess",
+      "cancerTypeId": "lgess"
+    },
+    {
+      "name": "Low-Grade Fibromyxoid Sarcoma",
+      "clinicalTrialKeywords": "low-grade fibromyxoid sarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "LGFMS",
+      "parent": "soft_tissue",
+      "cancerTypeId": "lgfms"
+    },
+    {
+      "name": "Low-Grade Glioma, NOS",
+      "clinicalTrialKeywords": "low-grade glioma, nos",
+      "dedicatedColor": "Gray",
+      "shortName": "LGGNOS",
+      "parent": "encg",
+      "cancerTypeId": "lggnos"
+    },
+    {
+      "name": "Large Granular Lymphocytic Leukemia",
+      "clinicalTrialKeywords": "large granular lymphocytic leukemia",
+      "dedicatedColor": "LightSalmon",
+      "shortName": "LGLL",
+      "parent": "leuk",
+      "cancerTypeId": "lgll"
+    },
+    {
+      "name": "Low-Grade Neuroepithelial Tumor",
+      "clinicalTrialKeywords": "low-grade neuroepithelial tumor",
+      "dedicatedColor": "Gray",
+      "shortName": "LGNET",
+      "parent": "mbt",
+      "cancerTypeId": "lgnet"
+    },
+    {
+      "name": "Low-Grade Serous Ovarian Cancer",
+      "clinicalTrialKeywords": "low-grade serous ovarian cancer",
+      "dedicatedColor": "LightBlue",
+      "shortName": "LGSOC",
+      "parent": "soc",
+      "cancerTypeId": "lgsoc"
+    },
+    {
+      "name": "Hepatocellular Adenoma",
+      "clinicalTrialKeywords": "hepatocellular adenoma",
+      "dedicatedColor": "MediumSeaGreen",
+      "shortName": "LIAD",
+      "parent": "liver",
+      "cancerTypeId": "liad"
+    },
+    {
+      "name": "Liver Angiosarcoma",
+      "clinicalTrialKeywords": "liver angiosarcoma",
+      "dedicatedColor": "MediumSeaGreen",
+      "shortName": "LIAS",
+      "parent": "liver",
+      "cancerTypeId": "lias"
+    },
+    {
+      "name": "Hepatoblastoma",
+      "clinicalTrialKeywords": "hepatoblastoma",
+      "dedicatedColor": "MediumSeaGreen",
+      "shortName": "LIHB",
+      "parent": "liver",
+      "cancerTypeId": "lihb"
+    },
+    {
+      "name": "Malignant Nonepithelial Tumor of the Liver",
+      "clinicalTrialKeywords": "malignant nonepithelial tumor of the liver",
+      "dedicatedColor": "MediumSeaGreen",
+      "shortName": "LIMNET",
+      "parent": "liver",
+      "cancerTypeId": "limnet"
+    },
+    {
+      "name": "Liposarcoma",
+      "clinicalTrialKeywords": "liposarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "LIPO",
+      "parent": "soft_tissue",
+      "cancerTypeId": "lipo"
+    },
+    {
+      "name": "Liver",
+      "clinicalTrialKeywords": "liver",
+      "dedicatedColor": "MediumSeaGreen",
+      "shortName": "LIVER",
+      "parent": "tissue",
+      "cancerTypeId": "liver"
+    },
+    {
+      "name": "Leiomyosarcoma",
+      "clinicalTrialKeywords": "leiomyosarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "LMS",
+      "parent": "soft_tissue",
+      "cancerTypeId": "lms"
+    },
+    {
+      "name": "Lung Neuroendocrine Tumor",
+      "clinicalTrialKeywords": "lung neuroendocrine tumor",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "LNET",
+      "parent": "lung",
+      "cancerTypeId": "lnet"
+    },
+    {
+      "name": "Adenoid Cystic Carcinoma of the Lung",
+      "clinicalTrialKeywords": "adenoid cystic carcinoma of the lung",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "LUACC",
+      "parent": "sgttl",
+      "cancerTypeId": "luacc"
+    },
+    {
+      "name": "Lung Adenocarcinoma",
+      "clinicalTrialKeywords": "lung adenocarcinoma",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "LUAD",
+      "parent": "nsclc",
+      "cancerTypeId": "luad"
+    },
+    {
+      "name": "Lung Adenosquamous Carcinoma",
+      "clinicalTrialKeywords": "lung adenosquamous carcinoma",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "LUAS",
+      "parent": "nsclc",
+      "cancerTypeId": "luas"
+    },
+    {
+      "name": "Lung Carcinoid",
+      "clinicalTrialKeywords": "lung carcinoid",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "LUCA",
+      "parent": "lnet",
+      "cancerTypeId": "luca"
+    },
+    {
+      "name": "Mucoepidermoid Carcinoma of the Lung",
+      "clinicalTrialKeywords": "mucoepidermoid carcinoma of the lung",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "LUMEC",
+      "parent": "sgttl",
+      "cancerTypeId": "lumec"
+    },
+    {
+      "name": "Large Cell Neuroendocrine Carcinoma",
+      "clinicalTrialKeywords": "large cell neuroendocrine carcinoma",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "LUNE",
+      "parent": "lnet",
+      "cancerTypeId": "lune"
+    },
+    {
+      "name": "Lung",
+      "clinicalTrialKeywords": "lung",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "LUNG",
+      "parent": "tissue",
+      "cancerTypeId": "lung"
+    },
+    {
+      "name": "Pleomorphic Carcinoma of the Lung",
+      "clinicalTrialKeywords": "pleomorphic carcinoma of the lung",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "LUPC",
+      "parent": "nsclc",
+      "cancerTypeId": "lupc"
+    },
+    {
+      "name": "Lung Squamous Cell Carcinoma",
+      "clinicalTrialKeywords": "lung squamous cell carcinoma",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "LUSC",
+      "parent": "nsclc",
+      "cancerTypeId": "lusc"
+    },
+    {
+      "name": "Larynx Squamous Cell Carcinoma",
+      "clinicalTrialKeywords": "larynx squamous cell carcinoma",
+      "dedicatedColor": "DarkRed",
+      "shortName": "LXSC",
+      "parent": "hnsc",
+      "cancerTypeId": "lxsc"
+    },
+    {
+      "name": "Lymph",
+      "clinicalTrialKeywords": "lymph",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "LYMPH",
+      "parent": "tissue",
+      "cancerTypeId": "lymph"
+    },
+    {
+      "name": "Mucinous Adenocarcinoma of the Appendix",
+      "clinicalTrialKeywords": "mucinous adenocarcinoma of the appendix",
+      "dedicatedColor": "SaddleBrown",
+      "shortName": "MAAP",
+      "parent": "apad",
+      "cancerTypeId": "maap"
+    },
+    {
+      "name": "Microcystic Adnexal Carcinoma",
+      "clinicalTrialKeywords": "microcystic adnexal carcinoma",
+      "dedicatedColor": "Black",
+      "shortName": "MAC",
+      "parent": "skin",
+      "cancerTypeId": "mac"
+    },
+    {
+      "name": "Mucinous Adenocarcinoma of the Colon and Rectum",
+      "clinicalTrialKeywords": "mucinous adenocarcinoma of the colon and rectum",
+      "dedicatedColor": "SaddleBrown",
+      "shortName": "MACR",
+      "parent": "coadread",
+      "cancerTypeId": "macr"
+    },
+    {
+      "name": "Extranodal Marginal Zone Lymphoma",
+      "clinicalTrialKeywords": "extranodal marginal zone lymphoma",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "MALTL",
+      "parent": "bcl",
+      "cancerTypeId": "maltl"
+    },
+    {
+      "name": "Mixed Ampullary Carcinoma",
+      "clinicalTrialKeywords": "mixed ampullary carcinoma",
+      "dedicatedColor": "Purple",
+      "shortName": "MAMPCA",
+      "parent": "ampca",
+      "cancerTypeId": "mampca"
+    },
+    {
+      "name": "Metaplastic Adenosquamous Carcinoma",
+      "clinicalTrialKeywords": "metaplastic adenosquamous carcinoma",
+      "dedicatedColor": "HotPink",
+      "shortName": "MASC",
+      "parent": "embc",
+      "cancerTypeId": "masc"
+    },
+    {
+      "name": "Metaplastic Adenocarcinoma with Spindle Cell Differentiation",
+      "clinicalTrialKeywords": "metaplastic adenocarcinoma with spindle cell differentiation",
+      "dedicatedColor": "HotPink",
+      "shortName": "MASCC",
+      "parent": "embc",
+      "cancerTypeId": "mascc"
+    },
+    {
+      "name": "Metaplastic Breast Cancer",
+      "clinicalTrialKeywords": "metaplastic breast cancer",
+      "dedicatedColor": "HotPink",
+      "shortName": "MBC",
+      "parent": "breast",
+      "cancerTypeId": "mbc"
+    },
+    {
+      "name": "Mediastinal Large B-Cell Lymphoma",
+      "clinicalTrialKeywords": "mediastinal large b-cell lymphoma",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "MBCL",
+      "parent": "bcl",
+      "cancerTypeId": "mbcl"
+    },
+    {
+      "name": "Medulloblastoma with Extensive Nodularity",
+      "clinicalTrialKeywords": "medulloblastoma with extensive nodularity",
+      "dedicatedColor": "Gray",
+      "shortName": "MBEN",
+      "parent": "embt",
+      "cancerTypeId": "mben"
+    },
+    {
+      "name": "Medulloblastoma",
+      "clinicalTrialKeywords": "medulloblastoma",
+      "dedicatedColor": "Gray",
+      "shortName": "MBL",
+      "parent": "embt",
+      "cancerTypeId": "mbl"
+    },
+    {
+      "name": "Mucinous Borderline Ovarian Tumor",
+      "clinicalTrialKeywords": "mucinous borderline ovarian tumor",
+      "dedicatedColor": "LightBlue",
+      "shortName": "MBOV",
+      "parent": "ovt",
+      "cancerTypeId": "mbov"
+    },
+    {
+      "name": "Miscellaneous Brain Tumor",
+      "clinicalTrialKeywords": "miscellaneous brain tumor",
+      "dedicatedColor": "Gray",
+      "shortName": "MBT",
+      "parent": "brain",
+      "cancerTypeId": "mbt"
+    },
+    {
+      "name": "Merkel Cell Carcinoma",
+      "clinicalTrialKeywords": "merkel cell carcinoma",
+      "dedicatedColor": "Black",
+      "shortName": "MCC",
+      "parent": "skin",
+      "cancerTypeId": "mcc"
+    },
+    {
+      "name": "Mixed Cervical Carcinoma",
+      "clinicalTrialKeywords": "mixed cervical carcinoma",
+      "dedicatedColor": "Teal",
+      "shortName": "MCCE",
+      "parent": "cervix",
+      "cancerTypeId": "mcce"
+    },
+    {
+      "name": "Mesenchymal Chondrosarcoma",
+      "clinicalTrialKeywords": "mesenchymal chondrosarcoma",
+      "dedicatedColor": "White",
+      "shortName": "MCHS",
+      "parent": "chs",
+      "cancerTypeId": "mchs"
+    },
+    {
+      "name": "Mesenchymal Chondrosarcoma of the CNS",
+      "clinicalTrialKeywords": "mesenchymal chondrosarcoma of the cns",
+      "dedicatedColor": "Gray",
+      "shortName": "MCHSCNS",
+      "parent": "mbt",
+      "cancerTypeId": "mchscns"
+    },
+    {
+      "name": "Mantle Cell Lymphoma",
+      "clinicalTrialKeywords": "mantle cell lymphoma",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "MCL",
+      "parent": "bcl",
+      "cancerTypeId": "mcl"
+    },
+    {
+      "name": "Mucinous Cystic Neoplasm",
+      "clinicalTrialKeywords": "mucinous cystic neoplasm",
+      "dedicatedColor": "Purple",
+      "shortName": "MCN",
+      "parent": "pact",
+      "cancerTypeId": "mcn"
+    },
+    {
+      "name": "Metaplastic Carcinosarcoma",
+      "clinicalTrialKeywords": "metaplastic carcinosarcoma",
+      "dedicatedColor": "HotPink",
+      "shortName": "MCS",
+      "parent": "mmbc",
+      "cancerTypeId": "mcs"
+    },
+    {
+      "name": "Medulloepithelioma",
+      "clinicalTrialKeywords": "medulloepithelioma",
+      "dedicatedColor": "Gray",
+      "shortName": "MDEP",
+      "parent": "embt",
+      "cancerTypeId": "mdep"
+    },
+    {
+      "name": "Breast Mixed Ductal and Lobular Carcinoma",
+      "clinicalTrialKeywords": "breast mixed ductal and lobular carcinoma",
+      "dedicatedColor": "HotPink",
+      "shortName": "MDLC",
+      "parent": "brca",
+      "cancerTypeId": "mdlc"
+    },
+    {
+      "name": "Myelodysplasia",
+      "clinicalTrialKeywords": "myelodysplasia",
+      "dedicatedColor": "LightSalmon",
+      "shortName": "MDS",
+      "parent": "blood",
+      "cancerTypeId": "mds"
+    },
+    {
+      "name": "Melanoma",
+      "clinicalTrialKeywords": "melanoma",
+      "dedicatedColor": "Black",
+      "shortName": "MEL",
+      "parent": "skin",
+      "cancerTypeId": "mel"
+    },
+    {
+      "name": "Myofibroma",
+      "clinicalTrialKeywords": "myofibroma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "MF",
+      "parent": "soft_tissue",
+      "cancerTypeId": "mf"
+    },
+    {
+      "name": "Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma",
+      "clinicalTrialKeywords": "undifferentiated pleomorphic sarcoma/malignant fibrous histiocytoma/high-grade spindle cell sarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "MFH",
+      "parent": "soft_tissue",
+      "cancerTypeId": "mfh"
+    },
+    {
+      "name": "Myxofibrosarcoma",
+      "clinicalTrialKeywords": "myxofibrosarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "MFS",
+      "parent": "soft_tissue",
+      "cancerTypeId": "mfs"
+    },
+    {
+      "name": "Mixed Germ Cell Tumor",
+      "clinicalTrialKeywords": "mixed germ cell tumor",
+      "dedicatedColor": "Red",
+      "shortName": "MGCT",
+      "parent": "nsgct",
+      "cancerTypeId": "mgct"
+    },
+    {
+      "name": "Mixed Cancer Types",
+      "clinicalTrialKeywords": "mixed cancer types",
+      "dedicatedColor": "Black",
+      "shortName": "MIXED",
+      "parent": "cup",
+      "cancerTypeId": "mixed"
+    },
+    {
+      "name": "Malignant Lymphoma",
+      "clinicalTrialKeywords": "malignant lymphoma",
+      "dedicatedColor": "Gray",
+      "shortName": "MLYM",
+      "parent": "mbt",
+      "cancerTypeId": "mlym"
+    },
+    {
+      "name": "Multiple Myeloma",
+      "clinicalTrialKeywords": "multiple myeloma",
+      "dedicatedColor": "LightSalmon",
+      "shortName": "MM",
+      "parent": "blood",
+      "cancerTypeId": "mm"
+    },
+    {
+      "name": "Medullomyoblastoma",
+      "clinicalTrialKeywords": "medullomyoblastoma",
+      "dedicatedColor": "Gray",
+      "shortName": "MMB",
+      "parent": "embt",
+      "cancerTypeId": "mmb"
+    },
+    {
+      "name": "Mixed Type Metaplastic Breast Cancer",
+      "clinicalTrialKeywords": "mixed type metaplastic breast cancer",
+      "dedicatedColor": "HotPink",
+      "shortName": "MMBC",
+      "parent": "mbc",
+      "cancerTypeId": "mmbc"
+    },
+    {
+      "name": "Melanotic Medulloblastoma",
+      "clinicalTrialKeywords": "melanotic medulloblastoma",
+      "dedicatedColor": "Gray",
+      "shortName": "MMBL",
+      "parent": "embt",
+      "cancerTypeId": "mmbl"
+    },
+    {
+      "name": "Miscellaneous Neuroepithelial Tumor",
+      "clinicalTrialKeywords": "miscellaneous neuroepithelial tumor",
+      "dedicatedColor": "Gray",
+      "shortName": "MNET",
+      "parent": "brain",
+      "cancerTypeId": "mnet"
+    },
+    {
+      "name": "Meningioma",
+      "clinicalTrialKeywords": "meningioma",
+      "dedicatedColor": "Gray",
+      "shortName": "MNG",
+      "parent": "mngt",
+      "cancerTypeId": "mng"
+    },
+    {
+      "name": "Meningothelial Tumor",
+      "clinicalTrialKeywords": "meningothelial tumor",
+      "dedicatedColor": "Gray",
+      "shortName": "MNGT",
+      "parent": "brain",
+      "cancerTypeId": "mngt"
+    },
+    {
+      "name": "Mucinous Ovarian Cancer",
+      "clinicalTrialKeywords": "mucinous ovarian cancer",
+      "dedicatedColor": "LightBlue",
+      "shortName": "MOV",
+      "parent": "ovt",
+      "cancerTypeId": "mov"
+    },
+    {
+      "name": "Molar Pregnancy",
+      "clinicalTrialKeywords": "molar pregnancy",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "MP",
+      "parent": "gtd",
+      "cancerTypeId": "mp"
+    },
+    {
+      "name": "Myopericytoma",
+      "clinicalTrialKeywords": "myopericytoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "MPC",
+      "parent": "soft_tissue",
+      "cancerTypeId": "mpc"
+    },
+    {
+      "name": "Myxopapillary Ependymoma",
+      "clinicalTrialKeywords": "myxopapillary ependymoma",
+      "dedicatedColor": "Gray",
+      "shortName": "MPE",
+      "parent": "epmt",
+      "cancerTypeId": "mpe"
+    },
+    {
+      "name": "Myeloproliferative Neoplasm",
+      "clinicalTrialKeywords": "myeloproliferative neoplasm",
+      "dedicatedColor": "LightSalmon",
+      "shortName": "MPN",
+      "parent": "blood",
+      "cancerTypeId": "mpn"
+    },
+    {
+      "name": "Malignant Peripheral Nerve Sheath Tumor",
+      "clinicalTrialKeywords": "malignant peripheral nerve sheath tumor",
+      "dedicatedColor": "Gray",
+      "shortName": "MPNST",
+      "parent": "nst",
+      "cancerTypeId": "mpnst"
+    },
+    {
+      "name": "Malignant Phyllodes Tumor of the Breast",
+      "clinicalTrialKeywords": "malignant phyllodes tumor of the breast",
+      "dedicatedColor": "HotPink",
+      "shortName": "MPT",
+      "parent": "pt",
+      "cancerTypeId": "mpt"
+    },
+    {
+      "name": "Renal Medullary Carcinoma",
+      "clinicalTrialKeywords": "renal medullary carcinoma",
+      "dedicatedColor": "Orange",
+      "shortName": "MRC",
+      "parent": "nccrcc",
+      "cancerTypeId": "mrc"
+    },
+    {
+      "name": "Myxoid/Round-Cell Liposarcoma",
+      "clinicalTrialKeywords": "myxoid/round-cell liposarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "MRLS",
+      "parent": "lipo",
+      "cancerTypeId": "mrls"
+    },
+    {
+      "name": "Rhabdoid Cancer",
+      "clinicalTrialKeywords": "rhabdoid cancer",
+      "dedicatedColor": "Orange",
+      "shortName": "MRT",
+      "parent": "wt",
+      "cancerTypeId": "mrt"
+    },
+    {
+      "name": "Metaplastic Squamous Cell Carcinoma",
+      "clinicalTrialKeywords": "metaplastic squamous cell carcinoma",
+      "dedicatedColor": "HotPink",
+      "shortName": "MSCC",
+      "parent": "embc",
+      "cancerTypeId": "mscc"
+    },
+    {
+      "name": "Melanotic Schwannoma",
+      "clinicalTrialKeywords": "melanotic schwannoma",
+      "dedicatedColor": "Gray",
+      "shortName": "MSCHW",
+      "parent": "schw",
+      "cancerTypeId": "mschw"
+    },
+    {
+      "name": "Mucinous Stomach Adenocarcinoma",
+      "clinicalTrialKeywords": "mucinous stomach adenocarcinoma",
+      "dedicatedColor": "LightSkyBlue",
+      "shortName": "MSTAD",
+      "parent": "stad",
+      "cancerTypeId": "mstad"
+    },
+    {
+      "name": "Malignant Tumor",
+      "clinicalTrialKeywords": "malignant tumor",
+      "dedicatedColor": "Gray",
+      "shortName": "MT",
+      "parent": "mbt",
+      "cancerTypeId": "mt"
+    },
+    {
+      "name": "Renal Mucinous Tubular Spindle Cell Carcinoma",
+      "clinicalTrialKeywords": "renal mucinous tubular spindle cell carcinoma",
+      "dedicatedColor": "Orange",
+      "shortName": "MTSCC",
+      "parent": "nccrcc",
+      "cancerTypeId": "mtscc"
+    },
+    {
+      "name": "Mucoepidermoid Carcinoma",
+      "clinicalTrialKeywords": "mucoepidermoid carcinoma",
+      "dedicatedColor": "DarkRed",
+      "shortName": "MUCC",
+      "parent": "saca",
+      "cancerTypeId": "mucc"
+    },
+    {
+      "name": "Melanoma of Unknown Primary",
+      "clinicalTrialKeywords": "melanoma of unknown primary",
+      "dedicatedColor": "Black",
+      "shortName": "MUP",
+      "parent": "mel",
+      "cancerTypeId": "mup"
+    },
+    {
+      "name": "Mixed Ovarian Carcinoma",
+      "clinicalTrialKeywords": "mixed ovarian carcinoma",
+      "dedicatedColor": "LightBlue",
+      "shortName": "MXOV",
+      "parent": "ovt",
+      "cancerTypeId": "mxov"
+    },
+    {
+      "name": "Mycosis Fungoides",
+      "clinicalTrialKeywords": "mycosis fungoides",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "MYCF",
+      "parent": "ctcl",
+      "cancerTypeId": "mycf"
+    },
+    {
+      "name": "Myxoid Chondrosarcoma",
+      "clinicalTrialKeywords": "myxoid chondrosarcoma",
+      "dedicatedColor": "White",
+      "shortName": "MYCHS",
+      "parent": "chs",
+      "cancerTypeId": "mychs"
+    },
+    {
+      "name": "Myoepithelial Carcinoma",
+      "clinicalTrialKeywords": "myoepithelial carcinoma",
+      "dedicatedColor": "DarkRed",
+      "shortName": "MYEC",
+      "parent": "saca",
+      "cancerTypeId": "myec"
+    },
+    {
+      "name": "Myelofibrosis/Osteomyelofibrosis",
+      "clinicalTrialKeywords": "myelofibrosis/osteomyelofibrosis",
+      "dedicatedColor": "LightSalmon",
+      "shortName": "MYF",
+      "parent": "mpn",
+      "cancerTypeId": "myf"
+    },
+    {
+      "name": "Myxoma",
+      "clinicalTrialKeywords": "myxoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "MYXO",
+      "parent": "soft_tissue",
+      "cancerTypeId": "myxo"
+    },
+    {
+      "name": "Marginal Zone Lymphoma",
+      "clinicalTrialKeywords": "marginal zone lymphoma",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "MZL",
+      "parent": "bcl",
+      "cancerTypeId": "mzl"
+    },
+    {
+      "name": "Neuroblastoma",
+      "clinicalTrialKeywords": "neuroblastoma",
+      "dedicatedColor": "Gray",
+      "shortName": "NBL",
+      "parent": "embt",
+      "cancerTypeId": "nbl"
+    },
+    {
+      "name": "Renal Non-Clear Cell Carcinoma",
+      "clinicalTrialKeywords": "renal non-clear cell carcinoma",
+      "dedicatedColor": "Orange",
+      "shortName": "NCCRCC",
+      "parent": "rcc",
+      "cancerTypeId": "nccrcc"
+    },
+    {
+      "name": "Neuroendocrine Carcinoma, NOS",
+      "clinicalTrialKeywords": "neuroendocrine carcinoma, nos",
+      "dedicatedColor": "Black",
+      "shortName": "NECNOS",
+      "parent": "cup",
+      "cancerTypeId": "necnos"
+    },
+    {
+      "name": "Neuroendocrine Tumor, NOS",
+      "clinicalTrialKeywords": "neuroendocrine tumor, nos",
+      "dedicatedColor": "Black",
+      "shortName": "NETNOS",
+      "parent": "cup",
+      "cancerTypeId": "netnos"
+    },
+    {
+      "name": "Neurofibroma",
+      "clinicalTrialKeywords": "neurofibroma",
+      "dedicatedColor": "Gray",
+      "shortName": "NFIB",
+      "parent": "nst",
+      "cancerTypeId": "nfib"
+    },
+    {
+      "name": "Non-Hodgkin Lymphoma",
+      "clinicalTrialKeywords": "non-hodgkin lymphoma",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "NHL",
+      "parent": "lymph",
+      "cancerTypeId": "nhl"
+    },
+    {
+      "name": "Nodular Lymphocyte-Predominant Hodgkin Lymphoma",
+      "clinicalTrialKeywords": "nodular lymphocyte-predominant hodgkin lymphoma",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "NLPHL",
+      "parent": "hl",
+      "cancerTypeId": "nlphl"
+    },
+    {
+      "name": "NUT Midline Carcinoma of the Head and Neck",
+      "clinicalTrialKeywords": "nut midline carcinoma of the head and neck",
+      "dedicatedColor": "DarkRed",
+      "shortName": "NMCHN",
+      "parent": "ohnca",
+      "cancerTypeId": "nmchn"
+    },
+    {
+      "name": "Nodal Marginal Zone Lymphoma",
+      "clinicalTrialKeywords": "nodal marginal zone lymphoma",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "NMZL",
+      "parent": "bcl",
+      "cancerTypeId": "nmzl"
+    },
+    {
+      "name": "Nasopharyngeal Carcinoma",
+      "clinicalTrialKeywords": "nasopharyngeal carcinoma",
+      "dedicatedColor": "DarkRed",
+      "shortName": "NPC",
+      "parent": "head_neck",
+      "cancerTypeId": "npc"
+    },
+    {
+      "name": "Non-Small Cell Lung Cancer",
+      "clinicalTrialKeywords": "non-small cell lung cancer",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "NSCLC",
+      "parent": "lung",
+      "cancerTypeId": "nsclc"
+    },
+    {
+      "name": "Poorly Differentiated Non-Small Cell Lung Cancer",
+      "clinicalTrialKeywords": "poorly differentiated non-small cell lung cancer",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "NSCLCPD",
+      "parent": "nsclc",
+      "cancerTypeId": "nsclcpd"
+    },
+    {
+      "name": "Non-Seminomatous Germ Cell Tumor",
+      "clinicalTrialKeywords": "non-seminomatous germ cell tumor",
+      "dedicatedColor": "Red",
+      "shortName": "NSGCT",
+      "parent": "testis",
+      "cancerTypeId": "nsgct"
+    },
+    {
+      "name": "Nerve Sheath Tumor",
+      "clinicalTrialKeywords": "nerve sheath tumor",
+      "dedicatedColor": "Gray",
+      "shortName": "NST",
+      "parent": "pns",
+      "cancerTypeId": "nst"
+    },
+    {
+      "name": "Oligoastrocytoma",
+      "clinicalTrialKeywords": "oligoastrocytoma",
+      "dedicatedColor": "Gray",
+      "shortName": "OAST",
+      "parent": "difg",
+      "cancerTypeId": "oast"
+    },
+    {
+      "name": "Ovarian Carcinosarcoma/Malignant Mixed Mesodermal Tumor",
+      "clinicalTrialKeywords": "ovarian carcinosarcoma/malignant mixed mesodermal tumor",
+      "dedicatedColor": "LightBlue",
+      "shortName": "OCS",
+      "parent": "ovt",
+      "cancerTypeId": "ocs"
+    },
+    {
+      "name": "Oral Cavity Squamous Cell Carcinoma",
+      "clinicalTrialKeywords": "oral cavity squamous cell carcinoma",
+      "dedicatedColor": "DarkRed",
+      "shortName": "OCSC",
+      "parent": "hnsc",
+      "cancerTypeId": "ocsc"
+    },
+    {
+      "name": "Oligodendroglioma",
+      "clinicalTrialKeywords": "oligodendroglioma",
+      "dedicatedColor": "Gray",
+      "shortName": "ODG",
+      "parent": "difg",
+      "cancerTypeId": "odg"
+    },
+    {
+      "name": "Odontogenic Carcinoma",
+      "clinicalTrialKeywords": "odontogenic carcinoma",
+      "dedicatedColor": "DarkRed",
+      "shortName": "ODGC",
+      "parent": "ohnca",
+      "cancerTypeId": "odgc"
+    },
+    {
+      "name": "Dysgerminoma",
+      "clinicalTrialKeywords": "dysgerminoma",
+      "dedicatedColor": "LightBlue",
+      "shortName": "ODYS",
+      "parent": "ogct",
+      "cancerTypeId": "odys"
+    },
+    {
+      "name": "Embryonal Carcinoma",
+      "clinicalTrialKeywords": "embryonal carcinoma",
+      "dedicatedColor": "LightBlue",
+      "shortName": "OEC",
+      "parent": "ogct",
+      "cancerTypeId": "oec"
+    },
+    {
+      "name": "Ossifying Fibromyxoid Tumor",
+      "clinicalTrialKeywords": "ossifying fibromyxoid tumor",
+      "dedicatedColor": "LightYellow",
+      "shortName": "OFMT",
+      "parent": "myxo",
+      "cancerTypeId": "ofmt"
+    },
+    {
+      "name": "Gonadoblastoma",
+      "clinicalTrialKeywords": "gonadoblastoma",
+      "dedicatedColor": "LightBlue",
+      "shortName": "OGBL",
+      "parent": "scst",
+      "cancerTypeId": "ogbl"
+    },
+    {
+      "name": "Ovarian Germ Cell Tumor",
+      "clinicalTrialKeywords": "ovarian germ cell tumor",
+      "dedicatedColor": "LightBlue",
+      "shortName": "OGCT",
+      "parent": "ovary",
+      "cancerTypeId": "ogct"
+    },
+    {
+      "name": "Head and Neck Carcinoma, Other",
+      "clinicalTrialKeywords": "head and neck carcinoma, other",
+      "dedicatedColor": "DarkRed",
+      "shortName": "OHNCA",
+      "parent": "head_neck",
+      "cancerTypeId": "ohnca"
+    },
+    {
+      "name": "Immature Teratoma",
+      "clinicalTrialKeywords": "immature teratoma",
+      "dedicatedColor": "LightBlue",
+      "shortName": "OIMT",
+      "parent": "ogct",
+      "cancerTypeId": "oimt"
+    },
+    {
+      "name": "Ocular Melanoma",
+      "clinicalTrialKeywords": "ocular melanoma",
+      "dedicatedColor": "Green",
+      "shortName": "OM",
+      "parent": "eye",
+      "cancerTypeId": "om"
+    },
+    {
+      "name": "Mixed Germ Cell Tumor",
+      "clinicalTrialKeywords": "mixed germ cell tumor",
+      "dedicatedColor": "LightBlue",
+      "shortName": "OMGCT",
+      "parent": "ogct",
+      "cancerTypeId": "omgct"
+    },
+    {
+      "name": "Mature Teratoma",
+      "clinicalTrialKeywords": "mature teratoma",
+      "dedicatedColor": "LightBlue",
+      "shortName": "OMT",
+      "parent": "ogct",
+      "cancerTypeId": "omt"
+    },
+    {
+      "name": "Olfactory Neuroblastoma",
+      "clinicalTrialKeywords": "olfactory neuroblastoma",
+      "dedicatedColor": "Gray",
+      "shortName": "ONBL",
+      "parent": "embt",
+      "cancerTypeId": "onbl"
+    },
+    {
+      "name": "Ovarian Cancer, Other",
+      "clinicalTrialKeywords": "ovarian cancer, other",
+      "dedicatedColor": "LightBlue",
+      "shortName": "OOVC",
+      "parent": "ovary",
+      "cancerTypeId": "oovc"
+    },
+    {
+      "name": "Polyembryoma",
+      "clinicalTrialKeywords": "polyembryoma",
+      "dedicatedColor": "LightBlue",
+      "shortName": "OPE",
+      "parent": "ogct",
+      "cancerTypeId": "ope"
+    },
+    {
+      "name": "Oropharynx Squamous Cell Carcinoma",
+      "clinicalTrialKeywords": "oropharynx squamous cell carcinoma",
+      "dedicatedColor": "DarkRed",
+      "shortName": "OPHSC",
+      "parent": "hnsc",
+      "cancerTypeId": "ophsc"
+    },
+    {
+      "name": "Osteosarcoma",
+      "clinicalTrialKeywords": "osteosarcoma",
+      "dedicatedColor": "White",
+      "shortName": "OS",
+      "parent": "bone",
+      "cancerTypeId": "os"
+    },
+    {
+      "name": "Salivary Carcinoma, Other",
+      "clinicalTrialKeywords": "salivary carcinoma, other",
+      "dedicatedColor": "DarkRed",
+      "shortName": "OSACA",
+      "parent": "saca",
+      "cancerTypeId": "osaca"
+    },
+    {
+      "name": "Ovarian Seromucinous Adenoma",
+      "clinicalTrialKeywords": "ovarian seromucinous adenoma",
+      "dedicatedColor": "LightBlue",
+      "shortName": "OSMAD",
+      "parent": "ovt",
+      "cancerTypeId": "osmad"
+    },
+    {
+      "name": "Ovarian Seromucinous Borderline Tumor",
+      "clinicalTrialKeywords": "ovarian seromucinous borderline tumor",
+      "dedicatedColor": "LightBlue",
+      "shortName": "OSMBT",
+      "parent": "ovt",
+      "cancerTypeId": "osmbt"
+    },
+    {
+      "name": "Ovarian Seromucinous Carcinoma",
+      "clinicalTrialKeywords": "ovarian seromucinous carcinoma",
+      "dedicatedColor": "LightBlue",
+      "shortName": "OSMCA",
+      "parent": "ovt",
+      "cancerTypeId": "osmca"
+    },
+    {
+      "name": "Osteoblastic Osteosarcoma",
+      "clinicalTrialKeywords": "osteoblastic osteosarcoma",
+      "dedicatedColor": "White",
+      "shortName": "OSOS",
+      "parent": "os",
+      "cancerTypeId": "osos"
+    },
+    {
+      "name": "Other",
+      "clinicalTrialKeywords": "other",
+      "dedicatedColor": "Black",
+      "shortName": "OTHER",
+      "parent": "tissue",
+      "cancerTypeId": "other"
+    },
+    {
+      "name": "Uterine Sarcoma, Other",
+      "clinicalTrialKeywords": "uterine sarcoma, other",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "OUSARC",
+      "parent": "usarc",
+      "cancerTypeId": "ousarc"
+    },
+    {
+      "name": "Other Uterine Tumor",
+      "clinicalTrialKeywords": "other uterine tumor",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "OUTT",
+      "parent": "uterus",
+      "cancerTypeId": "outt"
+    },
+    {
+      "name": "Ovary/Fallopian Tube",
+      "clinicalTrialKeywords": "ovary/fallopian tube",
+      "dedicatedColor": "LightBlue",
+      "shortName": "OVARY",
+      "parent": "tissue",
+      "cancerTypeId": "ovary"
+    },
+    {
+      "name": "Ovarian Epithelial Tumor",
+      "clinicalTrialKeywords": "ovarian epithelial tumor",
+      "dedicatedColor": "LightBlue",
+      "shortName": "OVT",
+      "parent": "ovary",
+      "cancerTypeId": "ovt"
+    },
+    {
+      "name": "Yolk Sac Tumor",
+      "clinicalTrialKeywords": "yolk sac tumor",
+      "dedicatedColor": "LightBlue",
+      "shortName": "OYST",
+      "parent": "ogct",
+      "cancerTypeId": "oyst"
+    },
+    {
+      "name": "Acinar Cell Carcinoma of the Pancreas",
+      "clinicalTrialKeywords": "acinar cell carcinoma of the pancreas",
+      "dedicatedColor": "Purple",
+      "shortName": "PAAC",
+      "parent": "pancreas",
+      "cancerTypeId": "paac"
+    },
+    {
+      "name": "Pancreatic Adenocarcinoma",
+      "clinicalTrialKeywords": "pancreatic adenocarcinoma",
+      "dedicatedColor": "Purple",
+      "shortName": "PAAD",
+      "parent": "pancreas",
+      "cancerTypeId": "paad"
+    },
+    {
+      "name": "Adenosquamous Carcinoma of the Pancreas",
+      "clinicalTrialKeywords": "adenosquamous carcinoma of the pancreas",
+      "dedicatedColor": "Purple",
+      "shortName": "PAASC",
+      "parent": "pancreas",
+      "cancerTypeId": "paasc"
+    },
+    {
+      "name": "Cystic Tumor of the Pancreas",
+      "clinicalTrialKeywords": "cystic tumor of the pancreas",
+      "dedicatedColor": "Purple",
+      "shortName": "PACT",
+      "parent": "pancreas",
+      "cancerTypeId": "pact"
+    },
+    {
+      "name": "Pancreatobiliary Ampullary Carcinoma",
+      "clinicalTrialKeywords": "pancreatobiliary ampullary carcinoma",
+      "dedicatedColor": "Purple",
+      "shortName": "PAMPCA",
+      "parent": "ampca",
+      "cancerTypeId": "pampca"
+    },
+    {
+      "name": "Pancreas",
+      "clinicalTrialKeywords": "pancreas",
+      "dedicatedColor": "Purple",
+      "shortName": "PANCREAS",
+      "parent": "tissue",
+      "cancerTypeId": "pancreas"
+    },
+    {
+      "name": "Pancreatic Neuroendocrine Tumor",
+      "clinicalTrialKeywords": "pancreatic neuroendocrine tumor",
+      "dedicatedColor": "Purple",
+      "shortName": "PANET",
+      "parent": "pancreas",
+      "cancerTypeId": "panet"
+    },
+    {
+      "name": "Parosteal Osteosarcoma",
+      "clinicalTrialKeywords": "parosteal osteosarcoma",
+      "dedicatedColor": "White",
+      "shortName": "PAOS",
+      "parent": "os",
+      "cancerTypeId": "paos"
+    },
+    {
+      "name": "Pilocytic Astrocytoma",
+      "clinicalTrialKeywords": "pilocytic astrocytoma",
+      "dedicatedColor": "Gray",
+      "shortName": "PAST",
+      "parent": "encg",
+      "cancerTypeId": "past"
+    },
+    {
+      "name": "Pancreatoblastoma",
+      "clinicalTrialKeywords": "pancreatoblastoma",
+      "dedicatedColor": "Purple",
+      "shortName": "PB",
+      "parent": "pancreas",
+      "cancerTypeId": "pb"
+    },
+    {
+      "name": "Pineoblastoma",
+      "clinicalTrialKeywords": "pineoblastoma",
+      "dedicatedColor": "Gray",
+      "shortName": "PBL",
+      "parent": "pint",
+      "cancerTypeId": "pbl"
+    },
+    {
+      "name": "Breast Sarcoma",
+      "clinicalTrialKeywords": "breast sarcoma",
+      "dedicatedColor": "HotPink",
+      "shortName": "PBS",
+      "parent": "breast",
+      "cancerTypeId": "pbs"
+    },
+    {
+      "name": "Primary Brain Tumor",
+      "clinicalTrialKeywords": "primary brain tumor",
+      "dedicatedColor": "Gray",
+      "shortName": "PBT",
+      "parent": "mbt",
+      "cancerTypeId": "pbt"
+    },
+    {
+      "name": "Craniopharyngioma, Papillary Type",
+      "clinicalTrialKeywords": "craniopharyngioma, papillary type",
+      "dedicatedColor": "Gray",
+      "shortName": "PCGP",
+      "parent": "selt",
+      "cancerTypeId": "pcgp"
+    },
+    {
+      "name": "Primary CNS Lymphoma",
+      "clinicalTrialKeywords": "primary cns lymphoma",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "PCNSL",
+      "parent": "bcl",
+      "cancerTypeId": "pcnsl"
+    },
+    {
+      "name": "Primary CNS Melanoma",
+      "clinicalTrialKeywords": "primary cns melanoma",
+      "dedicatedColor": "LightSkyBlue",
+      "shortName": "PCNSM",
+      "parent": "brain",
+      "cancerTypeId": "pcnsm"
+    },
+    {
+      "name": "Porphyria Cutania Tarda",
+      "clinicalTrialKeywords": "porphyria cutania tarda",
+      "dedicatedColor": "Black",
+      "shortName": "PCT",
+      "parent": "skin",
+      "cancerTypeId": "pct"
+    },
+    {
+      "name": "Polycythemia Vera",
+      "clinicalTrialKeywords": "polycythemia vera",
+      "dedicatedColor": "LightSalmon",
+      "shortName": "PCV",
+      "parent": "mpn",
+      "cancerTypeId": "pcv"
+    },
+    {
+      "name": "Paget Disease of the Nipple",
+      "clinicalTrialKeywords": "paget disease of the nipple",
+      "dedicatedColor": "HotPink",
+      "shortName": "PD",
+      "parent": "dcis",
+      "cancerTypeId": "pd"
+    },
+    {
+      "name": "Poorly Differentiated Carcinoma, NOS",
+      "clinicalTrialKeywords": "poorly differentiated carcinoma, nos",
+      "dedicatedColor": "Black",
+      "shortName": "PDC",
+      "parent": "cup",
+      "cancerTypeId": "pdc"
+    },
+    {
+      "name": "Perivascular Epithelioid Cell Tumor",
+      "clinicalTrialKeywords": "perivascular epithelioid cell tumor",
+      "dedicatedColor": "LightYellow",
+      "shortName": "PECOMA",
+      "parent": "soft_tissue",
+      "cancerTypeId": "pecoma"
+    },
+    {
+      "name": "Primary Effusion Lymphoma",
+      "clinicalTrialKeywords": "primary effusion lymphoma",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "PEL",
+      "parent": "bcl",
+      "cancerTypeId": "pel"
+    },
+    {
+      "name": "Peritoneal Mesothelioma",
+      "clinicalTrialKeywords": "peritoneal mesothelioma",
+      "dedicatedColor": "Green",
+      "shortName": "PEMESO",
+      "parent": "peritoneum",
+      "cancerTypeId": "pemeso"
+    },
+    {
+      "name": "Penis",
+      "clinicalTrialKeywords": "penis",
+      "dedicatedColor": "Blue",
+      "shortName": "PENIS",
+      "parent": "tissue",
+      "cancerTypeId": "penis"
+    },
+    {
+      "name": "Periosteal Osteosarcoma",
+      "clinicalTrialKeywords": "periosteal osteosarcoma",
+      "dedicatedColor": "White",
+      "shortName": "PEOS",
+      "parent": "os",
+      "cancerTypeId": "peos"
+    },
+    {
+      "name": "Peritoneum",
+      "clinicalTrialKeywords": "peritoneum",
+      "dedicatedColor": "Green",
+      "shortName": "PERITONEUM",
+      "parent": "tissue",
+      "cancerTypeId": "peritoneum"
+    },
+    {
+      "name": "Paraganglioma",
+      "clinicalTrialKeywords": "paraganglioma",
+      "dedicatedColor": "Gray",
+      "shortName": "PGNG",
+      "parent": "soft_tissue",
+      "cancerTypeId": "pgng"
+    },
+    {
+      "name": "Papillary Glioneuronal Tumor",
+      "clinicalTrialKeywords": "papillary glioneuronal tumor",
+      "dedicatedColor": "Gray",
+      "shortName": "PGNT",
+      "parent": "mnet",
+      "cancerTypeId": "pgnt"
+    },
+    {
+      "name": "Pheochromocytoma",
+      "clinicalTrialKeywords": "pheochromocytoma",
+      "dedicatedColor": "Purple",
+      "shortName": "PHC",
+      "parent": "adrenal_gland",
+      "cancerTypeId": "phc"
+    },
+    {
+      "name": "Perihilar Cholangiocarcinoma",
+      "clinicalTrialKeywords": "perihilar cholangiocarcinoma",
+      "dedicatedColor": "Green",
+      "shortName": "PHCH",
+      "parent": "chol",
+      "cancerTypeId": "phch"
+    },
+    {
+      "name": "Partial Hydatidiform Mole",
+      "clinicalTrialKeywords": "partial hydatidiform mole",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "PHM",
+      "parent": "mp",
+      "cancerTypeId": "phm"
+    },
+    {
+      "name": "Pineocytoma",
+      "clinicalTrialKeywords": "pineocytoma",
+      "dedicatedColor": "Gray",
+      "shortName": "PINC",
+      "parent": "pint",
+      "cancerTypeId": "pinc"
+    },
+    {
+      "name": "Pineal Tumor",
+      "clinicalTrialKeywords": "pineal tumor",
+      "dedicatedColor": "Gray",
+      "shortName": "PINT",
+      "parent": "brain",
+      "cancerTypeId": "pint"
+    },
+    {
+      "name": "Pleural Mesothelioma, Biphasic Type",
+      "clinicalTrialKeywords": "pleural mesothelioma, biphasic type",
+      "dedicatedColor": "Blue",
+      "shortName": "PLBMESO",
+      "parent": "plmeso",
+      "cancerTypeId": "plbmeso"
+    },
+    {
+      "name": "Pleural Mesothelioma, Epithelioid Type",
+      "clinicalTrialKeywords": "pleural mesothelioma, epithelioid type",
+      "dedicatedColor": "Blue",
+      "shortName": "PLEMESO",
+      "parent": "plmeso",
+      "cancerTypeId": "plemeso"
+    },
+    {
+      "name": "Pleura",
+      "clinicalTrialKeywords": "pleura",
+      "dedicatedColor": "Blue",
+      "shortName": "PLEURA",
+      "parent": "tissue",
+      "cancerTypeId": "pleura"
+    },
+    {
+      "name": "Pleomorphic Liposarcoma",
+      "clinicalTrialKeywords": "pleomorphic liposarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "PLLS",
+      "parent": "lipo",
+      "cancerTypeId": "plls"
+    },
+    {
+      "name": "Pleural Mesothelioma",
+      "clinicalTrialKeywords": "pleural mesothelioma",
+      "dedicatedColor": "Blue",
+      "shortName": "PLMESO",
+      "parent": "pleura",
+      "cancerTypeId": "plmeso"
+    },
+    {
+      "name": "Pleomorphic Rhabdomyosarcoma",
+      "clinicalTrialKeywords": "pleomorphic rhabdomyosarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "PLRMS",
+      "parent": "rms",
+      "cancerTypeId": "plrms"
+    },
+    {
+      "name": "Pleural Mesothelioma, Sarcomatoid Type",
+      "clinicalTrialKeywords": "pleural mesothelioma, sarcomatoid type",
+      "dedicatedColor": "Blue",
+      "shortName": "PLSMESO",
+      "parent": "plmeso",
+      "cancerTypeId": "plsmeso"
+    },
+    {
+      "name": "Pilomyxoid Astrocytoma",
+      "clinicalTrialKeywords": "pilomyxoid astrocytoma",
+      "dedicatedColor": "Gray",
+      "shortName": "PMA",
+      "parent": "encg",
+      "cancerTypeId": "pma"
+    },
+    {
+      "name": "Pseudomyogenic Hemangioendothelioma",
+      "clinicalTrialKeywords": "pseudomyogenic hemangioendothelioma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "PMHE",
+      "parent": "soft_tissue",
+      "cancerTypeId": "pmhe"
+    },
+    {
+      "name": "Primitive Neuroectodermal Tumor",
+      "clinicalTrialKeywords": "primitive neuroectodermal tumor",
+      "dedicatedColor": "Gray",
+      "shortName": "PNET",
+      "parent": "embt",
+      "cancerTypeId": "pnet"
+    },
+    {
+      "name": "Peripheral Nervous System",
+      "clinicalTrialKeywords": "peripheral nervous system",
+      "dedicatedColor": "Gray",
+      "shortName": "PNS",
+      "parent": "tissue",
+      "cancerTypeId": "pns"
+    },
+    {
+      "name": "Porocarcinoma/Spiroadenocarcinoma",
+      "clinicalTrialKeywords": "porocarcinoma/spiroadenocarcinoma",
+      "dedicatedColor": "Black",
+      "shortName": "POCA",
+      "parent": "skin",
+      "cancerTypeId": "poca"
+    },
+    {
+      "name": "Poroma/Acrospiroma",
+      "clinicalTrialKeywords": "poroma/acrospiroma",
+      "dedicatedColor": "Black",
+      "shortName": "PORO",
+      "parent": "skin",
+      "cancerTypeId": "poro"
+    },
+    {
+      "name": "Pleuropulmonary Blastoma",
+      "clinicalTrialKeywords": "pleuropulmonary blastoma",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "PPB",
+      "parent": "lung",
+      "cancerTypeId": "ppb"
+    },
+    {
+      "name": "Proliferating Pilar Cystic Tumor",
+      "clinicalTrialKeywords": "proliferating pilar cystic tumor",
+      "dedicatedColor": "Black",
+      "shortName": "PPCT",
+      "parent": "skin",
+      "cancerTypeId": "ppct"
+    },
+    {
+      "name": "Papillary Meningioma",
+      "clinicalTrialKeywords": "papillary meningioma",
+      "dedicatedColor": "Gray",
+      "shortName": "PPM",
+      "parent": "mngt",
+      "cancerTypeId": "ppm"
+    },
+    {
+      "name": "Pineal Parenchymal Tumor of Intermediate Differentiation",
+      "clinicalTrialKeywords": "pineal parenchymal tumor of intermediate differentiation",
+      "dedicatedColor": "Gray",
+      "shortName": "PPTID",
+      "parent": "pint",
+      "cancerTypeId": "pptid"
+    },
+    {
+      "name": "Prostate Adenocarcinoma",
+      "clinicalTrialKeywords": "prostate adenocarcinoma",
+      "dedicatedColor": "Cyan",
+      "shortName": "PRAD",
+      "parent": "prostate",
+      "cancerTypeId": "prad"
+    },
+    {
+      "name": "Papillary Renal Cell Carcinoma",
+      "clinicalTrialKeywords": "papillary renal cell carcinoma",
+      "dedicatedColor": "Orange",
+      "shortName": "PRCC",
+      "parent": "nccrcc",
+      "cancerTypeId": "prcc"
+    },
+    {
+      "name": "Prostate Neuroendocrine Carcinoma",
+      "clinicalTrialKeywords": "prostate neuroendocrine carcinoma",
+      "dedicatedColor": "Cyan",
+      "shortName": "PRNE",
+      "parent": "prostate",
+      "cancerTypeId": "prne"
+    },
+    {
+      "name": "Primary Neuroepithelial Tumor",
+      "clinicalTrialKeywords": "primary neuroepithelial tumor",
+      "dedicatedColor": "Gray",
+      "shortName": "PRNET",
+      "parent": "mbt",
+      "cancerTypeId": "prnet"
+    },
+    {
+      "name": "Prostate",
+      "clinicalTrialKeywords": "prostate",
+      "dedicatedColor": "Cyan",
+      "shortName": "PROSTATE",
+      "parent": "tissue",
+      "cancerTypeId": "prostate"
+    },
+    {
+      "name": "Prostate Squamous Cell Carcinoma",
+      "clinicalTrialKeywords": "prostate squamous cell carcinoma",
+      "dedicatedColor": "Cyan",
+      "shortName": "PRSC",
+      "parent": "prostate",
+      "cancerTypeId": "prsc"
+    },
+    {
+      "name": "Prostate Small Cell Carcinoma",
+      "clinicalTrialKeywords": "prostate small cell carcinoma",
+      "dedicatedColor": "Cyan",
+      "shortName": "PRSCC",
+      "parent": "prostate",
+      "cancerTypeId": "prscc"
+    },
+    {
+      "name": "Serous Cystadenoma of the Pancreas",
+      "clinicalTrialKeywords": "serous cystadenoma of the pancreas",
+      "dedicatedColor": "Purple",
+      "shortName": "PSC",
+      "parent": "pact",
+      "cancerTypeId": "psc"
+    },
+    {
+      "name": "Penile Squamous Cell Carcinoma",
+      "clinicalTrialKeywords": "penile squamous cell carcinoma",
+      "dedicatedColor": "Blue",
+      "shortName": "PSCC",
+      "parent": "penis",
+      "cancerTypeId": "pscc"
+    },
+    {
+      "name": "Papillary Stomach Adenocarcinoma",
+      "clinicalTrialKeywords": "papillary stomach adenocarcinoma",
+      "dedicatedColor": "LightSkyBlue",
+      "shortName": "PSTAD",
+      "parent": "stad",
+      "cancerTypeId": "pstad"
+    },
+    {
+      "name": "Placental Site Trophoblastic Tumor",
+      "clinicalTrialKeywords": "placental site trophoblastic tumor",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "PSTT",
+      "parent": "gtd",
+      "cancerTypeId": "pstt"
+    },
+    {
+      "name": "Phyllodes Tumor of the Breast",
+      "clinicalTrialKeywords": "phyllodes tumor of the breast",
+      "dedicatedColor": "HotPink",
+      "shortName": "PT",
+      "parent": "bfn",
+      "cancerTypeId": "pt"
+    },
+    {
+      "name": "Pituitary Adenoma",
+      "clinicalTrialKeywords": "pituitary adenoma",
+      "dedicatedColor": "Gray",
+      "shortName": "PTAD",
+      "parent": "selt",
+      "cancerTypeId": "ptad"
+    },
+    {
+      "name": "Pituitary Carcinoma",
+      "clinicalTrialKeywords": "pituitary carcinoma",
+      "dedicatedColor": "Gray",
+      "shortName": "PTCA",
+      "parent": "selt",
+      "cancerTypeId": "ptca"
+    },
+    {
+      "name": "Peripheral T-Cell Lymphoma",
+      "clinicalTrialKeywords": "peripheral t-cell lymphoma",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "PTCL",
+      "parent": "tnkl",
+      "cancerTypeId": "ptcl"
+    },
+    {
+      "name": "Peripheral T-Cell Lymphoma, NOS",
+      "clinicalTrialKeywords": "peripheral t-cell lymphoma, nos",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "PTCLNOS",
+      "parent": "ptcl",
+      "cancerTypeId": "ptclnos"
+    },
+    {
+      "name": "Pituicytoma",
+      "clinicalTrialKeywords": "pituicytoma",
+      "dedicatedColor": "Gray",
+      "shortName": "PTCY",
+      "parent": "selt",
+      "cancerTypeId": "ptcy"
+    },
+    {
+      "name": "Proximal-Type Epithelioid Sarcoma",
+      "clinicalTrialKeywords": "proximal-type epithelioid sarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "PTES",
+      "parent": "epis",
+      "cancerTypeId": "ptes"
+    },
+    {
+      "name": "Papillary Tumor of the Pineal Region",
+      "clinicalTrialKeywords": "papillary tumor of the pineal region",
+      "dedicatedColor": "Gray",
+      "shortName": "PTPR",
+      "parent": "pint",
+      "cancerTypeId": "ptpr"
+    },
+    {
+      "name": "Pleomorphic Xanthoastrocytoma",
+      "clinicalTrialKeywords": "pleomorphic xanthoastrocytoma",
+      "dedicatedColor": "Gray",
+      "shortName": "PXA",
+      "parent": "encg",
+      "cancerTypeId": "pxa"
+    },
+    {
+      "name": "Renal Angiomyolipoma",
+      "clinicalTrialKeywords": "renal angiomyolipoma",
+      "dedicatedColor": "Orange",
+      "shortName": "RAML",
+      "parent": "nccrcc",
+      "cancerTypeId": "raml"
+    },
+    {
+      "name": "Radiation-Associated Sarcoma",
+      "clinicalTrialKeywords": "radiation-associated sarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "RAS",
+      "parent": "soft_tissue",
+      "cancerTypeId": "ras"
+    },
+    {
+      "name": "Retinoblastoma",
+      "clinicalTrialKeywords": "retinoblastoma",
+      "dedicatedColor": "Green",
+      "shortName": "RBL",
+      "parent": "eye",
+      "cancerTypeId": "rbl"
+    },
+    {
+      "name": "Renal Cell Carcinoma",
+      "clinicalTrialKeywords": "renal cell carcinoma",
+      "dedicatedColor": "Orange",
+      "shortName": "RCC",
+      "parent": "kidney",
+      "cancerTypeId": "rcc"
+    },
+    {
+      "name": "Round Cell Sarcoma, NOS",
+      "clinicalTrialKeywords": "round cell sarcoma, nos",
+      "dedicatedColor": "LightYellow",
+      "shortName": "RCSNOS",
+      "parent": "soft_tissue",
+      "cancerTypeId": "rcsnos"
+    },
+    {
+      "name": "Rosai-Dorfman Disease",
+      "clinicalTrialKeywords": "rosai-dorfman disease",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "RD",
+      "parent": "lymph",
+      "cancerTypeId": "rd"
+    },
+    {
+      "name": "Rectal Adenocarcinoma",
+      "clinicalTrialKeywords": "rectal adenocarcinoma",
+      "dedicatedColor": "SaddleBrown",
+      "shortName": "READ",
+      "parent": "coadread",
+      "cancerTypeId": "read"
+    },
+    {
+      "name": "Rosette-forming Glioneuronal Tumor of the Fourth Ventricle",
+      "clinicalTrialKeywords": "rosette-forming glioneuronal tumor of the fourth ventricle",
+      "dedicatedColor": "Gray",
+      "shortName": "RGNT",
+      "parent": "mnet",
+      "cancerTypeId": "rgnt"
+    },
+    {
+      "name": "Rhabdoid Meningioma",
+      "clinicalTrialKeywords": "rhabdoid meningioma",
+      "dedicatedColor": "Gray",
+      "shortName": "RHM",
+      "parent": "mngt",
+      "cancerTypeId": "rhm"
+    },
+    {
+      "name": "Large Cell Lung Carcinoma With Rhabdoid Phenotype",
+      "clinicalTrialKeywords": "large cell lung carcinoma with rhabdoid phenotype",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "RLCLC",
+      "parent": "lclc",
+      "cancerTypeId": "rlclc"
+    },
+    {
+      "name": "Rhabdomyosarcoma",
+      "clinicalTrialKeywords": "rhabdomyosarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "RMS",
+      "parent": "soft_tissue",
+      "cancerTypeId": "rms"
+    },
+    {
+      "name": "Renal Oncocytoma",
+      "clinicalTrialKeywords": "renal oncocytoma",
+      "dedicatedColor": "Orange",
+      "shortName": "ROCY",
+      "parent": "nccrcc",
+      "cancerTypeId": "rocy"
+    },
+    {
+      "name": "Renal Small Cell Carcinoma",
+      "clinicalTrialKeywords": "renal small cell carcinoma",
+      "dedicatedColor": "Orange",
+      "shortName": "RSCC",
+      "parent": "nccrcc",
+      "cancerTypeId": "rscc"
+    },
+    {
+      "name": "Well-Differentiated Neuroendocrine Tumor of the Rectum",
+      "clinicalTrialKeywords": "well-differentiated neuroendocrine tumor of the rectum",
+      "dedicatedColor": "SaddleBrown",
+      "shortName": "RWDNET",
+      "parent": "ginet",
+      "cancerTypeId": "rwdnet"
+    },
+    {
+      "name": "Salivary Adenocarcinoma",
+      "clinicalTrialKeywords": "salivary adenocarcinoma",
+      "dedicatedColor": "DarkRed",
+      "shortName": "SAAD",
+      "parent": "saca",
+      "cancerTypeId": "saad"
+    },
+    {
+      "name": "Salivary Carcinoma",
+      "clinicalTrialKeywords": "salivary carcinoma",
+      "dedicatedColor": "DarkRed",
+      "shortName": "SACA",
+      "parent": "head_neck",
+      "cancerTypeId": "saca"
+    },
+    {
+      "name": "Sarcomatoid Carcinoma of the Lung",
+      "clinicalTrialKeywords": "sarcomatoid carcinoma of the lung",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "SARCL",
+      "parent": "lung",
+      "cancerTypeId": "sarcl"
+    },
+    {
+      "name": "Sarcoma, NOS",
+      "clinicalTrialKeywords": "sarcoma, nos",
+      "dedicatedColor": "LightYellow",
+      "shortName": "SARCNOS",
+      "parent": "soft_tissue",
+      "cancerTypeId": "sarcnos"
+    },
+    {
+      "name": "Small Bowel Cancer",
+      "clinicalTrialKeywords": "small bowel cancer",
+      "dedicatedColor": "SaddleBrown",
+      "shortName": "SBC",
+      "parent": "bowel",
+      "cancerTypeId": "sbc"
+    },
+    {
+      "name": "Serous Borderline Ovarian Tumor, Micropapillary",
+      "clinicalTrialKeywords": "serous borderline ovarian tumor, micropapillary",
+      "dedicatedColor": "LightBlue",
+      "shortName": "SBMOV",
+      "parent": "ovt",
+      "cancerTypeId": "sbmov"
+    },
+    {
+      "name": "Serous Borderline Ovarian Tumor",
+      "clinicalTrialKeywords": "serous borderline ovarian tumor",
+      "dedicatedColor": "LightBlue",
+      "shortName": "SBOV",
+      "parent": "ovt",
+      "cancerTypeId": "sbov"
+    },
+    {
+      "name": "Small Bowel Well-Differentiated Neuroendocrine Tumor",
+      "clinicalTrialKeywords": "small bowel well-differentiated neuroendocrine tumor",
+      "dedicatedColor": "SaddleBrown",
+      "shortName": "SBWDNET",
+      "parent": "ginet",
+      "cancerTypeId": "sbwdnet"
+    },
+    {
+      "name": "Sarcomatoid Carcinoma of the Urinary Bladder",
+      "clinicalTrialKeywords": "sarcomatoid carcinoma of the urinary bladder",
+      "dedicatedColor": "Yellow",
+      "shortName": "SCB",
+      "parent": "bladder",
+      "cancerTypeId": "scb"
+    },
+    {
+      "name": "Small Cell Bladder Cancer",
+      "clinicalTrialKeywords": "small cell bladder cancer",
+      "dedicatedColor": "Yellow",
+      "shortName": "SCBC",
+      "parent": "bladder",
+      "cancerTypeId": "scbc"
+    },
+    {
+      "name": "Small Cell Carcinoma of the Cervix",
+      "clinicalTrialKeywords": "small cell carcinoma of the cervix",
+      "dedicatedColor": "Teal",
+      "shortName": "SCCE",
+      "parent": "cervix",
+      "cancerTypeId": "scce"
+    },
+    {
+      "name": "Squamous Cell Carcinoma, NOS",
+      "clinicalTrialKeywords": "squamous cell carcinoma, nos",
+      "dedicatedColor": "Black",
+      "shortName": "SCCNOS",
+      "parent": "cup",
+      "cancerTypeId": "sccnos"
+    },
+    {
+      "name": "Small Cell Carcinoma of the Ovary",
+      "clinicalTrialKeywords": "small cell carcinoma of the ovary",
+      "dedicatedColor": "LightBlue",
+      "shortName": "SCCO",
+      "parent": "ovt",
+      "cancerTypeId": "scco"
+    },
+    {
+      "name": "Renal Clear Cell Carcinoma with Sarcomatoid Features",
+      "clinicalTrialKeywords": "renal clear cell carcinoma with sarcomatoid features",
+      "dedicatedColor": "Orange",
+      "shortName": "SCCRCC",
+      "parent": "ccrcc",
+      "cancerTypeId": "sccrcc"
+    },
+    {
+      "name": "Signet Ring Mucinous Carcinoma",
+      "clinicalTrialKeywords": "signet ring mucinous carcinoma",
+      "dedicatedColor": "Teal",
+      "shortName": "SCEMU",
+      "parent": "cemu",
+      "cancerTypeId": "scemu"
+    },
+    {
+      "name": "Small Cell Glioblastoma",
+      "clinicalTrialKeywords": "small cell glioblastoma",
+      "dedicatedColor": "Gray",
+      "shortName": "SCGBM",
+      "parent": "gb",
+      "cancerTypeId": "scgbm"
+    },
+    {
+      "name": "Schwannoma",
+      "clinicalTrialKeywords": "schwannoma",
+      "dedicatedColor": "Gray",
+      "shortName": "SCHW",
+      "parent": "nst",
+      "cancerTypeId": "schw"
+    },
+    {
+      "name": "Small Cell Lung Cancer",
+      "clinicalTrialKeywords": "small cell lung cancer",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "SCLC",
+      "parent": "lnet",
+      "cancerTypeId": "sclc"
+    },
+    {
+      "name": "Spindle Cell Oncocytoma of the Adenohypophysis",
+      "clinicalTrialKeywords": "spindle cell oncocytoma of the adenohypophysis",
+      "dedicatedColor": "Gray",
+      "shortName": "SCOAH",
+      "parent": "selt",
+      "cancerTypeId": "scoah"
+    },
+    {
+      "name": "Small Cell Osteosarcoma",
+      "clinicalTrialKeywords": "small cell osteosarcoma",
+      "dedicatedColor": "White",
+      "shortName": "SCOS",
+      "parent": "os",
+      "cancerTypeId": "scos"
+    },
+    {
+      "name": "Spindle Cell Rhabdomyosarcoma",
+      "clinicalTrialKeywords": "spindle cell rhabdomyosarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "SCRMS",
+      "parent": "rms",
+      "cancerTypeId": "scrms"
+    },
+    {
+      "name": "Spindle Cell/Sclerosing Rhabdomyosarcoma",
+      "clinicalTrialKeywords": "spindle cell/sclerosing rhabdomyosarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "SCSRMS",
+      "parent": "rms",
+      "cancerTypeId": "scsrms"
+    },
+    {
+      "name": "Sex Cord Stromal Tumor",
+      "clinicalTrialKeywords": "sex cord stromal tumor",
+      "dedicatedColor": "LightBlue",
+      "shortName": "SCST",
+      "parent": "ovary",
+      "cancerTypeId": "scst"
+    },
+    {
+      "name": "Steroid Cell Tumor, NOS",
+      "clinicalTrialKeywords": "steroid cell tumor, nos",
+      "dedicatedColor": "LightBlue",
+      "shortName": "SCT",
+      "parent": "scst",
+      "cancerTypeId": "sct"
+    },
+    {
+      "name": "Small Cell Carcinoma of Unknown Primary",
+      "clinicalTrialKeywords": "small cell carcinoma of unknown primary",
+      "dedicatedColor": "Black",
+      "shortName": "SCUP",
+      "parent": "cup",
+      "cancerTypeId": "scup"
+    },
+    {
+      "name": "Salivary Duct Carcinoma",
+      "clinicalTrialKeywords": "salivary duct carcinoma",
+      "dedicatedColor": "DarkRed",
+      "shortName": "SDCA",
+      "parent": "saca",
+      "cancerTypeId": "sdca"
+    },
+    {
+      "name": "Sebaceous Carcinoma",
+      "clinicalTrialKeywords": "sebaceous carcinoma",
+      "dedicatedColor": "Black",
+      "shortName": "SEBA",
+      "parent": "skin",
+      "cancerTypeId": "seba"
+    },
+    {
+      "name": "Secondary Osteosarcoma",
+      "clinicalTrialKeywords": "secondary osteosarcoma",
+      "dedicatedColor": "White",
+      "shortName": "SECOS",
+      "parent": "os",
+      "cancerTypeId": "secos"
+    },
+    {
+      "name": "Sclerosing Epithelioid Fibrosarcoma",
+      "clinicalTrialKeywords": "sclerosing epithelioid fibrosarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "SEF",
+      "parent": "fibs",
+      "cancerTypeId": "sef"
+    },
+    {
+      "name": "Sellar Tumor",
+      "clinicalTrialKeywords": "sellar tumor",
+      "dedicatedColor": "Gray",
+      "shortName": "SELT",
+      "parent": "brain",
+      "cancerTypeId": "selt"
+    },
+    {
+      "name": "Seminoma",
+      "clinicalTrialKeywords": "seminoma",
+      "dedicatedColor": "Red",
+      "shortName": "SEM",
+      "parent": "testis",
+      "cancerTypeId": "sem"
+    },
+    {
+      "name": "Sezary Syndrome",
+      "clinicalTrialKeywords": "sezary syndrome",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "SEZS",
+      "parent": "ctcl",
+      "cancerTypeId": "sezs"
+    },
+    {
+      "name": "Solitary Fibrous Tumor/Hemangiopericytoma",
+      "clinicalTrialKeywords": "solitary fibrous tumor/hemangiopericytoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "SFT",
+      "parent": "soft_tissue",
+      "cancerTypeId": "sft"
+    },
+    {
+      "name": "Solitary Fibrous Tumor of the Central Nervous System",
+      "clinicalTrialKeywords": "solitary fibrous tumor of the central nervous system",
+      "dedicatedColor": "Gray",
+      "shortName": "SFTCNS",
+      "parent": "mngt",
+      "cancerTypeId": "sftcns"
+    },
+    {
+      "name": "Sweat Gland Adenocarcinoma",
+      "clinicalTrialKeywords": "sweat gland adenocarcinoma",
+      "dedicatedColor": "Black",
+      "shortName": "SGAD",
+      "parent": "skin",
+      "cancerTypeId": "sgad"
+    },
+    {
+      "name": "Salivary Gland Oncocytoma",
+      "clinicalTrialKeywords": "salivary gland oncocytoma",
+      "dedicatedColor": "DarkRed",
+      "shortName": "SGO",
+      "parent": "saca",
+      "cancerTypeId": "sgo"
+    },
+    {
+      "name": "Salivary Gland–Type Tumor of the Lung",
+      "clinicalTrialKeywords": "salivary gland–type tumor of the lung",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "SGTTL",
+      "parent": "nsclc",
+      "cancerTypeId": "sgttl"
+    },
+    {
+      "name": "Small Intestinal Carcinoma",
+      "clinicalTrialKeywords": "small intestinal carcinoma",
+      "dedicatedColor": "SaddleBrown",
+      "shortName": "SIC",
+      "parent": "bowel",
+      "cancerTypeId": "sic"
+    },
+    {
+      "name": "Skin Adnexal Carcinoma",
+      "clinicalTrialKeywords": "skin adnexal carcinoma",
+      "dedicatedColor": "Black",
+      "shortName": "SKAC",
+      "parent": "skin",
+      "cancerTypeId": "skac"
+    },
+    {
+      "name": "Cutaneous Melanoma",
+      "clinicalTrialKeywords": "cutaneous melanoma",
+      "dedicatedColor": "Black",
+      "shortName": "SKCM",
+      "parent": "mel",
+      "cancerTypeId": "skcm"
+    },
+    {
+      "name": "Congenital Nevus",
+      "clinicalTrialKeywords": "congenital nevus",
+      "dedicatedColor": "Black",
+      "shortName": "SKCN",
+      "parent": "mel",
+      "cancerTypeId": "skcn"
+    },
+    {
+      "name": "Skin",
+      "clinicalTrialKeywords": "skin",
+      "dedicatedColor": "Black",
+      "shortName": "SKIN",
+      "parent": "tissue",
+      "cancerTypeId": "skin"
+    },
+    {
+      "name": "Lentigo Maligna Melanoma",
+      "clinicalTrialKeywords": "lentigo maligna melanoma",
+      "dedicatedColor": "Black",
+      "shortName": "SKLMM",
+      "parent": "mel",
+      "cancerTypeId": "sklmm"
+    },
+    {
+      "name": "Sertoli-Leydig Cell Tumor",
+      "clinicalTrialKeywords": "sertoli-leydig cell tumor",
+      "dedicatedColor": "LightBlue",
+      "shortName": "SLCT",
+      "parent": "scst",
+      "cancerTypeId": "slct"
+    },
+    {
+      "name": "Small Lymphocytic Lymphoma",
+      "clinicalTrialKeywords": "small lymphocytic lymphoma",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "SLL",
+      "parent": "bcl",
+      "cancerTypeId": "sll"
+    },
+    {
+      "name": "Systemic Mastocytosis",
+      "clinicalTrialKeywords": "systemic mastocytosis",
+      "dedicatedColor": "LightSalmon",
+      "shortName": "SM",
+      "parent": "blood",
+      "cancerTypeId": "sm"
+    },
+    {
+      "name": "Smooth Muscle Neoplasm, NOS",
+      "clinicalTrialKeywords": "smooth muscle neoplasm, nos",
+      "dedicatedColor": "LightSkyBlue",
+      "shortName": "SMN",
+      "parent": "stomach",
+      "cancerTypeId": "smn"
+    },
+    {
+      "name": "Splenic Marginal Zone Lymphoma",
+      "clinicalTrialKeywords": "splenic marginal zone lymphoma",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "SMZL",
+      "parent": "bcl",
+      "cancerTypeId": "smzl"
+    },
+    {
+      "name": "Sinonasal Adenocarcinoma",
+      "clinicalTrialKeywords": "sinonasal adenocarcinoma",
+      "dedicatedColor": "DarkRed",
+      "shortName": "SNA",
+      "parent": "ohnca",
+      "cancerTypeId": "sna"
+    },
+    {
+      "name": "Sinonasal Squamous Cell Carcinoma",
+      "clinicalTrialKeywords": "sinonasal squamous cell carcinoma",
+      "dedicatedColor": "DarkRed",
+      "shortName": "SNSC",
+      "parent": "hnsc",
+      "cancerTypeId": "snsc"
+    },
+    {
+      "name": "Sinonasal Undifferentiated Carcinoma",
+      "clinicalTrialKeywords": "sinonasal undifferentiated carcinoma",
+      "dedicatedColor": "DarkRed",
+      "shortName": "SNUC",
+      "parent": "ohnca",
+      "cancerTypeId": "snuc"
+    },
+    {
+      "name": "Serous Ovarian Cancer",
+      "clinicalTrialKeywords": "serous ovarian cancer",
+      "dedicatedColor": "LightBlue",
+      "shortName": "SOC",
+      "parent": "ovt",
+      "cancerTypeId": "soc"
+    },
+    {
+      "name": "Soft Tissue",
+      "clinicalTrialKeywords": "soft tissue",
+      "dedicatedColor": "LightYellow",
+      "shortName": "SOFT_TISSUE",
+      "parent": "tissue",
+      "cancerTypeId": "soft_tissue"
+    },
+    {
+      "name": "Solid Papillary Carcinoma of the Breast",
+      "clinicalTrialKeywords": "solid papillary carcinoma of the breast",
+      "dedicatedColor": "HotPink",
+      "shortName": "SPC",
+      "parent": "brca",
+      "cancerTypeId": "spc"
+    },
+    {
+      "name": "Spindle Cell Carcinoma of the Lung",
+      "clinicalTrialKeywords": "spindle cell carcinoma of the lung",
+      "dedicatedColor": "Gainsboro",
+      "shortName": "SpCC",
+      "parent": "nsclc",
+      "cancerTypeId": "spcc"
+    },
+    {
+      "name": "Poorly Differentiated Carcinoma of the Stomach",
+      "clinicalTrialKeywords": "poorly differentiated carcinoma of the stomach",
+      "dedicatedColor": "LightSkyBlue",
+      "shortName": "SPDAC",
+      "parent": "ustad",
+      "cancerTypeId": "spdac"
+    },
+    {
+      "name": "Spiroma/Spiradenoma",
+      "clinicalTrialKeywords": "spiroma/spiradenoma",
+      "dedicatedColor": "Black",
+      "shortName": "SPIR",
+      "parent": "skin",
+      "cancerTypeId": "spir"
+    },
+    {
+      "name": "Solid Pseudopapillary Neoplasm of the Pancreas",
+      "clinicalTrialKeywords": "solid pseudopapillary neoplasm of the pancreas",
+      "dedicatedColor": "Purple",
+      "shortName": "SPN",
+      "parent": "pancreas",
+      "cancerTypeId": "spn"
+    },
+    {
+      "name": "Signet Ring Cell Type of the Appendix",
+      "clinicalTrialKeywords": "signet ring cell type of the appendix",
+      "dedicatedColor": "SaddleBrown",
+      "shortName": "SRAP",
+      "parent": "apad",
+      "cancerTypeId": "srap"
+    },
+    {
+      "name": "Plasmacytoid/Signet Ring Cell Bladder Carcinoma",
+      "clinicalTrialKeywords": "plasmacytoid/signet ring cell bladder carcinoma",
+      "dedicatedColor": "Yellow",
+      "shortName": "SRCBC",
+      "parent": "bladder",
+      "cancerTypeId": "srcbc"
+    },
+    {
+      "name": "Sarcomatoid Renal Cell Carcinoma",
+      "clinicalTrialKeywords": "sarcomatoid renal cell carcinoma",
+      "dedicatedColor": "Orange",
+      "shortName": "SRCC",
+      "parent": "nccrcc",
+      "cancerTypeId": "srcc"
+    },
+    {
+      "name": "Signet Ring Cell Adenocarcinoma of the Colon and Rectum",
+      "clinicalTrialKeywords": "signet ring cell adenocarcinoma of the colon and rectum",
+      "dedicatedColor": "SaddleBrown",
+      "shortName": "SRCCR",
+      "parent": "coadread",
+      "cancerTypeId": "srccr"
+    },
+    {
+      "name": "Signet Ring Cell Carcinoma of the Stomach",
+      "clinicalTrialKeywords": "signet ring cell carcinoma of the stomach",
+      "dedicatedColor": "LightSkyBlue",
+      "shortName": "SSRCC",
+      "parent": "ustad",
+      "cancerTypeId": "ssrcc"
+    },
+    {
+      "name": "Stomach Adenocarcinoma",
+      "clinicalTrialKeywords": "stomach adenocarcinoma",
+      "dedicatedColor": "LightSkyBlue",
+      "shortName": "STAD",
+      "parent": "egc",
+      "cancerTypeId": "stad"
+    },
+    {
+      "name": "Adenosquamous Carcinoma of the Stomach",
+      "clinicalTrialKeywords": "adenosquamous carcinoma of the stomach",
+      "dedicatedColor": "LightSkyBlue",
+      "shortName": "STAS",
+      "parent": "egc",
+      "cancerTypeId": "stas"
+    },
+    {
+      "name": "Soft Tissue Myoepithelial Carcinoma",
+      "clinicalTrialKeywords": "soft tissue myoepithelial carcinoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "STMYEC",
+      "parent": "soft_tissue",
+      "cancerTypeId": "stmyec"
+    },
+    {
+      "name": "Esophagus/Stomach",
+      "clinicalTrialKeywords": "esophagus/stomach",
+      "dedicatedColor": "LightSkyBlue",
+      "shortName": "STOMACH",
+      "parent": "tissue",
+      "cancerTypeId": "stomach"
+    },
+    {
+      "name": "Small Cell Carcinoma of the Stomach",
+      "clinicalTrialKeywords": "small cell carcinoma of the stomach",
+      "dedicatedColor": "LightSkyBlue",
+      "shortName": "STSC",
+      "parent": "egc",
+      "cancerTypeId": "stsc"
+    },
+    {
+      "name": "Subependymoma",
+      "clinicalTrialKeywords": "subependymoma",
+      "dedicatedColor": "Gray",
+      "shortName": "SUBE",
+      "parent": "epmt",
+      "cancerTypeId": "sube"
+    },
+    {
+      "name": "Well-Differentiated Neuroendocrine Tumors of the Stomach",
+      "clinicalTrialKeywords": "well-differentiated neuroendocrine tumors of the stomach",
+      "dedicatedColor": "SaddleBrown",
+      "shortName": "SWDNET",
+      "parent": "ginet",
+      "cancerTypeId": "swdnet"
+    },
+    {
+      "name": "Synovial Sarcoma",
+      "clinicalTrialKeywords": "synovial sarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "SYNS",
+      "parent": "soft_tissue",
+      "cancerTypeId": "syns"
+    },
+    {
+      "name": "T-Cell Acute Lymphoid Leukemia",
+      "clinicalTrialKeywords": "t-cell acute lymphoid leukemia",
+      "dedicatedColor": "LightSalmon",
+      "shortName": "TALL",
+      "parent": "all",
+      "cancerTypeId": "tall"
+    },
+    {
+      "name": "Choriocarcinoma",
+      "clinicalTrialKeywords": "choriocarcinoma",
+      "dedicatedColor": "Red",
+      "shortName": "TCCA",
+      "parent": "nsgct",
+      "cancerTypeId": "tcca"
+    },
+    {
+      "name": "Telangiectatic Osteosarcoma",
+      "clinicalTrialKeywords": "telangiectatic osteosarcoma",
+      "dedicatedColor": "White",
+      "shortName": "TEOS",
+      "parent": "os",
+      "cancerTypeId": "teos"
+    },
+    {
+      "name": "Testis",
+      "clinicalTrialKeywords": "testis",
+      "dedicatedColor": "Red",
+      "shortName": "TESTIS",
+      "parent": "tissue",
+      "cancerTypeId": "testis"
+    },
+    {
+      "name": "Thymic Epithelial Tumor",
+      "clinicalTrialKeywords": "thymic epithelial tumor",
+      "dedicatedColor": "Purple",
+      "shortName": "TET",
+      "parent": "thymus",
+      "cancerTypeId": "tet"
+    },
+    {
+      "name": "Tenosynovial Giant Cell Tumor Diffuse Type",
+      "clinicalTrialKeywords": "tenosynovial giant cell tumor diffuse type",
+      "dedicatedColor": "LightYellow",
+      "shortName": "TGCT",
+      "parent": "soft_tissue",
+      "cancerTypeId": "tgct"
+    },
+    {
+      "name": "Anaplastic Thyroid Cancer",
+      "clinicalTrialKeywords": "anaplastic thyroid cancer",
+      "dedicatedColor": "Teal",
+      "shortName": "THAP",
+      "parent": "thyroid",
+      "cancerTypeId": "thap"
+    },
+    {
+      "name": "Follicular Thyroid Cancer",
+      "clinicalTrialKeywords": "follicular thyroid cancer",
+      "dedicatedColor": "Teal",
+      "shortName": "THFO",
+      "parent": "wdtc",
+      "cancerTypeId": "thfo"
+    },
+    {
+      "name": "Hurthle Cell Thyroid Cancer",
+      "clinicalTrialKeywords": "hurthle cell thyroid cancer",
+      "dedicatedColor": "Teal",
+      "shortName": "THHC",
+      "parent": "thyroid",
+      "cancerTypeId": "thhc"
+    },
+    {
+      "name": "Medullary Thyroid Cancer",
+      "clinicalTrialKeywords": "medullary thyroid cancer",
+      "dedicatedColor": "Teal",
+      "shortName": "THME",
+      "parent": "thyroid",
+      "cancerTypeId": "thme"
+    },
+    {
+      "name": "Papillary Thyroid Cancer",
+      "clinicalTrialKeywords": "papillary thyroid cancer",
+      "dedicatedColor": "Teal",
+      "shortName": "THPA",
+      "parent": "wdtc",
+      "cancerTypeId": "thpa"
+    },
+    {
+      "name": "Poorly Differentiated Thyroid Cancer",
+      "clinicalTrialKeywords": "poorly differentiated thyroid cancer",
+      "dedicatedColor": "Teal",
+      "shortName": "THPD",
+      "parent": "thyroid",
+      "cancerTypeId": "thpd"
+    },
+    {
+      "name": "Thymic Carcinoma",
+      "clinicalTrialKeywords": "thymic carcinoma",
+      "dedicatedColor": "Purple",
+      "shortName": "THYC",
+      "parent": "tet",
+      "cancerTypeId": "thyc"
+    },
+    {
+      "name": "Thymoma",
+      "clinicalTrialKeywords": "thymoma",
+      "dedicatedColor": "Purple",
+      "shortName": "THYM",
+      "parent": "tet",
+      "cancerTypeId": "thym"
+    },
+    {
+      "name": "Thymus",
+      "clinicalTrialKeywords": "thymus",
+      "dedicatedColor": "Purple",
+      "shortName": "THYMUS",
+      "parent": "tissue",
+      "cancerTypeId": "thymus"
+    },
+    {
+      "name": "Thyroid",
+      "clinicalTrialKeywords": "thyroid",
+      "dedicatedColor": "Teal",
+      "shortName": "THYROID",
+      "parent": "tissue",
+      "cancerTypeId": "thyroid"
+    },
+    {
+      "name": "Tissue",
+      "clinicalTrialKeywords": "tissue",
+      "dedicatedColor": "null",
+      "shortName": "TISSUE",
+      "parent": "null",
+      "cancerTypeId": "tissue"
+    },
+    {
+      "name": "Testicular Lymphoma",
+      "clinicalTrialKeywords": "testicular lymphoma",
+      "dedicatedColor": "Red",
+      "shortName": "TLYM",
+      "parent": "testis",
+      "cancerTypeId": "tlym"
+    },
+    {
+      "name": "Testicular Mesothelioma",
+      "clinicalTrialKeywords": "testicular mesothelioma",
+      "dedicatedColor": "Red",
+      "shortName": "TMESO",
+      "parent": "testis",
+      "cancerTypeId": "tmeso"
+    },
+    {
+      "name": "Teratoma with Malignant Transformation",
+      "clinicalTrialKeywords": "teratoma with malignant transformation",
+      "dedicatedColor": "Red",
+      "shortName": "TMT",
+      "parent": "nsgct",
+      "cancerTypeId": "tmt"
+    },
+    {
+      "name": "Thymic Neuroendocrine Tumor",
+      "clinicalTrialKeywords": "thymic neuroendocrine tumor",
+      "dedicatedColor": "Purple",
+      "shortName": "TNET",
+      "parent": "thymus",
+      "cancerTypeId": "tnet"
+    },
+    {
+      "name": "T-Cell and Natural Killer Lymphoma",
+      "clinicalTrialKeywords": "t-cell and natural killer lymphoma",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "TNKL",
+      "parent": "nhl",
+      "cancerTypeId": "tnkl"
+    },
+    {
+      "name": "Translocation-Associated Renal Cell Carcinoma",
+      "clinicalTrialKeywords": "translocation-associated renal cell carcinoma",
+      "dedicatedColor": "Orange",
+      "shortName": "TRCC",
+      "parent": "nccrcc",
+      "cancerTypeId": "trcc"
+    },
+    {
+      "name": "Sex Cord Stromal Tumor",
+      "clinicalTrialKeywords": "sex cord stromal tumor",
+      "dedicatedColor": "Red",
+      "shortName": "TSCST",
+      "parent": "testis",
+      "cancerTypeId": "tscst"
+    },
+    {
+      "name": "Tubular Stomach Adenocarcinoma",
+      "clinicalTrialKeywords": "tubular stomach adenocarcinoma",
+      "dedicatedColor": "LightSkyBlue",
+      "shortName": "TSTAD",
+      "parent": "stad",
+      "cancerTypeId": "tstad"
+    },
+    {
+      "name": "Teratoma",
+      "clinicalTrialKeywords": "teratoma",
+      "dedicatedColor": "Red",
+      "shortName": "TT",
+      "parent": "nsgct",
+      "cancerTypeId": "tt"
+    },
+    {
+      "name": "Yolk Sac Tumor",
+      "clinicalTrialKeywords": "yolk sac tumor",
+      "dedicatedColor": "Red",
+      "shortName": "TYST",
+      "parent": "nsgct",
+      "cancerTypeId": "tyst"
+    },
+    {
+      "name": "Urachal Adenocarcinoma",
+      "clinicalTrialKeywords": "urachal adenocarcinoma",
+      "dedicatedColor": "Yellow",
+      "shortName": "UA",
+      "parent": "urca",
+      "cancerTypeId": "ua"
+    },
+    {
+      "name": "Urethral Adenocarcinoma",
+      "clinicalTrialKeywords": "urethral adenocarcinoma",
+      "dedicatedColor": "Yellow",
+      "shortName": "UAD",
+      "parent": "uca",
+      "cancerTypeId": "uad"
+    },
+    {
+      "name": "Uterine Adenosarcoma",
+      "clinicalTrialKeywords": "uterine adenosarcoma",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "UAS",
+      "parent": "usarc",
+      "cancerTypeId": "uas"
+    },
+    {
+      "name": "Uterine Adenosquamous Carcinoma",
+      "clinicalTrialKeywords": "uterine adenosquamous carcinoma",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "UASC",
+      "parent": "ucec",
+      "cancerTypeId": "uasc"
+    },
+    {
+      "name": "Urethral Cancer",
+      "clinicalTrialKeywords": "urethral cancer",
+      "dedicatedColor": "Yellow",
+      "shortName": "UCA",
+      "parent": "bladder",
+      "cancerTypeId": "uca"
+    },
+    {
+      "name": "Choriocarcinoma",
+      "clinicalTrialKeywords": "choriocarcinoma",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "UCCA",
+      "parent": "gtd",
+      "cancerTypeId": "ucca"
+    },
+    {
+      "name": "Uterine Clear Cell Carcinoma",
+      "clinicalTrialKeywords": "uterine clear cell carcinoma",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "UCCC",
+      "parent": "ucec",
+      "cancerTypeId": "uccc"
+    },
+    {
+      "name": "Endometrial Carcinoma",
+      "clinicalTrialKeywords": "endometrial carcinoma",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "UCEC",
+      "parent": "uterus",
+      "cancerTypeId": "ucec"
+    },
+    {
+      "name": "Undifferentiated Carcinoma of the Pancreas",
+      "clinicalTrialKeywords": "undifferentiated carcinoma of the pancreas",
+      "dedicatedColor": "Purple",
+      "shortName": "UCP",
+      "parent": "pancreas",
+      "cancerTypeId": "ucp"
+    },
+    {
+      "name": "Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor",
+      "clinicalTrialKeywords": "uterine carcinosarcoma/uterine malignant mixed mullerian tumor",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "UCS",
+      "parent": "ucec",
+      "cancerTypeId": "ucs"
+    },
+    {
+      "name": "Urethral Urothelial Carcinoma",
+      "clinicalTrialKeywords": "urethral urothelial carcinoma",
+      "dedicatedColor": "Yellow",
+      "shortName": "UCU",
+      "parent": "uca",
+      "cancerTypeId": "ucu"
+    },
+    {
+      "name": "Uterine Dedifferentiated Carcinoma",
+      "clinicalTrialKeywords": "uterine dedifferentiated carcinoma",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "UDDC",
+      "parent": "ucec",
+      "cancerTypeId": "uddc"
+    },
+    {
+      "name": "Undifferentiated Malignant Neoplasm",
+      "clinicalTrialKeywords": "undifferentiated malignant neoplasm",
+      "dedicatedColor": "Black",
+      "shortName": "UDMN",
+      "parent": "cup",
+      "cancerTypeId": "udmn"
+    },
+    {
+      "name": "Uterine Endometrioid Carcinoma",
+      "clinicalTrialKeywords": "uterine endometrioid carcinoma",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "UEC",
+      "parent": "ucec",
+      "cancerTypeId": "uec"
+    },
+    {
+      "name": "Uterine Epithelioid Leiomyosarcoma",
+      "clinicalTrialKeywords": "uterine epithelioid leiomyosarcoma",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "UELMS",
+      "parent": "usmt",
+      "cancerTypeId": "uelms"
+    },
+    {
+      "name": "Uterine Leiomyoma",
+      "clinicalTrialKeywords": "uterine leiomyoma",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "ULM",
+      "parent": "usmt",
+      "cancerTypeId": "ulm"
+    },
+    {
+      "name": "Uterine Leiomyosarcoma",
+      "clinicalTrialKeywords": "uterine leiomyosarcoma",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "ULMS",
+      "parent": "usmt",
+      "cancerTypeId": "ulms"
+    },
+    {
+      "name": "Uveal Melanoma",
+      "clinicalTrialKeywords": "uveal melanoma",
+      "dedicatedColor": "Green",
+      "shortName": "UM",
+      "parent": "om",
+      "cancerTypeId": "um"
+    },
+    {
+      "name": "Uterine Mucinous Carcinoma",
+      "clinicalTrialKeywords": "uterine mucinous carcinoma",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "UMC",
+      "parent": "ucec",
+      "cancerTypeId": "umc"
+    },
+    {
+      "name": "Uterine Mixed Endometrial Carcinoma",
+      "clinicalTrialKeywords": "uterine mixed endometrial carcinoma",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "UMEC",
+      "parent": "ucec",
+      "cancerTypeId": "umec"
+    },
+    {
+      "name": "Uterine Myxoid Leiomyosarcoma",
+      "clinicalTrialKeywords": "uterine myxoid leiomyosarcoma",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "UMLMS",
+      "parent": "usmt",
+      "cancerTypeId": "umlms"
+    },
+    {
+      "name": "Uterine Mesonephric Carcinoma",
+      "clinicalTrialKeywords": "uterine mesonephric carcinoma",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "UMNC",
+      "parent": "ucec",
+      "cancerTypeId": "umnc"
+    },
+    {
+      "name": "Uterine Neuroendocrine Carcinoma",
+      "clinicalTrialKeywords": "uterine neuroendocrine carcinoma",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "UNEC",
+      "parent": "ucec",
+      "cancerTypeId": "unec"
+    },
+    {
+      "name": "Poorly Differentiated Carcinoma of the Uterus",
+      "clinicalTrialKeywords": "poorly differentiated carcinoma of the uterus",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "UPDC",
+      "parent": "ucec",
+      "cancerTypeId": "updc"
+    },
+    {
+      "name": "Uterine Perivascular Epithelioid Cell Tumor",
+      "clinicalTrialKeywords": "uterine perivascular epithelioid cell tumor",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "UPECOMA",
+      "parent": "usarc",
+      "cancerTypeId": "upecoma"
+    },
+    {
+      "name": "Urachal Carcinoma",
+      "clinicalTrialKeywords": "urachal carcinoma",
+      "dedicatedColor": "Yellow",
+      "shortName": "URCA",
+      "parent": "bladder",
+      "cancerTypeId": "urca"
+    },
+    {
+      "name": "Unclassified Renal Cell Carcinoma",
+      "clinicalTrialKeywords": "unclassified renal cell carcinoma",
+      "dedicatedColor": "Orange",
+      "shortName": "URCC",
+      "parent": "nccrcc",
+      "cancerTypeId": "urcc"
+    },
+    {
+      "name": "Mucosal Melanoma of the Urethra",
+      "clinicalTrialKeywords": "mucosal melanoma of the urethra",
+      "dedicatedColor": "Yellow",
+      "shortName": "URMM",
+      "parent": "bladder",
+      "cancerTypeId": "urmm"
+    },
+    {
+      "name": "Uterine Sarcoma/Mesenchymal",
+      "clinicalTrialKeywords": "uterine sarcoma/mesenchymal",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "USARC",
+      "parent": "uterus",
+      "cancerTypeId": "usarc"
+    },
+    {
+      "name": "Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma",
+      "clinicalTrialKeywords": "uterine serous carcinoma/uterine papillary serous carcinoma",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "USC",
+      "parent": "ucec",
+      "cancerTypeId": "usc"
+    },
+    {
+      "name": "Urethral Squamous Cell Carcinoma",
+      "clinicalTrialKeywords": "urethral squamous cell carcinoma",
+      "dedicatedColor": "Yellow",
+      "shortName": "USCC",
+      "parent": "uca",
+      "cancerTypeId": "uscc"
+    },
+    {
+      "name": "Uterine Smooth Muscle Tumor",
+      "clinicalTrialKeywords": "uterine smooth muscle tumor",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "USMT",
+      "parent": "usarc",
+      "cancerTypeId": "usmt"
+    },
+    {
+      "name": "Undifferentiated Stomach Adenocarcinoma",
+      "clinicalTrialKeywords": "undifferentiated stomach adenocarcinoma",
+      "dedicatedColor": "LightSkyBlue",
+      "shortName": "USTAD",
+      "parent": "egc",
+      "cancerTypeId": "ustad"
+    },
+    {
+      "name": "Uterine Smooth Muscle Tumor of Uncertain Malignant Potential",
+      "clinicalTrialKeywords": "uterine smooth muscle tumor of uncertain malignant potential",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "USTUMP",
+      "parent": "usmt",
+      "cancerTypeId": "ustump"
+    },
+    {
+      "name": "Uterus",
+      "clinicalTrialKeywords": "uterus",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "UTERUS",
+      "parent": "tissue",
+      "cancerTypeId": "uterus"
+    },
+    {
+      "name": "Upper Tract Urothelial Carcinoma",
+      "clinicalTrialKeywords": "upper tract urothelial carcinoma",
+      "dedicatedColor": "Yellow",
+      "shortName": "UTUC",
+      "parent": "bladder",
+      "cancerTypeId": "utuc"
+    },
+    {
+      "name": "Uterine Undifferentiated Carcinoma",
+      "clinicalTrialKeywords": "uterine undifferentiated carcinoma",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "UUC",
+      "parent": "ucec",
+      "cancerTypeId": "uuc"
+    },
+    {
+      "name": "Undifferentiated Uterine Sarcoma",
+      "clinicalTrialKeywords": "undifferentiated uterine sarcoma",
+      "dedicatedColor": "PeachPuff",
+      "shortName": "UUS",
+      "parent": "usarc",
+      "cancerTypeId": "uus"
+    },
+    {
+      "name": "Vaginal Adenocarcinoma",
+      "clinicalTrialKeywords": "vaginal adenocarcinoma",
+      "dedicatedColor": "Purple",
+      "shortName": "VA",
+      "parent": "vulva",
+      "cancerTypeId": "va"
+    },
+    {
+      "name": "Dysgerminoma",
+      "clinicalTrialKeywords": "dysgerminoma",
+      "dedicatedColor": "Purple",
+      "shortName": "VDYS",
+      "parent": "vgct",
+      "cancerTypeId": "vdys"
+    },
+    {
+      "name": "Villoglandular Adenocarcinoma of the Cervix",
+      "clinicalTrialKeywords": "villoglandular adenocarcinoma of the cervix",
+      "dedicatedColor": "Teal",
+      "shortName": "VGCE",
+      "parent": "cervix",
+      "cancerTypeId": "vgce"
+    },
+    {
+      "name": "Germ Cell Tumor of the Vulva",
+      "clinicalTrialKeywords": "germ cell tumor of the vulva",
+      "dedicatedColor": "Purple",
+      "shortName": "VGCT",
+      "parent": "vulva",
+      "cancerTypeId": "vgct"
+    },
+    {
+      "name": "Immature Teratoma",
+      "clinicalTrialKeywords": "immature teratoma",
+      "dedicatedColor": "Purple",
+      "shortName": "VIMT",
+      "parent": "vgct",
+      "cancerTypeId": "vimt"
+    },
+    {
+      "name": "Mucinous Adenocarcinoma of the Vulva/Vagina",
+      "clinicalTrialKeywords": "mucinous adenocarcinoma of the vulva/vagina",
+      "dedicatedColor": "Purple",
+      "shortName": "VMA",
+      "parent": "vulva",
+      "cancerTypeId": "vma"
+    },
+    {
+      "name": "Mixed Germ Cell Tumor",
+      "clinicalTrialKeywords": "mixed germ cell tumor",
+      "dedicatedColor": "Purple",
+      "shortName": "VMGCT",
+      "parent": "vgct",
+      "cancerTypeId": "vmgct"
+    },
+    {
+      "name": "Mucosal Melanoma of the Vulva/Vagina",
+      "clinicalTrialKeywords": "mucosal melanoma of the vulva/vagina",
+      "dedicatedColor": "Purple",
+      "shortName": "VMM",
+      "parent": "vulva",
+      "cancerTypeId": "vmm"
+    },
+    {
+      "name": "Mature Teratoma",
+      "clinicalTrialKeywords": "mature teratoma",
+      "dedicatedColor": "Purple",
+      "shortName": "VMT",
+      "parent": "vgct",
+      "cancerTypeId": "vmt"
+    },
+    {
+      "name": "Embryonal Carcinoma",
+      "clinicalTrialKeywords": "embryonal carcinoma",
+      "dedicatedColor": "Purple",
+      "shortName": "VOEC",
+      "parent": "vgct",
+      "cancerTypeId": "voec"
+    },
+    {
+      "name": "Poorly Differentiated Vaginal Carcinoma",
+      "clinicalTrialKeywords": "poorly differentiated vaginal carcinoma",
+      "dedicatedColor": "Purple",
+      "shortName": "VPDC",
+      "parent": "vulva",
+      "cancerTypeId": "vpdc"
+    },
+    {
+      "name": "Polyembryoma",
+      "clinicalTrialKeywords": "polyembryoma",
+      "dedicatedColor": "Purple",
+      "shortName": "VPE",
+      "parent": "vgct",
+      "cancerTypeId": "vpe"
+    },
+    {
+      "name": "Verrucous Penile Squamous Cell Carcinoma",
+      "clinicalTrialKeywords": "verrucous penile squamous cell carcinoma",
+      "dedicatedColor": "Blue",
+      "shortName": "VPSCC",
+      "parent": "pscc",
+      "cancerTypeId": "vpscc"
+    },
+    {
+      "name": "Squamous Cell Carcinoma of the Vulva/Vagina",
+      "clinicalTrialKeywords": "squamous cell carcinoma of the vulva/vagina",
+      "dedicatedColor": "Purple",
+      "shortName": "VSC",
+      "parent": "vulva",
+      "cancerTypeId": "vsc"
+    },
+    {
+      "name": "Vulva/Vagina",
+      "clinicalTrialKeywords": "vulva/vagina",
+      "dedicatedColor": "Purple",
+      "shortName": "VULVA",
+      "parent": "tissue",
+      "cancerTypeId": "vulva"
+    },
+    {
+      "name": "Yolk Sac Tumor",
+      "clinicalTrialKeywords": "yolk sac tumor",
+      "dedicatedColor": "Purple",
+      "shortName": "VYST",
+      "parent": "vgct",
+      "cancerTypeId": "vyst"
+    },
+    {
+      "name": "Well-Differentiated Liposarcoma",
+      "clinicalTrialKeywords": "well-differentiated liposarcoma",
+      "dedicatedColor": "LightYellow",
+      "shortName": "WDLS",
+      "parent": "lipo",
+      "cancerTypeId": "wdls"
+    },
+    {
+      "name": "Well-Differentiated Thyroid Cancer",
+      "clinicalTrialKeywords": "well-differentiated thyroid cancer",
+      "dedicatedColor": "Teal",
+      "shortName": "WDTC",
+      "parent": "thyroid",
+      "cancerTypeId": "wdtc"
+    },
+    {
+      "name": "Waldenstrom Macroglobulinemia",
+      "clinicalTrialKeywords": "waldenstrom macroglobulinemia",
+      "dedicatedColor": "LimeGreen",
+      "shortName": "WM",
+      "parent": "bcl",
+      "cancerTypeId": "wm"
+    },
+    {
+      "name": "Warty Penile Squamous Cell Carcinoma",
+      "clinicalTrialKeywords": "warty penile squamous cell carcinoma",
+      "dedicatedColor": "Blue",
+      "shortName": "WPSCC",
+      "parent": "pscc",
+      "cancerTypeId": "wpscc"
+    },
+    {
+      "name": "Wilms' Tumor",
+      "clinicalTrialKeywords": "wilms' tumor",
+      "dedicatedColor": "Orange",
+      "shortName": "WT",
+      "parent": "kidney",
+      "cancerTypeId": "wt"
+    }
+  ]
