@@ -122,7 +122,6 @@ class SearchPanel extends React.Component {
                         <li>Multiple genes:  <a href="EGFR KRAS" onClick={this.sampleSearchClicked}>EGFR KRAS</a></li>
                         <li>Multiple genes:  <a href="EGFR KRAS NF1" onClick={this.sampleSearchClicked}>EGFR KRAS NF1</a></li>
                         <li>Cancer type keyword: <a href="lung" onClick={this.sampleSearchClicked}>lung</a></li>
-                        <li>Cancer type wildcard: <a href="glio*" onClick={this.sampleSearchClicked}>glio*</a></li>
                         <li>Multiple keywords: <a href="breast metastatic" onClick={this.sampleSearchClicked}>breast metastatic</a></li>
                         <li>Multiple keywords: <a href="msk lung" onClick={this.sampleSearchClicked}>msk lung</a></li>
                         <li>Author: <a href="van allen" onClick={this.sampleSearchClicked}>van allen</a></li>
