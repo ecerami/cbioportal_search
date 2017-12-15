@@ -122,6 +122,11 @@ export default class cBioPortalState {
   initLunrIndex(studyList) {
     console.log("Initialize lunr.js index");
     this.idx = lunr(function () {
+      //  Disable stop word filter.
+      //  This is important, because we want to enable searhing for
+      //  e.g. "ALL (Acute Lymphoid Leukemia), but "all" is
+      //  considered a stopword.
+      this.pipeline.remove(lunr.stopWordFilter);
       this.ref('studyId');
       this.field('name');
       this.field('shortName');
