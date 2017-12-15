@@ -17,6 +17,7 @@ export default class cBioPortalState {
   @observable searchResultsSummary = "";
   @observable studyGroupSelected = 0;
   @observable examplesDrawerOpen = false;
+  @observable optionsDialogOpen = false;
   cancerTypesDict = [];
   studyDict = [];
   idx;  //Lunx search index

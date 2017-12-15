@@ -1,10 +1,13 @@
 import React from 'react';
 import RaisedButton from 'material-ui/RaisedButton';
+import FlatButton from 'material-ui/FlatButton';
 import TextField from 'material-ui/TextField';
 import FontIcon from 'material-ui/FontIcon';
 import { observer } from 'mobx-react';
 import Drawer from 'material-ui/Drawer';
 import AppBar from 'material-ui/AppBar';
+import Dialog from 'material-ui/Dialog';
+import Checkbox from 'material-ui/Checkbox';
 import SearchResults from './SearchResults';
 
 @observer
@@ -18,6 +21,7 @@ class SearchPanel extends React.Component {
         this.searchTextKeyPressed = this.searchTextKeyPressed.bind(this);
         this.sampleSearchClicked = this.sampleSearchClicked.bind(this);
         this.handleExampleToggle = this.handleExampleToggle.bind(this);
+        this.handleOptionsToggle = this.handleOptionsToggle.bind(this);
     }
 
     /**
@@ -72,7 +76,24 @@ class SearchPanel extends React.Component {
         console.log("Toggle:  " + this.props.appState.examplesDrawerOpen)
     }
 
+    handleOptionsToggle(event) {
+        this.props.appState.optionsDialogOpen = ! this.props.appState.optionsDialogOpen;
+        console.log("Toggle:  " + this.props.appState.optionsDialogOpen)
+    }
+
     render() {
+        const actions = [
+            <FlatButton
+              label="Cancel"
+              primary={true}
+              onClick={this.handleOptionsToggle}
+            />,
+            <FlatButton
+              label="Submit"
+              primary={true}
+              onClick={this.handleOptionsToggle}
+            />,
+        ];
         var toggleLabel = "Show Examples";
         if (this.props.appState.examplesDrawerOpen === true) {
             toggleLabel = "Hide Examples";
@@ -91,6 +112,8 @@ class SearchPanel extends React.Component {
                         style={{ width: 400 }}
                         value={this.props.appState.searchText}
                     />
+                    <RaisedButton className="submit" onClick={this.handleOptionsToggle} label="Options" primary={true}
+                        icon={<FontIcon className="material-icons">keyboard_arrow_down</FontIcon>} />
                     <RaisedButton className="submit" onClick={this.clearSearch} label="Clear" primary={true}
                         icon={<FontIcon className="material-icons">clear</FontIcon>} />
                     &nbsp;&nbsp;
@@ -102,8 +125,24 @@ class SearchPanel extends React.Component {
                 <Drawer width={425} openSecondary={true} open={this.props.appState.examplesDrawerOpen} >
                     <AppBar showMenuIconButton={false} title="Examples" />
                     { this.getExamplesPanel() }
-                </Drawer>                
-                <SearchResults appState={this.props.appState} />
+                </Drawer>
+                <Dialog
+                    title="Search Options"
+                    modal={false}
+                    open={this.props.appState.optionsDialogOpen}
+                    onRequestClose={this.handleOptionsToggle}
+                    actions={actions}
+                    >
+                    Matching Studies must have:
+                    <br/><br/>
+                    <Checkbox label="Mutation Data"/>                
+                    <Checkbox label="Copy Number Data"/>                
+                    <Checkbox label="RNA-Seq Data"/>                
+                    <Checkbox label="mRNA Data"/>
+                    <Checkbox label="miRNA Data"/>                
+                    <Checkbox label="RPPA Data"/>                
+                </Dialog>                               
+            <SearchResults appState={this.props.appState} />
             </div>
         );
     }

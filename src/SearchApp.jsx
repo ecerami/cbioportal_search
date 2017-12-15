@@ -9,14 +9,12 @@ import 'react-tabs/style/react-tabs.css';
 
 @observer
 class SearchApp extends React.Component {
+  appState;
 
   constructor(props) {
     super(props);
-    var appState = new cBioPortalState();
-    appState.geneSet = ["EGFR"];
-    this.state = {
-      appState: appState
-    };
+    this.appState = new cBioPortalState();
+    this.appState.geneSet = ["EGFR"];
   }
 
   render() {
@@ -34,7 +32,7 @@ class SearchApp extends React.Component {
 
         <TabPanel>
           <div className="search_panel">
-            <SearchPanel appState={this.state.appState} />
+            <SearchPanel appState={this.appState} />
           </div>
         </TabPanel>
         <TabPanel>
