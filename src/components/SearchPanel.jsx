@@ -109,7 +109,7 @@ class SearchPanel extends React.Component {
                         floatingLabelFixed={true}
                         onChange={this.searchTextChanged}
                         onKeyPress={this.searchTextKeyPressed}
-                        style={{ width: 400 }}
+                        style={{ width: 325 }}
                         value={this.props.appState.searchText}
                     />
                     <RaisedButton className="submit" onClick={this.handleOptionsToggle} label="Options" primary={true}
@@ -133,14 +133,15 @@ class SearchPanel extends React.Component {
                     onRequestClose={this.handleOptionsToggle}
                     actions={actions}
                     >
-                    Matching Studies must have:
+                    Matching studies must have:
                     <br/><br/>
                     <Checkbox label="Mutation Data"/>                
                     <Checkbox label="Copy Number Data"/>                
                     <Checkbox label="RNA-Seq Data"/>                
                     <Checkbox label="mRNA Data"/>
                     <Checkbox label="miRNA Data"/>                
-                    <Checkbox label="RPPA Data"/>                
+                    <Checkbox label="RPPA Data"/> 
+                    <br/>Note:  these options don't actually work in the prototype!               
                 </Dialog>                               
             <SearchResults appState={this.props.appState} />
             </div>
